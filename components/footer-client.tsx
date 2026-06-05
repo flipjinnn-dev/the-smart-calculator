@@ -1,12 +1,25 @@
 "use client"
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Logo from './logo'
 import Link from 'next/link'
 import { Instagram, TwitterIcon, Mail } from 'lucide-react'
 import { FaPinterestP } from "react-icons/fa"
 import { AiOutlineLinkedin, AiOutlineYoutube } from "react-icons/ai"
 import { getLocalizedCategoryUrl } from '@/lib/url-utils'
+import enFooter from '@/app/content/footer/en.json'
+import brFooter from '@/app/content/footer/br.json'
+import plFooter from '@/app/content/footer/pl.json'
+import deFooter from '@/app/content/footer/de.json'
+import esFooter from '@/app/content/footer/es.json'
+
+const footerContentByLanguage: Record<string, typeof enFooter> = {
+  en: enFooter,
+  br: brFooter,
+  pl: plFooter,
+  de: deFooter,
+  es: esFooter,
+}
 
 interface FooterProps {
   language?: string
@@ -18,29 +31,7 @@ interface FooterItem {
 }
 
 const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
-  const [footerContent, setFooterContent] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const loadContent = async () => {
-      try {
-        const content = await import(`@/app/content/footer/${language}.json`);
-        setFooterContent(content.default || content);
-      } catch (error) {
-        console.error('Error loading footer content:', error);
-        const fallback = await import(`@/app/content/footer/en.json`);
-        setFooterContent(fallback.default || fallback);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadContent();
-  }, [language]);
-
-  if (loading || !footerContent) {
-    return <footer className="bg-gray-900 text-white py-16"><div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">Loading...</div></footer>;
-  }
+  const footerContent = footerContentByLanguage[language] ?? enFooter
 
   const categoryItems = language === 'en' 
     ? footerContent.categories.items.map((item: FooterItem) => {

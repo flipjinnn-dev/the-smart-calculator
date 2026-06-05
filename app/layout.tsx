@@ -153,16 +153,16 @@ export default async function RootLayout({
 
   return (
     <html lang={htmlLang} suppressHydrationWarning>
-      <body className={inter.className} suppressHydrationWarning>
+      <head>
         {isProduction && (
-          <Script
-            id="adsbygoogle-init"
+          <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5433267523341571"
             crossOrigin="anonymous"
-            strategy="beforeInteractive"
           />
         )}
+      </head>
+      <body className={inter.className} suppressHydrationWarning>
         <SessionProvider session={session}>
           <HreflangAlternateLinks />
           <Header />
