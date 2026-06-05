@@ -1,6 +1,7 @@
 import { calculatorsMeta } from "@/meta/calculators";
 import { getCanonicalUrl } from "@/lib/url-utils";
 import { resolveCalculatorMetaKey } from "@/lib/calculator-meta-key";
+import { localeFromPathname } from "@/lib/locale-path";
 
 export const SITE_ORIGIN = "https://www.thesmartcalculator.com";
 
@@ -80,12 +81,10 @@ export function normalizePathname(pathname: string): string {
  * Locale segment from URL path (middleware `x-pathname`). English has no prefix.
  */
 export function hreflangKeyFromPathname(pathname: string): HreflangLocaleKey {
-  const p = normalizePathname(pathname);
-  if (p === "/de" || p.startsWith("/de/")) return "de";
-  if (p === "/pl" || p.startsWith("/pl/")) return "pl";
-  if (p === "/br" || p.startsWith("/br/")) return "pt-BR";
-  if (p === "/es" || p.startsWith("/es/")) return "es";
-  return "en";
+  const locale = localeFromPathname(pathname);
+  if (locale === "br") return "pt-BR";
+  if (locale === "en") return "en";
+  return locale;
 }
 
 /**

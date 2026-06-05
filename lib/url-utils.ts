@@ -1,5 +1,6 @@
 import { calculatorsMeta } from '@/meta/calculators';
 import { getCalculatorMetaEntry, resolveCalculatorMetaKey } from '@/lib/calculator-meta-key';
+import { localeFromPathname, parseLocalePathname } from '@/lib/locale-path';
 
 /**
  * Generate a language-specific URL for a calculator
@@ -159,8 +160,7 @@ export function getCurrentLanguage(pathname: string, headers?: Headers): string 
   }
 
   // Fallback to URL path detection - INCLUDES 'es' FOR SPANISH
-  const langMatch = pathname.match(/^\/(br|pl|de|es)/);
-  return langMatch ? langMatch[1] : "en";
+  return localeFromPathname(pathname);
 }
 
 /**
@@ -170,13 +170,12 @@ export function getCurrentLanguage(pathname: string, headers?: Headers): string 
  * @returns The URL for the same page in the new language
  */
 export function getLanguageSwitcherUrl(currentPathname: string, newLanguage: string): string {
-  // Remove the current language prefix if it exists - INCLUDES 'es' FOR SPANISH
+  const localePath = parseLocalePathname(currentPathname);
   let cleanPathname = currentPathname;
-  const langMatch = currentPathname.match(/^\/(br|pl|de|es)/);
-  const currentLanguage = langMatch ? langMatch[1] : "en";
+  const currentLanguage = localePath?.locale ?? "en";
 
-  if (langMatch) {
-    cleanPathname = currentPathname.substring(3);
+  if (localePath) {
+    cleanPathname = localePath.restPath;
   }
 
   // For English, we need to translate back to English slugs

@@ -2,7 +2,7 @@ import "server-only";
 import { unstable_noStore as noStore } from "next/cache";
 import { headers } from "next/headers";
 import type { Metadata } from "next";
-import { getCanonicalUrl } from "@/lib/url-utils";
+import { getCanonicalUrl, getCalculatorUrl } from "@/lib/url-utils";
 import type { CalculatorGuideData } from "@/components/calculator-guide";
 import {
   getCalculatorStorageId,
@@ -57,7 +57,7 @@ export async function generateCalculatorMetadata(
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
   const pathname =
-    headersList.get("x-pathname") || getCanonicalUrl(calculatorId, language);
+    headersList.get("x-pathname") || getCalculatorUrl(calculatorId, language);
   const path = pathname.startsWith("/") ? pathname : `/${pathname}`;
 
   const canonicalUrl = getCanonicalUrl(calculatorId, language);

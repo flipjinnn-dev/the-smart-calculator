@@ -4,21 +4,22 @@ import { calculatorsMeta } from "@/meta/calculators";
 import { getCalculatorAlternateLanguages, alternateLanguagesForEnglishPath } from "@/lib/seo-hreflang";
 import { getCategoryCanonicalUrl, getCanonicalUrl } from "@/lib/url-utils";
 import { resolveCalculatorMetaKey } from "@/lib/calculator-meta-key";
+import { parseLocalePathname, stripLocalePrefix } from "@/lib/locale-path";
+import { getStaticPageHreflangAlternates } from "@/lib/static-page-seo";
 
 const CATEGORY_IDS = Object.keys(categoriesMeta) as string[];
-const LOCALE_PREFIX = /^\/(br|pl|de|es)(\/|$)/;
 
 function normalizePathname(pathname: string): string {
   const path = pathname.startsWith("/") ? pathname : `/${pathname}`;
   return path.replace(/\/+$/, "") || "/";
 }
 
-function stripLocalePrefix(pathname: string): string {
+function stripLocalePrefixFromPath(pathname: string): string {
   const path = normalizePathname(pathname);
   if (path === "/de" || path === "/br" || path === "/pl" || path === "/es") {
     return "/";
   }
-  return path.replace(LOCALE_PREFIX, "/") || "/";
+  return stripLocalePrefix(path);
 }
 
 function findCalculatorIdByPathname(pathname: string): string | null {
@@ -94,14 +95,22 @@ export function getHreflangAlternatesForPathname(
     return alternateLanguagesForEnglishPath("/");
   }
 
+  const staticAlternates = getStaticPageHreflangAlternates(path);
+  if (staticAlternates) return staticAlternates;
+
   const community = communityPostAlternates(path);
   if (community) return community;
 
-  if (path.startsWith("/profile/") || path.match(/^\/(br|pl|de|es)\/profile\//)) {
-    return alternateLanguagesForEnglishPath(stripLocalePrefix(path));
+  if (path.startsWith("/profile/")) {
+    return alternateLanguagesForEnglishPath(path);
   }
 
-  if (path === "/auth/signin" || path.match(/^\/(br|pl|de|es)\/auth\/signin$/)) {
+  const localePath = parseLocalePathname(path);
+  if (localePath?.restPath.startsWith("/profile/")) {
+    return alternateLanguagesForEnglishPath(localePath.restPath);
+  }
+
+  if (path === "/auth/signin" || stripLocalePrefixFromPath(path) === "/auth/signin") {
     return alternateLanguagesForEnglishPath("/auth/signin");
   }
 
@@ -120,7 +129,7 @@ export function getHreflangAlternatesForPathname(
     return categoryAlternateLanguages(categoryId);
   }
 
-  const englishPath = stripLocalePrefix(path);
+  const englishPath = stripLocalePrefixFromPath(path);
   if (englishPath !== path) {
     return alternateLanguagesForEnglishPath(englishPath);
   }

@@ -3,6 +3,7 @@
  */
 
 import { getCalculatorMetaEntry } from "@/lib/calculator-meta-key";
+import { localeFromPathname } from "@/lib/locale-path";
 
 /**
  * Detect language from various sources
@@ -29,12 +30,9 @@ export function detectLanguage(pathname: string, headers?: Headers): string {
     }
     
     const path = window.location.pathname;
-    const langMatch = path.match(/^\/(br|pl|de|es)/);
-    return langMatch ? langMatch[1] : "en";
+    return localeFromPathname(path);
   } else {
-    // Server-side detection
-    const langMatch = pathname.match(/^\/(br|pl|de|es)/);
-    return langMatch ? langMatch[1] : "en";
+    return localeFromPathname(pathname);
   }
 }
 
