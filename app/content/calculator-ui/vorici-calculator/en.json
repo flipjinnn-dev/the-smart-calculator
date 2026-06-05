@@ -1,6 +1,6 @@
 {
   "pageTitle": "Vorici Calculator (PoE) – Chromatic Orb Cost Calculator",
-  "pageDescription": "Calculate Chromatic Orb costs, socket color odds, average attempts, and success rates with our PoE Vorici Calculator for Path of Exile.",
+  "pageDescription": "Calculate Chromatic Orb costs, socket color probability, success chance, and the best crafting method for any Path of Exile item using our Vorici Calculator.",
   "labelAttributes": "Item attribute requirements",
   "labelStrength": "Strength (STR)",
   "labelDexterity": "Dexterity (DEX)",
@@ -17,8 +17,6 @@
   "methodSpam": "Standard Chromatic spam",
   "methodVorici": "Vorici Crafting Bench",
   "methodHybrid": "Hybrid method",
-  "importantTitle": "How PoE socket colors work",
-  "importantBody": "Socket color odds follow item attribute weights: P(Red) = STR ÷ (STR + DEX + INT), and similarly for green and blue. Multinomial probability gives per-attempt success; expected cost ≈ 1 ÷ success rate. Vorici bench crafts guarantee 1–3 sockets of one color (15 / 100 / 150 Chromatics) before spamming the rest.",
   "btnCalculate": "Calculate",
   "btnReset": "Reset",
   "resultsTitle": "Chromatic crafting results",

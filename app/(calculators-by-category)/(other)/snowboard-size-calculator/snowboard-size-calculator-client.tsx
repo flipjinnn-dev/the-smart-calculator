@@ -22,7 +22,6 @@ import {
 import {
   BarChart3,
   Footprints,
-  Info,
   Lightbulb,
   RotateCcw,
   Ruler,
@@ -72,8 +71,6 @@ interface ContentShape {
   genderMale?: string;
   genderFemale?: string;
   genderUnisex?: string;
-  importantTitle?: string;
-  importantBody?: string;
   btnCalculate?: string;
   btnReset?: string;
   resultsTitle?: string;
@@ -94,7 +91,7 @@ interface ContentShape {
 const defaultContent: ContentShape = {
   pageTitle: "Snowboard Size Calculator — Length, Width & Chart",
   pageDescription:
-    "Use our Snowboard Size Calculator to find the perfect board length and width by height, weight & boot size. Includes size chart for men, women & kids.",
+    "Find your perfect snowboard size in seconds by height, weight, boot size, and riding style.",
 };
 
 export default function SnowboardSizeCalculatorClient({
@@ -394,14 +391,6 @@ export default function SnowboardSizeCalculatorClient({
                 <SelectItem value="unisex">{c.genderUnisex}</SelectItem>
               </SelectContent>
             </Select>
-          </div>
-        </div>
-
-        <div className="rounded-lg border border-cyan-200 bg-cyan-50/80 p-4 flex gap-3">
-          <Info className="w-5 h-5 text-cyan-600 flex-shrink-0 mt-0.5" />
-          <div>
-            <p className="font-semibold text-cyan-950 text-sm">{c.importantTitle}</p>
-            <p className="text-sm text-cyan-900/90 mt-1 leading-relaxed">{c.importantBody}</p>
           </div>
         </div>
 

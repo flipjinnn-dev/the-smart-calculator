@@ -23,7 +23,6 @@ import {
   Calculator,
   Coins,
   Gem,
-  Info,
   Lightbulb,
   RotateCcw,
   Sparkles,
@@ -59,8 +58,6 @@ interface ContentShape {
   methodSpam?: string;
   methodVorici?: string;
   methodHybrid?: string;
-  importantTitle?: string;
-  importantBody?: string;
   btnCalculate?: string;
   btnReset?: string;
   resultsTitle?: string;
@@ -82,7 +79,7 @@ interface ContentShape {
 const defaultContent: ContentShape = {
   pageTitle: "Vorici Calculator (PoE) – Chromatic Orb Cost Calculator",
   pageDescription:
-    "Calculate Chromatic Orb costs, socket color odds, average attempts, and success rates with our PoE Vorici Calculator for Path of Exile.",
+    "Calculate Chromatic Orb costs, socket color probability, success chance, and the best crafting method for any Path of Exile item using our Vorici Calculator.",
 };
 
 function pct(value: number): string {
@@ -365,14 +362,6 @@ export default function VoriciCalculatorClient({
             value={budget}
             onChange={(e) => setBudget(e.target.value)}
           />
-        </div>
-
-        <div className="rounded-lg border border-purple-200 bg-purple-50/80 p-4 flex gap-3">
-          <Info className="w-5 h-5 text-purple-600 flex-shrink-0 mt-0.5" />
-          <div>
-            <p className="font-semibold text-purple-950 text-sm">{c.importantTitle}</p>
-            <p className="text-sm text-purple-900/90 mt-1 leading-relaxed">{c.importantBody}</p>
-          </div>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-3">

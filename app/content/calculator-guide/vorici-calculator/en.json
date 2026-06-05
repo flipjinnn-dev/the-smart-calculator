@@ -3,39 +3,111 @@
   "sections": [
     {
       "heading": "Quick Answer",
-      "content": "PoE socket colors roll based on item attribute requirements. Use this Vorici calculator to estimate Chromatic Orb cost, success rate, and whether chromatic spam or Vorici bench crafting is cheaper for your desired red, green, and blue socket setup."
+      "content": "The Vorici Calculator tells you exactly how many Chromatic Orbs you need to recolor sockets on any Path of Exile item. Enter your total sockets, attribute requirements, and desired colors. The calculator instantly shows average cost, success chance, cost per try, and standard deviation, helping you save hundreds of Chromatic Orbs."
     },
     {
-      "heading": "What Is a Vorici Calculator?",
-      "content": "A Vorici calculator (also called a PoE chromatic calculator) estimates how many Chromatic Orbs you need to color item sockets for Path of Exile gem links. It uses your item's Strength, Dexterity, and Intelligence requirements to calculate socket color probabilities, then compares chromatic spam against Vorici Crafting Bench recipes."
+      "heading": "What Is a Vorici Calculator in Path of Exile?",
+      "content": "The Vorici Calculator is a free online tool designed for Path of Exile (PoE) players who want to calculate the most cost-efficient way to change socket colors on their gear. Named after Vorici, the Master Assassin NPC in PoE, this tool computes Chromatic Orb costs, socket color probability, and crafting bench vs. raw Chromatic Orb usage comparisons.\n\nEvery piece of equipment in Path of Exile has sockets that must match your skill gems — red (Strength), green (Dexterity), or blue (Intelligence). When item requirements conflict with desired colors, you need this PoE Socket Color Calculator to plan your crafting efficiently without wasting currency."
     },
     {
-      "heading": "Chromatic Orb Probability Formula",
-      "content": "**Per-color weight:** P(Red) = STR ÷ (STR + DEX + INT)\n\n**Multi-socket success:** P(success) = (n! / (r! × g! × b!)) × P(Red)^r × P(Green)^g × P(Blue)^b\n\n**Expected chromatics:** Expected Orbs ≈ 1 ÷ P(success)\n\n**Average attempts:** Attempts ≈ 1 ÷ P(success)"
+      "heading": "How to Use the Vorici Chromatic Calculator",
+      "content": "Using this Vorici Chromatic Calculator takes less than 30 seconds. Follow these steps:",
+      "subSections": [
+        {
+          "heading": "Step 1 — Enter Total Sockets",
+          "content": "Type the number of sockets on your item (1 to 6)."
+        },
+        {
+          "heading": "Step 2 — Enter Item Requirements",
+          "content": "Fill in the attribute requirements of your item — Strength (STR), Dexterity (DEX), and Intelligence (INT). These values directly affect socket color probability. A helmet requiring 155 STR will roll red sockets far more often than blue ones."
+        },
+        {
+          "heading": "Step 3 — Enter Desired Colors",
+          "content": "Input the number of Red (R), Green (G), and Blue (B) sockets you want."
+        },
+        {
+          "heading": "Step 4 — Click Calculate",
+          "content": "The calculator instantly returns:\n\n- Average Chromatic Orb cost\n- Success chance per attempt\n- Average number of attempts\n- Cost per try\n- Standard deviation of attempts\n\n**Pro Tip:** Always compare the raw Chromatic Orb method vs. the Crafting Bench method. The calculator shows both options so you pick the cheapest route."
+        }
+      ]
     },
     {
-      "heading": "Vorici Crafting Bench Costs",
-      "content": "Guaranteed socket color crafts (chromatic portion only):\n\n| Recipe | Chromatic cost |\n| --- | --- |\n| 1 socket of chosen color | 15 |\n| 2 sockets of chosen color | 100 |\n| 3 sockets of chosen color | 150 |\n\nHybrid methods lock guaranteed colors via the bench, then chromatic-spam remaining sockets using the same probability model."
+      "heading": "Socket Color Probability Formula",
+      "content": "The Vorici Calculator uses these core formulas derived from community-verified PoE data:\n\n- **Mono-requirement, on-color:** 0.9 × (R + 10) / (R + 20)\n- **Mono-requirement, off-color:** 0.05 + 4.5 / (R + 20)\n- **Dual-requirement, on-color:** 0.9 × R1 / (R1 + R2)\n- **Dual-requirement, off-color:** Flat 10% regardless of requirements\n\nWhere **R** = attribute requirement value."
+    },
+    {
+      "heading": "Craft Method Comparison Table",
+      "content": "| Craft Method | Avg. Chromatic Cost | Best For |\n| --- | --- | --- |\n| Raw Chromatic Orbs | Varies by attribute | On-color items |\n| Crafting Bench (1B) | 4 Chromatics | Single off-color socket |\n| Crafting Bench (2B) | 25 Chromatics | Two off-color sockets |\n| Crafting Bench (3B) | 120 Chromatics | Three off-color sockets |\n| Crafting Bench (2B+1G) | 100 Chromatics | Mixed off-color combo |\n| Crafting Bench (2B+1R) | 100 Chromatics | Mixed off-color combo |\n\n**Note:** Corrupted items can only use the Crafting Bench method for socket recoloring."
+    },
+    {
+      "heading": "Real-World Use Cases",
+      "subSections": [
+        {
+          "heading": "Use Case 1 — Off-Color Chest Piece",
+          "content": "You have a 6-socket body armour with 200 STR requirement and you need 3 blue sockets for your spell setup. Rolling blue sockets on a high-STR item is extremely rare. The Off Color Calculator shows that using the Crafting Bench to guarantee two blue sockets costs 25 Chromatics per attempt — far cheaper than raw rolling, which may take 400+ Chromatics."
+        },
+        {
+          "heading": "Use Case 2 — Low Budget Starter Gear",
+          "content": "A new player wants 2 green sockets on a weapon with 80 INT requirement. The calculator shows the raw Chromatic Orb method only costs 8 Chromatics on average, making the Crafting Bench unnecessary."
+        },
+        {
+          "heading": "Use Case 3 — End-Game Min-Maxing",
+          "content": "High-tier players use the Chromatic Orb Probability Calculator to budget their entire gear upgrade path before spending a single currency item."
+        }
+      ]
+    },
+    {
+      "heading": "Troubleshooting Common Issues",
+      "subSections": [
+        {
+          "heading": "Problem: Calculator shows very high Chromatic cost",
+          "content": "Your desired colors are \"off-color\" relative to your item's attribute requirements. Consider switching to a Crafting Bench method or using a different base item with better attribute alignment."
+        },
+        {
+          "heading": "Problem: Item is corrupted and Chromatic Orbs don't work",
+          "content": "Corrupted items cannot accept raw Chromatic Orbs. You must use Vaal Orbs or the Crafting Bench with Vaal Orbs as currency instead."
+        },
+        {
+          "heading": "Problem: Actual results differ from calculator estimates",
+          "content": "The calculator provides statistical averages. Individual crafting sessions naturally vary due to RNG — results converge to the average over many attempts."
+        }
+      ]
     }
   ],
   "faq": [
     {
-      "question": "How does the PoE Vorici calculator work?",
-      "answer": "Enter item STR/DEX/INT requirements, desired socket colors, and total sockets. The calculator computes color probabilities, expected Chromatic Orb cost, success rate, and recommends the cheapest method between spam and Vorici hybrid crafts."
+      "question": "What does the Vorici Calculator actually calculate?",
+      "answer": "The Vorici Calculator calculates the average number of Chromatic Orbs you need to achieve your desired socket colors in Path of Exile. It also shows success chance per attempt, cost per try, and standard deviation so you understand the RNG variance involved in socket recoloring."
     },
     {
-      "question": "When should I use Vorici instead of chromatic spam?",
-      "answer": "Use Vorici bench crafts when you need off-color sockets on a high-attribute item — for example, blue sockets on pure Strength armour. Guaranteeing 1–3 sockets via the bench is often cheaper than pure chromatic spam."
+      "question": "What are Chromatic Orbs in Path of Exile?",
+      "answer": "Chromatic Orbs are currency items in Path of Exile that reroll the color of sockets on a piece of equipment. You obtain them by killing monsters, opening chests, purchasing from vendors like Yeena in Act 2, or selling items that have linked red, green, and blue sockets simultaneously."
     },
     {
-      "question": "What is a good success rate for chromatic orbs?",
-      "answer": "On-color crafts often exceed 20–40% per attempt. Off-color setups on mono-stat items can drop below 1%, making expected costs hundreds of chromatics. The calculator shows your exact percentage."
+      "question": "What are off-color sockets and why are they expensive?",
+      "answer": "Off-color sockets are socket colors that do not match the dominant attribute requirement of an item. For example, blue sockets on a high-Strength armour are off-color. The Chromatic Orb probability for off-color results is much lower — sometimes below 5% — making them significantly more expensive to achieve through raw rolling."
+    },
+    {
+      "question": "Should I use raw Chromatic Orbs or the Crafting Bench?",
+      "answer": "It depends entirely on your item requirements and desired colors. The Vorici Chromatic Calculator compares both methods for you automatically. As a general rule, use raw Chromatic Orbs when you want on-color sockets, and switch to the Crafting Bench when you need two or more off-color sockets on a high-requirement item."
+    },
+    {
+      "question": "Can I recolor sockets on corrupted items?",
+      "answer": "Yes, but only through the Crafting Bench using Vaal Orbs as the currency instead of Chromatic Orbs. Raw Chromatic Orbs do not work on corrupted items. The PoE Vorici Calculator still helps you estimate how many Vaal Orbs you will need per attempt using the same success probability formulas."
+    },
+    {
+      "question": "How accurate is the Vorici Calculator?",
+      "answer": "The Vorici Calculator uses community-verified probability formulas based on extensive data collection from Path of Exile players. The formulas calculate statistically accurate averages. Your individual crafting session may cost more or less due to natural RNG variance, but over many attempts, your results will align closely with the calculator's estimates."
+    },
+    {
+      "question": "What is the cheapest way to get specific socket colors in PoE?",
+      "answer": "The cheapest method depends on your item. For on-color sockets, raw Chromatic Orbs almost always win. For one off-color socket, the 4 Chromatic Crafting Bench recipe is efficient. For two or more off-color sockets, the 25–120 Chromatic Bench recipes become cost-effective. Always run your item through the Socket Coloring Calculator first to compare all available options before you spend any currency."
     }
   ],
   "sectionsAfterFaq": [
     {
       "heading": "Summary",
-      "content": "Use this Vorici Calculator (PoE) to plan Chromatic Orb spending before crafting. Compare standard spam, Vorici bench, and hybrid methods to minimize cost and hit your desired socket colors faster."
+      "content": "The Vorici Calculator is the most reliable tool for planning socket color crafting in Path of Exile. Enter your item's sockets, attribute requirements, and desired colors to instantly see average Chromatic Orb cost, success probability, and best crafting method. Stop guessing. Calculate first, craft second, and save valuable Chromatic Orbs with accurate socket color probability estimates."
     }
   ]
 }

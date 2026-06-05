@@ -264,7 +264,7 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       name: "Snowboard Size Calculator",
       category: "Other",
       description:
-        "Use our Snowboard Size Calculator to find the perfect board length and width by height, weight & boot size. Includes size chart for men, women & kids.",
+        "Find your perfect snowboard size in seconds by height, weight, boot size, and riding style.",
       href: "/snowboard-size-calculator"
     },
     {
@@ -429,7 +429,7 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       id: "snowboard-size-calculator",
       name: "Snowboard Size Calculator",
       description:
-        "Use our Snowboard Size Calculator to find the perfect board length and width by height, weight & boot size. Includes size chart for men, women & kids.",
+        "Find your perfect snowboard size in seconds by height, weight, boot size, and riding style.",
       href: "/snowboard-size-calculator",
       category: "Other",
       popular: true as const,

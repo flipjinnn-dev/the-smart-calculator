@@ -32,7 +32,7 @@ const jsonLdSchema = {
       "@type": "WebApplication",
       name: "Snowboard Size Calculator",
       description:
-        "Use our Snowboard Size Calculator to find the perfect board length and width by height, weight & boot size. Includes size chart for men, women & kids.",
+        "Find your perfect snowboard size in seconds by height, weight, boot size, and riding style.",
       applicationCategory: "SportsApplication",
       operatingSystem: "All",
       url: "https://www.thesmartcalculator.com/snowboard-size-calculator",

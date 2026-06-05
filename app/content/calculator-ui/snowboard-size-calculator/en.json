@@ -1,6 +1,6 @@
 {
   "pageTitle": "Snowboard Size Calculator — Length, Width & Chart",
-  "pageDescription": "Use our Snowboard Size Calculator to find the perfect board length and width by height, weight & boot size. Includes size chart for men, women & kids.",
+  "pageDescription": "Find your perfect snowboard size in seconds by height, weight, boot size, and riding style.",
   "labelHeight": "Height",
   "labelWeight": "Weight",
   "labelBootSize": "Boot size",
@@ -25,8 +25,6 @@
   "genderMale": "Male",
   "genderFemale": "Female",
   "genderUnisex": "Unisex",
-  "importantTitle": "How sizing works",
-  "importantBody": "Base length = height (cm) × 0.85, then adjustments for weight (±5 cm), skill (beginner −4 cm, expert +5 cm), and riding style (freestyle −4 cm, powder +5 cm). Width is based on boot size: narrow ≤ US 7.5, standard US 8–10.5, wide ≥ US 11.",
   "btnCalculate": "Calculate",
   "btnReset": "Reset",
   "resultsTitle": "Your snowboard size",
