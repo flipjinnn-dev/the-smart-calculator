@@ -1,0 +1,99 @@
+{
+  "color": "pink",
+  "sections": [
+    {
+      "heading": "Quick Answer",
+      "content": "US and UK sellers pay zero Depop selling fee — only a payment processing fee of 3.3% + $0.45 (US) or 2.9% + £0.30 (UK). International sellers outside the US and UK pay a flat 10% selling fee plus payment processing fees. Use the calculator above to find your exact payout in seconds."
+    },
+    {
+      "heading": "What Is a Depop Fee Calculator?",
+      "content": "A Depop fees calculator is a free tool that shows your exact payout, total fees, and net profit before you list anything. Enter your sale price, shipping, and location to get real numbers instantly — no manual math needed.\n\nWithout it, you risk underpricing — listing a $25 item and walking away with $19 after fees, barely breaking even."
+    },
+    {
+      "heading": "How Depop Fees Work",
+      "content": "Understanding the fee structure is the foundation of smart pricing on Depop. There are three possible fee types:\n\n**1. Depop Selling Fee** — 0% for US/UK new listings (since July 2024 US / March 2024 UK); 10% for Australia and international sellers.\n\n**2. Payment Processing Fee** — applies to every sale:\n\n| Region | Processing Fee | Selling Fee |\n| --- | --- | --- |\n| United States | 3.3% + $0.45 | 0% |\n| United Kingdom | 2.9% + £0.30 | 0% |\n| Australia | 2.6% + A$0.30 | 10% |\n| International | Varies by PayPal | 10% |\n\nFees apply to the **total transaction amount** — item price, shipping, and sales tax.\n\n**3. Boosted Listing Fee (optional)** — US & Australia: 8% on item price; UK: 12%. Charged if a buyer who clicked your boosted listing purchases within 28 days."
+    },
+    {
+      "heading": "Depop Fee Formula",
+      "content": "**US Sellers:** Fee = (Sale Price + Shipping) × 3.3% + $0.45\n\n**UK Sellers:** Fee = (Sale Price + Shipping) × 2.9% + £0.30\n\n**Total Fees** = Depop Fee + Processing Fee\n\n**Net Payout** = (Sale Price + Shipping) − Total Fees\n\n**Profit** = Net Payout − Item Cost"
+    },
+    {
+      "heading": "How to Use This Depop Fee Calculator",
+      "subSections": [
+        {
+          "heading": "Step 1 — Select your region",
+          "content": "Choose US, UK, Australia, or International. This determines both your selling fee rate and payment processing rate."
+        },
+        {
+          "heading": "Step 2 — Enter your selling price",
+          "content": "Type the price you plan to list the item at, not including shipping."
+        },
+        {
+          "heading": "Step 3 — Add buyer shipping",
+          "content": "Enter what the buyer pays for shipping. Depop fees are calculated on the total transaction amount including shipping."
+        },
+        {
+          "heading": "Step 4 — Enter your item cost",
+          "content": "Optional: what you originally paid for the item to calculate net profit."
+        },
+        {
+          "heading": "Step 5 — Click Calculate",
+          "content": "Review Depop fee, processing fee, total fees, net payout, and profit instantly."
+        }
+      ]
+    },
+    {
+      "heading": "Depop Fee Calculator by Region",
+      "subSections": [
+        {
+          "heading": "US sellers",
+          "content": "Example: $40 sale + $6 shipping = $46 transaction. Processing: 3.3% × $46 + $0.45 = $1.97. Depop selling fee: $0. Payout: $44.03."
+        },
+        {
+          "heading": "UK sellers",
+          "content": "Example: £35 sale + £4 shipping = £39. Processing: 2.9% × £39 + £0.30 = £1.43. Payout: £37.57."
+        },
+        {
+          "heading": "Australia sellers",
+          "content": "Example: A$50 + A$8 shipping = A$58. Depop fee: 10% = A$5.80. Processing: A$1.81. Total fees: A$7.61. Payout: A$50.39."
+        }
+      ]
+    },
+    {
+      "heading": "Depop vs Other Resale Platforms",
+      "content": "| Platform | Selling Fee | Processing Fee | Total Approx. |\n| --- | --- | --- | --- |\n| Depop (US/UK) | 0% | 3.3% + $0.45 | ~4% |\n| Poshmark (US) | 20% flat | Included | 20% |\n| Mercari (US) | 10% | 2.9% + $0.30 | ~13% |\n| eBay (US) | 12.90% | 2.7% + $0.30 | ~15% |\n| Etsy (US) | 6.50% | 3% + $0.25 | ~10% |"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does Depop charge a selling fee in 2026?",
+      "answer": "Depop eliminated the selling fee for US and UK sellers on new listings from July 2024 (US) and March 2024 (UK). Sellers outside the US and UK still pay a flat 10% fee."
+    },
+    {
+      "question": "How does Depop calculate fees on shipping?",
+      "answer": "Fees are calculated on the total transaction amount including buyer-paid shipping — not just the item price alone."
+    },
+    {
+      "question": "Can I avoid Depop fees?",
+      "answer": "No — platform fees are deducted automatically on every sale. The only optional fee is boosted listing promotion."
+    },
+    {
+      "question": "What is the Depop fee for UK sellers?",
+      "answer": "UK sellers pay 2.9% + £0.30 payment processing per sale with no selling commission."
+    },
+    {
+      "question": "What is the Depop fee for Australian sellers?",
+      "answer": "Australian sellers pay 10% selling fee plus 2.6% + A$0.30 processing per transaction."
+    },
+    {
+      "question": "Does Depop refund fees on cancelled orders?",
+      "answer": "Yes — selling, processing, and boost fees are reversed automatically for Depop Payments refunds."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "Use this Depop Fee Calculator to find your exact payout, total fees, and profit before listing. Enter sale price, shipping, region, and payment method — then price with confidence."
+    }
+  ]
+}

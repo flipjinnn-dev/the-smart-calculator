@@ -7,6 +7,7 @@ const hasGoogleOAuth =
   Boolean(process.env.GOOGLE_CLIENT_ID) && Boolean(process.env.GOOGLE_CLIENT_SECRET);
 
 export const authOptions: NextAuthOptions = {
+  trustHost: true,
   providers: [
     ...(hasGoogleOAuth
       ? [
