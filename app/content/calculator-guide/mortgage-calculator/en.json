@@ -1,84 +1,131 @@
-
 {
-  "color": "green",
+  "color": "emerald",
   "sections": [
     {
-      "heading": "What is a Mortgage?",
-      "content": "A mortgage is a home loan secured by property, most often real estate. The lender provides the money for the home purchase, and the borrower agrees to pay back this amount over an extended period, typically 15 to 30 years. Monthly payments are broken into two main portions: the principal, which is the original loan amount, and the interest, which is the cost of borrowing. The Mortgage Loan Calculator helps you calculate these components in detail, along with other relevant costs like property taxes and insurance, to give you an accurate monthly payment."
+      "heading": "What is a mortgage calculator?",
+      "content": "A **mortgage calculator** estimates your monthly home loan payment from your **loan amount**, **interest rate**, **loan term**, and optional costs like **property taxes**, **homeowners insurance**, **HOA fees**, and **PMI**.\n\nUse it before you talk to a lender to understand **PITI** (principal, interest, taxes, and insurance) and see how a larger down payment or shorter term changes your total cost."
     },
     {
-      "heading": "Key Features of Our Mortgage Calculator",
+      "heading": "How to use this calculator",
       "subSections": [
         {
-          "heading": "Loan Amount",
-          "content": "The total amount borrowed to purchase the home, calculated by subtracting any down payment from the home’s purchase price."
+          "heading": "Step 1 — Enter home price",
+          "content": "Type the **purchase price** of the property you are buying or refinancing."
         },
         {
-          "heading": "Down Payment",
-          "content": "This is the upfront payment, usually expressed as a percentage of the total price. A larger down payment often results in better loan terms. Most lenders expect 20% or more, but first-time buyers can sometimes pay as little as 3%."
+          "heading": "Step 2 — Set down payment",
+          "content": "Enter the **dollar amount** or **percentage** down. Most conventional loans allow 5–20% down; **20% or more removes PMI** on many loans."
         },
         {
-          "heading": "Loan Term",
-          "content": "The time it will take to repay the loan, often 15, 20, or 30 years. Shorter terms typically result in a lower interest rate and a quicker payoff."
+          "heading": "Step 3 — Choose loan term and rate",
+          "content": "Select **10, 15, 20, or 30 years** and enter your **annual interest rate** (APR from your lender quote)."
         },
         {
-          "heading": "Interest Rate",
-          "content": "The cost of borrowing money, which can be either fixed or adjustable. Fixed-rate mortgages (FRM) offer a constant interest rate throughout the loan, while adjustable-rate mortgages (ARM) may change after an initial period. Use our adjustable rate mortgage calculator to estimate the effect of potential rate changes."
+          "heading": "Step 4 — Add optional costs",
+          "content": "Include **annual property tax**, **home insurance**, **monthly HOA**, **PMI rate**, and any **extra monthly payment** for a complete estimate."
         },
         {
-          "heading": "PMI (Private Mortgage Insurance)",
-          "content": "If your down payment is less than 20%, you will likely be required to pay PMI. The Mortgage Calculator with PMI option helps you include these additional costs in your estimates."
+          "heading": "Step 5 — Calculate",
+          "content": "Click **Calculate mortgage payment** to see your **total monthly payment**, cost breakdown, lifetime interest, and a year-by-year amortization summary."
         }
       ]
     },
     {
-      "heading": "Mortgage Calculator Components Explained",
+      "heading": "What makes up your monthly payment?",
       "subSections": [
         {
-          "heading": "Recurring Costs",
-          "content": "Property Taxes: Taxes levied by local governments, typically about 1.1% of the property’s value in the U.S. These costs tend to increase annually due to inflation. You can include them in the property taxes and mortgage calculator for a full estimate of your monthly costs. Home Insurance: Protects the home from unexpected damage. The cost varies by property location and value. Our mortgage interest calculator can factor in these costs for an accurate financial forecast. HOA Fees: Some properties come with homeowners’ association fees, often less than 1% of the property’s value. Condominiums and townhomes often require these fees. Private Mortgage Insurance (PMI): Required when the down payment is less than 20%. This helps protect the lender in case of borrower default."
+          "heading": "Principal & interest (P&I)",
+          "content": "**Principal** pays down your loan balance; **interest** is the lender's charge on the remaining balance. Early payments are mostly interest; over time more goes to principal (**amortization**)."
         },
         {
-          "heading": "Non-Recurring Costs",
-          "content": "Closing Costs: Fees paid when closing on a home, such as attorney fees, appraisal fees, and title charges. These costs usually range from 2% to 5% of the home’s purchase price. Renovations: Optional upgrades like kitchen updates or new flooring can add to your total costs, but they aren't factored into the monthly mortgage payments. Miscellaneous Costs: This includes moving expenses, furniture, and home repairs after purchase."
+          "heading": "Property taxes",
+          "content": "Often collected monthly through **escrow** and paid to your local tax authority. Rates vary widely by location — typically **0.3% to 2.5%** of assessed value per year."
+        },
+        {
+          "heading": "Homeowners insurance",
+          "content": "Required by most lenders. Premium depends on property value, location, and coverage level."
+        },
+        {
+          "heading": "PMI (private mortgage insurance)",
+          "content": "Usually required when your down payment is **below 20%**. Typical cost: **0.5% to 1.5%** of the loan amount per year. You can often cancel PMI once **LTV reaches 80%**."
+        },
+        {
+          "heading": "HOA fees",
+          "content": "Monthly fees for condos, townhomes, or planned communities — not part of your loan but part of your housing budget."
         }
       ]
     },
     {
-      "heading": "Early Repayment Options in Our Mortgage Loan Calculator",
-      "content": "Many homebuyers may wish to repay their mortgage earlier than required to save on interest or because they are refinancing or selling their property. Our mortgage payment calculator with early repayment options can help you plan for this.",
-      "subSections": [
-        {
-          "heading": "Strategies for Paying Off Your Mortgage Early",
-          "content": "Extra Payments: By making extra payments on top of your monthly mortgage, you can reduce the principal faster, resulting in lower interest costs over time. Biweekly Payments: Instead of paying monthly, make half payments every two weeks. This results in an extra month of payments each year, helping you pay off the loan more quickly. Our biweekly mortgage payment calculator shows how this approach works. Refinancing: Refinancing your loan for a lower interest rate or shorter term can help you save money and pay off your mortgage quicker. The refinance mortgage calculator lets you estimate potential savings."
-        },
-        {
-          "heading": "Advantages and Disadvantages of Early Repayment",
-          "content": "Advantages: Lower Interest Costs: Paying off your mortgage early reduces the interest you pay over the life of the loan. Faster Repayment: The loan will be paid off quicker, giving you financial freedom sooner. Personal Satisfaction: Many borrowers enjoy the emotional benefit of being debt-free. Disadvantages: Possible Prepayment Penalties: Some lenders impose fees for early repayment, which can reduce the benefits. Opportunity Cost: If mortgage rates are low, using extra funds to pay off the mortgage might not be the best financial decision, especially if you could earn a higher return elsewhere. Capital Lock-In: Money spent on early mortgage repayment might be needed for other expenses. Loss of Tax Deductions: Mortgage interest is tax-deductible, but paying off the mortgage early reduces the amount you can deduct."
-        }
-      ]
+      "heading": "15-year vs 30-year mortgage",
+      "content": "Example on a **$250,000 loan at 6.5%**:\n\n| | 15-year | 30-year |\n| --- | --- | --- |\n| Monthly P&I | ~$2,177 | ~$1,580 |\n| Total interest | ~$141,900 | ~$318,900 |\n| Best for | Lower total cost | Lower monthly payment |\n\nA **30-year** loan improves cash flow; a **15-year** loan builds equity faster and saves substantially on interest."
     },
     {
-      "heading": "Brief History of Mortgages in the U.S.",
-      "content": "Homeownership was not always accessible to many in the U.S. Early in the 20th century, homebuyers needed large down payments and short loan terms. After the Great Depression, the creation of Fannie Mae and the Federal Housing Administration (FHA) made home loans more accessible by introducing long-term, low-down-payment options. These agencies helped stabilize the housing market, and their influence continues today."
+      "heading": "Fixed-rate vs adjustable-rate (ARM)",
+      "content": "| Feature | Fixed-rate | ARM |\n| --- | --- | --- |\n| Rate | Same for full term | Adjusts after initial fixed period |\n| Payment | Stable | Can rise or fall |\n| Best for | Long-term owners | Short-term ownership (5–7 years) |\n\nMost buyers choose **fixed-rate** mortgages for payment predictability."
+    },
+    {
+      "heading": "How extra payments save money",
+      "content": "Every **extra dollar toward principal** lowers your balance, so less interest accrues each month.\n\n- **+$100–300/month** on a 30-year loan can cut **4–7 years** and save **tens of thousands** in interest\n- **Biweekly payments** (26 half-payments per year) equal one extra full payment annually\n- **Lump-sum** windfalls applied to principal create immediate, permanent interest savings\n\nConfirm your loan has **no prepayment penalty** before paying extra."
+    },
+    {
+      "heading": "How much mortgage can you afford?",
+      "content": "**28% rule:** Housing costs (PITI + HOA) should stay at or below **28% of gross monthly income**.\n\n**36% rule (DTI):** Total monthly debt — mortgage plus car loans, student loans, cards — should stay below **36%** of gross income (many lenders allow up to **43%** for qualified borrowers)."
+    },
+    {
+      "heading": "Closing costs to budget for",
+      "content": "Budget **2% to 5%** of the purchase price for one-time closing costs:\n\n- Loan origination and underwriting fees\n- Appraisal and home inspection\n- Title search and title insurance\n- Attorney or notary fees\n- Prepaid interest and escrow setup\n\nRequest a **Loan Estimate** from your lender within three business days of applying."
+    },
+    {
+      "heading": "When to refinance",
+      "content": "Refinancing replaces your loan with a new one — often for a **lower rate** or **shorter term**.\n\n**Break-even rule:** Divide **refinancing costs** by **monthly savings**. If you will stay in the home past that point, refinancing may pay off.\n\n**Example:** $5,000 closing costs ÷ $200/month savings = **25 months** to break even."
     }
   ],
   "faq": [
     {
-      "q": "How do I use a mortgage calculator?",
-      "a": "Simply enter your loan amount, interest rate, down payment, and loan term. The calculator will automatically estimate your monthly mortgage payment and provide a breakdown of interest, taxes, and insurance."
+      "question": "How accurate is an online mortgage calculator?",
+      "answer": "Principal and interest math is **precise** for the inputs you provide. Taxes and insurance are **estimates** unless you enter actual amounts. Always confirm with your lender's **Loan Estimate**."
     },
     {
-      "q": "What is PMI and how does it affect my mortgage payment?",
-      "a": "Private Mortgage Insurance (PMI) is required if your down payment is less than 20%. It adds an additional cost to your monthly payment until the loan-to-value ratio reaches 80%."
+      "question": "What credit score do I need for a mortgage?",
+      "answer": "Most conventional lenders require **620–640** minimum. Scores **740+** typically qualify for the best rates."
     },
     {
-      "q": "Can I refinance with the mortgage calculator?",
-      "a": "Yes, the Refinance Mortgage Calculator allows you to estimate savings from refinancing your mortgage, including changes to your interest rate and loan term."
+      "question": "What is the difference between interest rate and APR?",
+      "answer": "**Interest rate** is the cost of borrowing the principal. **APR** includes the rate plus lender fees and points — use APR to compare lenders."
     },
     {
-      "q": "What factors affect mortgage payments?",
-      "a": "Factors like your loan amount, interest rate, down payment, and property-related costs (like taxes and insurance) all influence your monthly payment."
+      "question": "How does a down payment affect my payment?",
+      "answer": "A larger down payment **lowers your loan amount** and monthly P&I. **20% down** often eliminates PMI and can improve your rate."
+    },
+    {
+      "question": "Can I use this calculator for refinancing?",
+      "answer": "**Yes.** Enter your **remaining balance** as home price, set down payment to **$0**, and enter the **new rate and term** you are considering."
+    },
+    {
+      "question": "What is an amortization schedule?",
+      "answer": "A table of every payment showing **principal vs interest** and **remaining balance**. It helps you plan extra payments and refinancing timing."
+    },
+    {
+      "question": "How does PMI work and when can I remove it?",
+      "answer": "PMI protects the lender when equity is below **20%**. Request cancellation at **80% LTV**; many lenders auto-cancel at **78%**."
+    },
+    {
+      "question": "Should I choose a fixed or adjustable rate?",
+      "answer": "Choose **fixed** for long-term stability. Choose **ARM** only if you plan to sell or refinance within the initial fixed period."
+    },
+    {
+      "question": "How do extra mortgage payments save money?",
+      "answer": "Extra payments reduce **principal** immediately, so **less interest** accrues going forward — compounding savings over the loan life."
+    },
+    {
+      "question": "How do I calculate how much house I can afford?",
+      "answer": "Multiply gross monthly income by **0.28** for max housing payment, then work backward with this calculator — or use our **House Affordability Calculator** for a fuller picture."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "Enter your **home price**, **down payment**, **rate**, and **term** to estimate your **full monthly payment** and total loan cost. Compare scenarios, test extra payments, and confirm final numbers with a **licensed mortgage professional** before you buy or refinance."
     }
   ]
 }

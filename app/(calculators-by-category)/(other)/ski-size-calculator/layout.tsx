@@ -24,19 +24,19 @@ const jsonLdSchema = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Ski Size Calculator",
-          item: "https://www.thesmartcalculator.com/sports/ski-size-calculator",
+          name: "Ski Size Calculator — Find Your Perfect Ski Length",
+          item: "https://www.thesmartcalculator.com/ski-size-calculator",
         },
       ],
     },
     {
       "@type": "WebApplication",
-      name: "Ski Size Calculator",
+      name: "Ski Size Calculator — Find Your Perfect Ski Length",
       description:
-        "Find your perfect ski length in seconds. Enter your height, weight, and skill level to get your exact ski size recommendation instantly.",
+        "Use our free ski size calculator to find your perfect ski length by height, weight, and skill level. Get instant results for all ski types and ability levels.",
       applicationCategory: "SportsApplication",
       operatingSystem: "All",
-      url: "https://www.thesmartcalculator.com/sports/ski-size-calculator",
+      url: "https://www.thesmartcalculator.com/ski-size-calculator",
       image: "https://www.thesmartcalculator.com/logo.png",
       offers: {
         "@type": "Offer",

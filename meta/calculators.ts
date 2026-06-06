@@ -4147,6 +4147,16 @@ export const calculatorsMeta: CalculatorMeta = {
         "future value calculator, investment growth calculator, fv calculator, compound interest calculator, future value of investment, monthly contribution calculator, inflation adjusted future value, portfolio growth calculator, investment calculator, compound growth calculator, retirement investment calculator, savings growth calculator, future worth calculator, investment return calculator, financial planning calculator"
     }
   },
+  "mortgage-recast-calculator": {
+    en: {
+      title: "Mortgage Recast Calculator – Calculate New Payment",
+      description:
+        "Use our free mortgage recast calculator to estimate your new monthly payment after a lump-sum payment. See savings, interest reduction, and amortization.",
+      slug: "/mortgage-recast-calculator",
+      keywords:
+        "mortgage recast calculator, recast mortgage calculator, mortgage reamortization calculator, lump sum mortgage payment calculator, lower mortgage payment calculator, mortgage recast vs refinance, recast payment calculator, mortgage recast savings, recast fee calculator, mortgage payment reduction calculator, recast mortgage payment, how to recast mortgage, mortgage recast interest savings"
+    }
+  },
   "invisalign-cost-calculator": {
     en: {
       title: "Invisalign Cost Calculator | Estimate Treatment Cost",

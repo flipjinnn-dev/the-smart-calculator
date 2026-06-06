@@ -1,0 +1,116 @@
+{
+  "color": "emerald",
+  "sections": [
+    {
+      "heading": "What Is a Mortgage Recast?",
+      "content": "A **mortgage recast** (also called **mortgage reamortization**) is when your loan servicer recalculates your monthly payment after you make a large lump-sum payment toward the principal. Your **interest rate and loan term stay the same** — only your monthly payment decreases.\n\nIt works by reducing your principal balance and re-running the amortization schedule for the remaining term. This allows homeowners to **lower monthly payments without refinancing** or changing loan terms.\n\n**Key terms to understand:**\n\n- **Principal reduction** — the lump-sum payment directly reduces your outstanding loan balance\n- **Loan reamortization** — the recalculation of your monthly payment based on the new lower balance\n- **Loan servicer** — the company that manages your mortgage payments and processes recast requests\n- **Amortization schedule** — month-by-month breakdown of principal and interest payments over your remaining loan term"
+    },
+    {
+      "heading": "How to Use the Mortgage Recast Calculator",
+      "content": "Follow these four steps to calculate your recast mortgage payment instantly:",
+      "subSections": [
+        {
+          "heading": "Step 1 — Enter your remaining loan balance",
+          "content": "Enter your current outstanding mortgage principal balance. You can find this on your latest mortgage statement or lender portal."
+        },
+        {
+          "heading": "Step 2 — Enter your annual interest rate",
+          "content": "Add your existing mortgage interest rate. This rate **stays the same after recasting**, which is a key advantage over refinancing."
+        },
+        {
+          "heading": "Step 3 — Enter your remaining loan term",
+          "content": "Enter the number of years left on your loan. The loan term **does not change** after a recast."
+        },
+        {
+          "heading": "Step 4 — Enter your lump-sum recast payment",
+          "content": "Enter the amount you plan to pay toward your principal in a one-time payment. Most lenders require a minimum of **$5,000–$10,000**, and a larger payment results in greater monthly savings.\n\nAfter you calculate, this mortgage recast payment calculator instantly shows:\n\n- New monthly payment after recasting\n- Monthly payment before recasting\n- Monthly savings amount\n- Total interest savings over the remaining loan life\n- Interest remaining before vs after recast"
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Recast Formula",
+      "content": "This recast mortgage calculator uses the standard loan amortization formula:\n\n**M = P × [r(1+r)ⁿ] ÷ [(1+r)ⁿ – 1]**\n\nWhere:\n\n- **P** = New principal balance after lump-sum payment (original balance minus lump-sum)\n- **r** = Monthly interest rate (annual interest rate ÷ 12)\n- **n** = Remaining number of monthly payments\n\n**Example calculation:**\n\n- Remaining balance: **$300,000**\n- Lump-sum payment: **$50,000**\n- New principal (P): **$250,000**\n- Annual rate: **6.5%** → Monthly rate (r): **0.5417%**\n- Remaining term (n): **300 months** (25 years)\n- New monthly payment = $250,000 × [0.005417 × (1.005417)³⁰⁰] ÷ [(1.005417)³⁰⁰ – 1] = **$1,687/month**\n\nThe amortization schedule after recasting recalculates every monthly payment, showing exactly how much goes to principal reduction versus interest each month for the rest of your loan term."
+    },
+    {
+      "heading": "Mortgage Recast Before vs After",
+      "content": "| Scenario | Loan Balance | Interest Rate | Term Left | Monthly Payment | Total Interest Paid |\n| --- | --- | --- | --- | --- | --- |\n| Before Recast | $300,000 | 6.50% | 25 years | $2,025 | $307,500 |\n| After $50,000 Recast | $250,000 | 6.50% | 25 years | $1,687 | $256,100 |\n| Your Savings | $50,000 less | Same | Same | $338/month | $51,400 saved |\n\nUse the calculator above for your exact numbers based on your actual balance, rate, and lump-sum amount."
+    },
+    {
+      "heading": "Mortgage Recast vs Refinance vs Extra Payments",
+      "content": "| Feature | Mortgage Recast | Refinance | Extra Principal Payment |\n| --- | --- | --- | --- |\n| Lowers monthly payment | ✅ Yes | ✅ Yes | ❌ No |\n| Changes interest rate | ❌ No | ✅ Yes | ❌ No |\n| Changes loan term | ❌ No | ✅ Yes | ❌ No (shortens payoff) |\n| Requires credit check | ❌ No | ✅ Yes | ❌ No |\n| New appraisal needed | ❌ No | ✅ Yes | ❌ No |\n| Closing costs | $150–$500 fee | $3,000–$6,000 | $0 |\n| Amortization recalculated | ✅ Yes | ✅ Yes | ❌ No |\n| Helps remove PMI | ✅ If LTV drops below 80% | Sometimes | ✅ If LTV drops below 80% |\n| Best for | Lower payment, keep your rate | You need a better rate | Fastest payoff, max interest savings |\n\n**Bottom line:** Keep your rate? **Recast.** Need a lower rate? **Refinance.** Want fastest payoff? **Make extra payments.**"
+    },
+    {
+      "heading": "Recast vs Extra Payments",
+      "content": "Some homeowners ask whether to recast their mortgage or simply make extra principal payments each month. Here is the key difference:\n\n**Extra payments without recasting** reduce your total interest and shorten your payoff timeline, but your **required monthly payment stays the same**. You build equity faster, but your monthly obligation does not drop.\n\n**Recasting after a lump-sum payment** reduces your **required monthly payment permanently**, but your loan term stays the same. Your total interest savings are lower than with aggressive extra payments, but you **free up monthly cash flow immediately**.\n\n**Best strategy:** If you receive a one-time windfall (inheritance, home sale proceeds, bonus), make the lump-sum payment and then recast to lock in a lower required monthly payment. You can still make extra payments after recasting to pay off your loan even faster."
+    },
+    {
+      "heading": "Recasting Impact on Escrow, Taxes & Insurance",
+      "content": "Your **escrow account** (taxes and insurance) is separate from your mortgage payment. Recasting only reduces your **principal and interest (P&I)**; escrow stays based on actual costs.\n\n**What this means:**\n\n- Your recast calculator result shows **P&I savings only**. Your actual new total payment will include escrow for taxes and insurance on top.\n- **PMI (Private Mortgage Insurance):** If your lump-sum payment reduces your LTV ratio below **80%**, contact your loan servicer immediately to request PMI cancellation. This can add another **$100–$300/month** in savings on top of your recast savings.\n- **LTV ratio after recasting:** Divide your new loan balance by your home's current value. If the result is **0.80 or below**, you may qualify for PMI removal — a major additional benefit of making a large principal reduction."
+    },
+    {
+      "heading": "When to Use a Mortgage Recast Calculator",
+      "subSections": [
+        {
+          "heading": "After selling your previous home",
+          "content": "Apply home sale proceeds as a lump-sum payment and recast immediately to lower your new home's required monthly payment."
+        },
+        {
+          "heading": "After receiving a financial windfall",
+          "content": "A bonus, inheritance, or large investment payout is the ideal trigger for calculating recast mortgage savings."
+        },
+        {
+          "heading": "When your interest rate is already competitive",
+          "content": "Refinancing may not be worth it. Use this free mortgage recast calculator to compare savings before and after a lump-sum payment."
+        },
+        {
+          "heading": "To eliminate PMI",
+          "content": "Calculate whether a lump-sum payment drops your LTV below 80%. If it does, recasting plus PMI removal can save you **$400–$600/month combined**."
+        },
+        {
+          "heading": "To reduce financial stress",
+          "content": "Lower monthly payments and free up cash for savings, emergencies, or investments — without changing your loan or interest rate."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Recast Requirements",
+      "content": "Most loan servicers require the following to approve a mortgage recast:\n\n| Requirement | Details |\n| --- | --- |\n| Loan type | Conventional loans only — FHA, VA, and USDA loans do not qualify |\n| Minimum lump-sum payment | Typically **$5,000–$10,000** depending on servicer |\n| Payment history | Must be current on your mortgage (no recent missed payments) |\n| Written recast request | Submit a formal recast request letter to your loan servicer |\n| Processing fee | **$150–$500** depending on lender |\n| Waiting period (second recast) | Some servicers require **12 months** between recasts |\n\nLenders that offer mortgage recasting include **Chase**, **Wells Fargo**, **Bank of America**, **Rocket Mortgage**, **Freedom Mortgage**, and **Movement Mortgage**. Availability varies, so confirm with your lender."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is mortgage recasting worth it?",
+      "answer": "**Yes** — it's worth it if your interest rate is good and you want lower monthly payments without refinancing costs. You save on monthly cash flow and total interest over time."
+    },
+    {
+      "question": "How do I calculate recast mortgage payment?",
+      "answer": "Enter your loan balance, interest rate, remaining term, and lump-sum payment in the calculator. It will instantly show your **new monthly payment** and **total savings**."
+    },
+    {
+      "question": "What is the difference between mortgage recast and refinance?",
+      "answer": "Recasting keeps your **same loan** and just lowers payments. Refinancing **replaces your loan completely** with new terms, rate, and closing costs."
+    },
+    {
+      "question": "What are the mortgage recast requirements?",
+      "answer": "Most lenders require a **conventional loan**, **$5,000–$10,000** lump sum, **current payments**, and a small processing fee. Requirements vary by servicer."
+    },
+    {
+      "question": "Does mortgage recasting affect my credit score?",
+      "answer": "**No** — recasting does not involve a credit check or new application. Your credit score remains unchanged."
+    },
+    {
+      "question": "Should I recast my mortgage or make extra principal payments?",
+      "answer": "Recasting **lowers your monthly payment**, while extra payments **reduce loan term and interest**. Many homeowners use **both strategies together**."
+    },
+    {
+      "question": "Can I recast an FHA, VA, or USDA mortgage?",
+      "answer": "**No** — government-backed loans are not eligible. Only **conventional loans** allow mortgage recasting through most lenders."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "Enter your **loan balance**, **interest rate**, **remaining term**, and **lump-sum payment** to estimate your **new monthly payment**, **monthly savings**, and **total interest saved**. Confirm recast eligibility, fees, and PMI impact with your loan servicer before making a lump-sum payment."
+    }
+  ]
+}

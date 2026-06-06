@@ -104,6 +104,12 @@
         "href": "/future-value-calculator"
       },
       {
+        "name": "Mortgage Recast Calculator",
+        "category": "Financial",
+        "description": "Use our free mortgage recast calculator to estimate your new monthly payment after a lump-sum payment. See savings, interest reduction, and amortization.",
+        "href": "/mortgage-recast-calculator"
+      },
+      {
         "name": "Calorie Calculator",
         "category": "Health",
         "description": "Calculate daily calorie needs based on your lifestyle and goals"

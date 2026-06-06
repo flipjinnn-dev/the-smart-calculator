@@ -1,6 +1,10 @@
 {
-  "color": "blue",
+  "color": "emerald",
   "sections": [
+    {
+      "heading": "How do you convert mg to mL?",
+      "content": "Divide milligrams by the liquid density in **mg/mL**.\n\n- **Water** → divide by **1000** (500 mg = 0.5 mL)\n- **Medicine** → divide by label concentration (250 mg/5 mL = 50 mg/mL)\n- **Other liquids** → use the substance density from the calculator presets or a custom value\n\nUse the calculator above for instant results in both directions (mg → mL and mL → mg)."
+    },
     {
       "heading": "What Is the mg to mL Calculator?",
       "content": "The mg to mL calculator is a free online tool that converts milligrams (mg) to milliliters (mL) instantly. Enter the weight in milligrams plus the density or concentration of your liquid — the calculator returns the exact volume in mL.\n\nThis mg to mL conversion calculator works for medicine dosing, syringe measurements, lab work, cooking, and general liquid conversions. It supports water, milk, cooking oil, medication solutions, and any custom liquid density you enter.\n\nIt also runs in reverse enter milliliters to get milligrams back. One tool, both directions."
@@ -70,6 +74,12 @@
     {
       "question": "What is the difference between mg/mL and % concentration?",
       "answer": "mg/mL measures mass per unit volume directly. Percentage (% w/v) expresses grams per 100 mL. To convert: divide mg/mL by 10 to get % w/v. Example: 20 mg/mL = 2% w/v."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "Enter your **dose**, select a **liquid or medication concentration**, and get an instant **mg to mL** (or mL to mg) result. Always confirm medication doses with a licensed professional before use."
     }
   ]
 }

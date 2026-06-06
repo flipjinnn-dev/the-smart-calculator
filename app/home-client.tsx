@@ -227,6 +227,13 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       href: "/future-value-calculator"
     },
     {
+      name: "Mortgage Recast Calculator",
+      category: "Financial",
+      description:
+        "Use our free mortgage recast calculator to estimate your new monthly payment after a lump-sum payment. See savings, interest reduction, and amortization.",
+      href: "/mortgage-recast-calculator"
+    },
+    {
       name: "Calorie Calculator",
       category: "Health",
       description: "Calculate daily calorie needs based on your lifestyle and goals",
@@ -485,6 +492,16 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       description:
         "Use our free future value calculator to estimate investment growth with compound interest, monthly contributions, withdrawals, and inflation adjustment. Get instant results.",
       href: "/future-value-calculator",
+      category: "Financial",
+      popular: true as const,
+      englishOnly: true,
+    },
+    {
+      id: "mortgage-recast-calculator",
+      name: "Mortgage Recast Calculator",
+      description:
+        "Use our free mortgage recast calculator to estimate your new monthly payment after a lump-sum payment. See savings, interest reduction, and amortization.",
+      href: "/mortgage-recast-calculator",
       category: "Financial",
       popular: true as const,
       englishOnly: true,

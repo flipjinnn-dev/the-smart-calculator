@@ -82,6 +82,7 @@ const ENGLISH_ONLY_PATHS = [
   '/snowboard-size-calculator',
   '/vorici-calculator',
   '/future-value-calculator',
+  '/mortgage-recast-calculator',
   '/invisalign-cost-calculator',
   '/puppy-weight-calculator',
   '/cpv-calculator',

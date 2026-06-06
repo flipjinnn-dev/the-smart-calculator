@@ -97,7 +97,7 @@ interface ContentShape {
 const defaultContent: ContentShape = {
   pageTitle: "Ski Size Calculator",
   pageDescription:
-    "Find your perfect ski length by height, weight, skill level, and ski type with instant personalized recommendations.",
+    "Find your perfect ski length in seconds. Enter your height, weight, and skill level to get your exact ski size recommendation instantly.",
 };
 
 export default function SkiSizeCalculatorClient({

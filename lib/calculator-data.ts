@@ -66,6 +66,7 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'marriage-calculator') return 'marriage-calculator';
   if (id === 'mortgage-calculator') return 'mortgage-calculator';
   if (id === 'mortgage-payoff-calculator') return 'mortgage-payoff-calculator';
+  if (id === 'mortgage-recast-calculator') return 'mortgage-recast-calculator';
   if (id === 'one-rep-max-calculator') return 'one-rep-max-calculator';
   if (id === 'strength-level-calculator') return 'strength-level-calculator';
   if (id === 'overweight-calculator') return 'overweight-calculator';
@@ -354,6 +355,16 @@ export const calculators: Calculator[] = [
     description: "Calculate your mortgage payoff date and total interest savings",
     href: "/financial/mortgage-payoff-calculator",
     category: "financial",
+  },
+  {
+    id: "mortgage-recast-calculator",
+    name: "Mortgage Recast Calculator",
+    description:
+      "Use our free mortgage recast calculator to estimate your new monthly payment after a lump-sum payment. See savings, interest reduction, and amortization.",
+    href: "/mortgage-recast-calculator",
+    category: "financial",
+    popular: true,
+    englishOnly: true,
   },
   {
     id: "reverse-sales-tax-calculator",
@@ -963,9 +974,9 @@ export const calculators: Calculator[] = [
   },
   {
     id: "ski-size-calculator",
-    name: "Ski Size Calculator",
+    name: "Ski Size Calculator — Find Your Perfect Ski Length",
     description:
-      "Find your perfect ski length by height, weight, skill level, and ski type with instant personalized recommendations",
+      "Use our free ski size calculator to find your perfect ski length by height, weight, and skill level. Get instant results for all ski types and ability levels.",
     href: "/ski-size-calculator",
     category: "sports",
     popular: true,
