@@ -4121,7 +4121,7 @@ export const calculatorsMeta: CalculatorMeta = {
     en: {
       title: "Snowboard Size Calculator — Length, Width & Chart",
       description:
-        "Use our Snowboard Size Calculator to find the perfect board length and width by height, weight & boot size. Includes size chart for men, women & kids.",
+        "Find your perfect snowboard size in seconds by height, weight, boot size, and riding style.",
       slug: "/snowboard-size-calculator",
       keywords:
         "snowboard size calculator, snowboard length calculator, what size snowboard do I need, snowboard size chart, snowboard size by height, snowboard size by weight, snowboard width calculator, wide snowboard calculator, beginner snowboard size, powder snowboard length, all mountain snowboard size, freestyle snowboard size, snowboard sizing guide, snowboard boot size width, kids snowboard size, women's snowboard size"
@@ -4135,6 +4135,36 @@ export const calculatorsMeta: CalculatorMeta = {
       slug: "/vorici-calculator",
       keywords:
         "vorici calculator, poe vorici calculator, chromatic orb calculator, path of exile chromatic calculator, poe socket color calculator, vorici chromatic calculator, chromatic orb cost, poe crafting calculator, socket color probability, poe chromatic spam, vorici crafting bench, path of exile calculator, poe chromatic orb average, off color sockets poe, hybrid vorici method"
+    }
+  },
+  "future-value-calculator": {
+    en: {
+      title: "Future Value Calculator – Calculate Investment Growth",
+      description:
+        "Use our free future value calculator to estimate investment growth with compound interest, monthly contributions, withdrawals, and inflation adjustment. Get instant results.",
+      slug: "/future-value-calculator",
+      keywords:
+        "future value calculator, investment growth calculator, fv calculator, compound interest calculator, future value of investment, monthly contribution calculator, inflation adjusted future value, portfolio growth calculator, investment calculator, compound growth calculator, retirement investment calculator, savings growth calculator, future worth calculator, investment return calculator, financial planning calculator"
+    }
+  },
+  "invisalign-cost-calculator": {
+    en: {
+      title: "Invisalign Cost Calculator | Estimate Treatment Cost",
+      description:
+        "Use our Invisalign cost calculator to estimate total treatment cost, monthly payments, and out-of-pocket expenses by treatment type, insurance, and payment plan.",
+      slug: "/invisalign-cost-calculator",
+      keywords:
+        "invisalign cost calculator, invisalign price calculator, invisalign cost, how much does invisalign cost, invisalign monthly payment calculator, invisalign insurance calculator, clear aligner cost calculator, invisalign treatment cost, invisalign financing calculator, invisalign out of pocket cost, invisalign cost with insurance, invisalign payment plan calculator, orthodontics cost calculator, invisalign estimate, invisalign affordability calculator"
+    }
+  },
+  "puppy-weight-calculator": {
+    en: {
+      title: "Puppy Weight Calculator | Predict Adult Dog Size",
+      description:
+        "Use this puppy weight calculator to predict how big your puppy will get as an adult. Enter age, weight, and breed size for instant adult weight estimates.",
+      slug: "/puppy-weight-calculator",
+      keywords:
+        "puppy weight calculator, puppy growth calculator, puppy size calculator, dog weight calculator, puppy adult weight calculator, how big will my puppy get, puppy weight predictor, mixed breed puppy weight calculator, puppy full grown size calculator, puppy final weight calculator, dog breed weight calculator, puppy growth chart calculator, estimate puppy adult weight, puppy weight by age, puppy weight formula"
     }
   },
   "kite-size-calculator": {

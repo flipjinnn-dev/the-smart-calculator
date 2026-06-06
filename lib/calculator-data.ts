@@ -115,6 +115,9 @@ export function getCalculatorFileName(id: string): string {
   if (id === 'ski-size-calculator') return 'ski-size-calculator';
   if (id === 'snowboard-size-calculator') return 'snowboard-size-calculator';
   if (id === 'vorici-calculator') return 'vorici-calculator';
+  if (id === 'future-value-calculator') return 'future-value-calculator';
+  if (id === 'invisalign-cost-calculator') return 'invisalign-cost-calculator';
+  if (id === 'puppy-weight-calculator') return 'puppy-weight-calculator';
   if (id === 'nm-to-ft-lbs-converter') return 'nm-to-ft-lbs-converter';
   if (id === 'tenths-to-inches-converter') return 'tenths-to-inches-converter';
   if (id === 'simplifying-radicals-calculator') return 'simplifying-radicals-calculator';
@@ -1328,7 +1331,7 @@ export const calculators: Calculator[] = [
     id: "snowboard-size-calculator",
     name: "Snowboard Size Calculator",
     description:
-      "Use our Snowboard Size Calculator to find the perfect board length and width by height, weight & boot size. Includes size chart for men, women & kids.",
+      "Find your perfect snowboard size in seconds by height, weight, boot size, and riding style.",
     href: "/snowboard-size-calculator",
     category: "other",
     popular: true,
@@ -1340,6 +1343,36 @@ export const calculators: Calculator[] = [
     description:
       "Calculate Chromatic Orb costs, socket color odds, average attempts, and success rates with our PoE Vorici Calculator for Path of Exile.",
     href: "/vorici-calculator",
+    category: "other",
+    popular: true,
+    englishOnly: true,
+  },
+  {
+    id: "future-value-calculator",
+    name: "Future Value Calculator",
+    description:
+      "Use our free future value calculator to estimate investment growth with compound interest, monthly contributions, withdrawals, and inflation adjustment. Get instant results.",
+    href: "/future-value-calculator",
+    category: "other",
+    popular: true,
+    englishOnly: true,
+  },
+  {
+    id: "invisalign-cost-calculator",
+    name: "Invisalign Cost Calculator",
+    description:
+      "Use our Invisalign cost calculator to estimate total treatment cost, monthly payments, and out-of-pocket expenses by treatment type, insurance, and payment plan.",
+    href: "/invisalign-cost-calculator",
+    category: "other",
+    popular: true,
+    englishOnly: true,
+  },
+  {
+    id: "puppy-weight-calculator",
+    name: "Puppy Weight Calculator",
+    description:
+      "Use this puppy weight calculator to predict how big your puppy will get as an adult. Enter age, weight, and breed size for instant adult weight estimates.",
+    href: "/puppy-weight-calculator",
     category: "other",
     popular: true,
     englishOnly: true,

@@ -25,7 +25,11 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import SearchBar from "@/components/search-bar"
 import { getLocalizedCategoryUrl, getLocalizedCalculatorUrl } from "@/lib/url-utils"
-import { getHomeSearchCalculators } from "@/lib/calculator-data"
+import { calculators as allCalculators, getHomeSearchCalculators } from "@/lib/calculator-data"
+
+function normalizeSearchHref(href: string) {
+  return href.replace(/\/$/, "") || href
+}
 import HomepageScientificCalculator from "@/components/homepage-scientific-calculator"
 import AuthorsSection from "@/components/authors-section"
 import type { Author } from "@/lib/sanity/client"
@@ -216,6 +220,13 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       href: "/financial/compound-interest-calculator"
     },
     {
+      name: "Future Value Calculator",
+      category: "Financial",
+      description:
+        "Use our free future value calculator to estimate investment growth with compound interest, monthly contributions, withdrawals, and inflation adjustment. Get instant results.",
+      href: "/future-value-calculator"
+    },
+    {
       name: "Calorie Calculator",
       category: "Health",
       description: "Calculate daily calorie needs based on your lifestyle and goals",
@@ -273,6 +284,20 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       description:
         "Calculate Chromatic Orb costs, socket color odds, average attempts, and success rates with our PoE Vorici Calculator for Path of Exile.",
       href: "/vorici-calculator"
+    },
+    {
+      name: "Invisalign Cost Calculator",
+      category: "Other",
+      description:
+        "Use our Invisalign cost calculator to estimate total treatment cost, monthly payments, and out-of-pocket expenses by treatment type, insurance, and payment plan.",
+      href: "/invisalign-cost-calculator"
+    },
+    {
+      name: "Puppy Weight Calculator",
+      category: "Other",
+      description:
+        "Use this puppy weight calculator to predict how big your puppy will get as an adult. Enter age, weight, and breed size for instant adult weight estimates.",
+      href: "/puppy-weight-calculator"
     },
     {
       name: "Strength Level Calculator",
@@ -337,18 +362,27 @@ export default function HomePage({ content, language, authors }: HomeClientProps
     })
     : fallbackCalculators;
 
-  const homepageSearchEntries = calculatorsToUse.map((calc: any, index: number) => ({
-    id: String(index),
-    name: String(calc.name || ""),
-    description: String(calc.description || ""),
-    href: String(calc.href || "#"),
-    category: String(calc.category || ""),
-    popular: true as const,
-  }));
+  const calculatorByHref = new Map(
+    allCalculators.map((calc) => [normalizeSearchHref(calc.href), calc])
+  );
 
-  const seenSearchHrefs = new Set(homepageSearchEntries.map((c) => c.href));
+  const homepageSearchEntries = calculatorsToUse.map((calc: any, index: number) => {
+    const href = String(calc.href || "#");
+    const meta = calculatorByHref.get(normalizeSearchHref(href));
+    return {
+      id: meta?.id ?? String(index),
+      name: String(calc.name || ""),
+      description: String(calc.description || meta?.description || ""),
+      href,
+      category: String(calc.category || ""),
+      popular: true as const,
+      ...(meta?.englishOnly ? { englishOnly: true as const } : {}),
+    };
+  });
+
+  const seenSearchHrefs = new Set(homepageSearchEntries.map((c) => normalizeSearchHref(c.href)));
   const dataPopularSearch = getHomeSearchCalculators(language).filter(
-    (calc) => !seenSearchHrefs.has(calc.href)
+    (calc) => !seenSearchHrefs.has(normalizeSearchHref(calc.href))
   );
 
   const extraSearchById = [
@@ -446,6 +480,36 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       englishOnly: true,
     },
     {
+      id: "future-value-calculator",
+      name: "Future Value Calculator",
+      description:
+        "Use our free future value calculator to estimate investment growth with compound interest, monthly contributions, withdrawals, and inflation adjustment. Get instant results.",
+      href: "/future-value-calculator",
+      category: "Financial",
+      popular: true as const,
+      englishOnly: true,
+    },
+    {
+      id: "invisalign-cost-calculator",
+      name: "Invisalign Cost Calculator",
+      description:
+        "Use our Invisalign cost calculator to estimate total treatment cost, monthly payments, and out-of-pocket expenses by treatment type, insurance, and payment plan.",
+      href: "/invisalign-cost-calculator",
+      category: "Other",
+      popular: true as const,
+      englishOnly: true,
+    },
+    {
+      id: "puppy-weight-calculator",
+      name: "Puppy Weight Calculator",
+      description:
+        "Use this puppy weight calculator to predict how big your puppy will get as an adult. Enter age, weight, and breed size for instant adult weight estimates.",
+      href: "/puppy-weight-calculator",
+      category: "Other",
+      popular: true as const,
+      englishOnly: true,
+    },
+    {
       id: "mixed-fraction-calculator",
       name: "Mixed Fraction Calculator",
       description:
@@ -454,7 +518,7 @@ export default function HomePage({ content, language, authors }: HomeClientProps
       category: "Maths",
       popular: true as const,
     },
-  ].filter((calc) => !seenSearchHrefs.has(calc.href));
+  ].filter((calc) => !seenSearchHrefs.has(normalizeSearchHref(calc.href)));
 
   const searchCalculators = [
     ...homepageSearchEntries,

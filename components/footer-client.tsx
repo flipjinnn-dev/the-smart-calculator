@@ -3,10 +3,7 @@
 import React from 'react';
 import Logo from './logo'
 import Link from 'next/link'
-import { Instagram, TwitterIcon, Mail } from 'lucide-react'
-import { FaPinterestP } from "react-icons/fa"
-import { AiOutlineLinkedin, AiOutlineYoutube } from "react-icons/ai"
-import { getLocalizedCategoryUrl } from '@/lib/url-utils'
+import { Instagram, TwitterIcon, Mail, Youtube, Linkedin } from 'lucide-react'
 import enFooter from '@/app/content/footer/en.json'
 import brFooter from '@/app/content/footer/br.json'
 import plFooter from '@/app/content/footer/pl.json'
@@ -33,21 +30,7 @@ interface FooterItem {
 const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
   const footerContent = footerContentByLanguage[language] ?? enFooter
 
-  const categoryItems = language === 'en' 
-    ? footerContent.categories.items.map((item: FooterItem) => {
-        if (item.name === "Other Calculators") {
-          return {
-            ...item,
-            href: getLocalizedCategoryUrl("other", language)
-          }
-        }
-        const categorySlug = item.href.replace(/^\//, '')
-        return {
-          ...item,
-          href: getLocalizedCategoryUrl(categorySlug, language)
-        }
-      })
-    : footerContent.categories.items
+  const categoryItems = footerContent.categories.items
 
   const companyItems = footerContent.companyLinks.items.map((item: FooterItem) => {
     if (item.href === "/" && language !== "en") {
@@ -83,7 +66,7 @@ const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
             <div className="flex space-x-4">
               <Link href={footerContent.social.pinterest} aria-label="Visit our Pinterest page">
                 <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center hover:bg-red-700 transition-colors cursor-pointer">
-                  <span className="text-white font-bold"><FaPinterestP /></span>
+                  <span className="text-white font-bold text-sm">P</span>
                 </div>
               </Link>
               <Link href={footerContent.social.twitter} aria-label="Visit our Twitter page">
@@ -98,12 +81,12 @@ const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
               </Link>
               <Link href={footerContent.social.youtube} aria-label="Visit our YouTube channel">
                 <div className="w-10 h-10 bg-red-700 rounded-lg flex items-center justify-center hover:bg-red-800 transition-colors cursor-pointer">
-                  <span className="text-white font-extrabold font-xl"><AiOutlineYoutube /></span>
+                  <Youtube className="w-5 h-5 text-white" />
                 </div>
               </Link>
               <Link href={"https://www.linkedin.com/company/smart-calculator/"} aria-label="Visit our LinkedIn page">
                 <div className="w-10 h-10 bg-blue-700 rounded-lg flex items-center justify-center hover:bg-blue-800 transition-colors cursor-pointer">
-                  <span className="text-white font-extrabold font-3xl"><AiOutlineLinkedin /></span>
+                  <Linkedin className="w-5 h-5 text-white" />
                 </div>
               </Link>
             </div>

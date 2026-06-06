@@ -1,0 +1,111 @@
+{
+  "color": "emerald",
+  "sections": [
+    {
+      "heading": "How much will your investment grow?",
+      "content": "Compound interest can turn steady saving into serious wealth over time.\n\n- $1,000 at 7% for 10 years → about **$1,967**\n- $10,000 at 8% for 20 years → about **$46,610** (lump sum only)\n- $10,000 + $200/month at 8% for 20 years → **$150,000+**\n\nUse the calculator below to get your exact future value based on starting amount, contributions, rate, and time."
+    },
+    {
+      "heading": "What Is a Future Value Calculator?",
+      "content": "A future value calculator helps investors, savers, and planners estimate how much money an investment or savings account will be worth at a future date—fast.\n\nYou enter your **initial investment**, **monthly contributions**, **annual interest rate**, **time period**, and optional settings like **compounding frequency**, **inflation**, and **withdrawals**. The tool returns your **total future value**, **interest earned**, and a **year-by-year breakdown** instantly.\n\nGetting the projection right matters. Underestimating contributions or ignoring inflation can leave you short of retirement goals. Overestimating returns can create false confidence."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "subSections": [
+        {
+          "heading": "Step 1 Initial investment",
+          "content": "Enter the **starting amount** you invest or deposit today. Use **0** if you are modeling contributions only (for example, a new monthly savings plan with no lump sum)."
+        },
+        {
+          "heading": "Step 2 Monthly contribution",
+          "content": "Add an **optional recurring deposit** each month. Even modest contributions compound significantly over long horizons—a **$200/month** deposit at **8%** for **20 years** adds far more than interest on the initial balance alone."
+        },
+        {
+          "heading": "Step 3 Interest rate and time period",
+          "content": "Enter your **expected annual return** (for example, 7% for a balanced portfolio or 4% for conservative savings) and the **number of years** you plan to stay invested. **Decimal years** are supported (e.g. 10.5 years)."
+        },
+        {
+          "heading": "Step 4 Compounding frequency",
+          "content": "Choose how often interest is applied:\n\n- **Yearly** — once per year\n- **Half-yearly** — twice per year\n- **Quarterly** — four times per year\n- **Monthly** — most savings accounts and many investments\n- **Daily** — some high-yield accounts\n\nMore frequent compounding produces a **slightly higher** future value at the same nominal rate."
+        },
+        {
+          "heading": "Step 5 Inflation and withdrawals (optional)",
+          "content": "**Inflation rate — optional.** Enter an estimate (often **2–3%**) to see your result in **today's purchasing power**, not just nominal dollars.\n\n**Withdrawals — optional.** Model **monthly or annual** withdrawals (for example, retirement income). Withdrawals reduce ending balance and are reflected in your result automatically."
+        },
+        {
+          "heading": "Step 6 Calculate",
+          "content": "Click **Calculate future value** to see **total future value**, **total contributions**, **interest earned**, **inflation-adjusted value** (if inflation is set), **average monthly growth**, and a **year-by-year growth table**."
+        }
+      ]
+    },
+    {
+      "heading": "Future Value Calculator Formula",
+      "content": "The basic future value formula for a lump sum:\n\n**FV = PV × (1 + r)ⁿ**\n\nWhere:\n\n- **FV** = Future Value\n- **PV** = Present Value (starting amount)\n- **r** = Interest rate per period\n- **n** = Number of periods\n\nFor **monthly compounding** at annual rate *R* over *t* years:\n\n**FV = PV × (1 + R/12)^(12 × t)**\n\nWhen you add **regular contributions (PMT)**, the calculator applies the **future value of an annuity** formula on top of your lump sum:\n\n**FV = PMT × [(1 + r)ⁿ − 1] / r**\n\nYou do not need to calculate this manually—the tool handles lump sums, contributions, compounding, inflation, and withdrawals together."
+    },
+    {
+      "heading": "Future Value by Investment Scenario",
+      "content": "Planning table (illustrative examples — **your actual results depend on rate, compounding, and contributions**):\n\n| Starting amount | Rate | Years | Monthly contribution | Approx. future value |\n| --- | --- | --- | --- | --- |\n| $1,000 | 5% | 10 | $0 | $1,629 |\n| $5,000 | 7% | 15 | $0 | $13,766 |\n| $10,000 | 8% | 20 | $200 | $150,000+ |\n| $0 | 6% | 30 | $500 | $502,000+ |\n| $25,000 | 4% | 10 | $100 | $40,000+ |\n\nEnter your own numbers above for a tailored projection."
+    },
+    {
+      "heading": "Common Use Cases",
+      "subSections": [
+        {
+          "heading": "Retirement planning",
+          "content": "Project how much your **401(k), IRA, Roth IRA, or TSP** could be worth at retirement. Add monthly contributions to see how consistent saving accelerates your end balance."
+        },
+        {
+          "heading": "Investment growth",
+          "content": "Estimate future value of **stocks, mutual funds, ETFs, or a brokerage account** at different expected return rates. Compare how even a **1%** difference changes outcomes over 20–30 years."
+        },
+        {
+          "heading": "Savings account projection",
+          "content": "See how a **bank deposit** grows with compound interest applied monthly. Model regular deposits to track how disciplined saving builds balance over time."
+        },
+        {
+          "heading": "Education or major purchase goals",
+          "content": "Work backward from a target date and amount—college fund, home down payment, or emergency fund—and test whether your current savings rate gets you there."
+        }
+      ]
+    },
+    {
+      "heading": "Troubleshooting Wrong Results",
+      "content": "- **Result too low?** You may have forgotten **monthly contributions** or used an **annual** compounding setting when your account compounds **monthly**. Try raising the rate slightly or extending the time period.\n- **Result too high?** Check that your **interest rate** is realistic (e.g. 7–10% for long-term stock averages, not guaranteed). Add **inflation** to see real purchasing power.\n- **Inflation-adjusted value missing?** Enter an **inflation rate** in the optional field—without it, the calculator shows nominal dollars only.\n- **Withdrawals not reflected?** Set **withdrawal amount** and choose **monthly or annual** frequency. Large withdrawals can significantly reduce ending balance."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do you calculate future value?",
+      "answer": "Multiply your present value by (1 + interest rate) raised to the number of periods: **FV = PV × (1 + r)ⁿ**. For example, $1,000 at 7% for 10 years ≈ **$1,967**. This calculator handles lump sums, contributions, and compounding automatically."
+    },
+    {
+      "question": "How do you calculate future value in Excel?",
+      "answer": "Use Excel's **FV** function: `=FV(rate, nper, pmt, pv)`. For monthly compounding at 6% over 10 years on $1,000: `=FV(6%/12, 120, 0, -1000)` returns **$1,819.40**. Divide the annual rate by 12 and multiply years by 12 for monthly periods."
+    },
+    {
+      "question": "How do you calculate the future value of an annuity?",
+      "answer": "Use **FV = PMT × [(1 + r)ⁿ − 1] / r**. For example, $200 per month at 6% for 10 years grows to about **$32,776**. Enter your monthly contribution in this calculator and it applies the annuity formula for you."
+    },
+    {
+      "question": "How do you calculate future value with compound interest?",
+      "answer": "Use **FV = PV × (1 + r/n)^(n×t)** where *n* is compounding periods per year. Monthly compounding at 6% means dividing 0.06 by 12. More frequent compounding yields a higher future value at the same nominal rate."
+    },
+    {
+      "question": "How do you calculate future value of money with inflation?",
+      "answer": "Subtract inflation from your nominal return for a **real rate**, or enter an inflation rate in this calculator to see **inflation-adjusted value** in today's dollars. If you earn 8% and inflation is 3%, real growth is roughly 5%."
+    },
+    {
+      "question": "How do you calculate future value of a savings account?",
+      "answer": "Enter your **current balance** as present value, your bank's **annual interest rate**, **monthly** compounding (typical for savings), years, and any **regular deposits**. The calculator shows exactly how much your account will be worth at any future date."
+    },
+    {
+      "question": "What is a good expected return rate to use?",
+      "answer": "Conservative planning often uses **3–5%** (savings/bonds), moderate **6–8%** (balanced portfolios), aggressive **9–10%+** (heavily equity). **Past performance does not guarantee future results**—use a range and stress-test with lower rates."
+    }
+  ],
+  "sectionsAfterFaq": [
+    {
+      "heading": "Summary",
+      "content": "Enter your **initial investment**, **monthly contributions**, **interest rate**, **time period**, and optional **inflation** or **withdrawals**—then get your **future value projection** instantly. **Plan with realistic assumptions**, and consult a **licensed financial advisor** for personalized advice."
+    }
+  ]
+}

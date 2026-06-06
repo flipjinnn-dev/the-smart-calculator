@@ -98,6 +98,12 @@
         "description": "Calculate investment growth over time with compound interest"
       },
       {
+        "name": "Future Value Calculator",
+        "category": "Financial",
+        "description": "Use our free future value calculator to estimate investment growth with compound interest, monthly contributions, withdrawals, and inflation adjustment. Get instant results.",
+        "href": "/future-value-calculator"
+      },
+      {
         "name": "Calorie Calculator",
         "category": "Health",
         "description": "Calculate daily calorie needs based on your lifestyle and goals"
@@ -145,6 +151,18 @@
         "category": "Other",
         "description": "Calculate Chromatic Orb costs, socket color odds, average attempts, and success rates with our PoE Vorici Calculator for Path of Exile.",
         "href": "/vorici-calculator"
+      },
+      {
+        "name": "Invisalign Cost Calculator",
+        "category": "Other",
+        "description": "Use our Invisalign cost calculator to estimate total treatment cost, monthly payments, and out-of-pocket expenses by treatment type, insurance, and payment plan.",
+        "href": "/invisalign-cost-calculator"
+      },
+      {
+        "name": "Puppy Weight Calculator",
+        "category": "Other",
+        "description": "Use this puppy weight calculator to predict how big your puppy will get as an adult. Enter age, weight, and breed size for instant adult weight estimates.",
+        "href": "/puppy-weight-calculator"
       },
       {
         "name": "Strength Level Calculator",
