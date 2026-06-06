@@ -127,7 +127,8 @@
       {
         "name": "Roofing Calculator",
         "category": "Construction",
-        "description": "Estimate roof area, pitch, materials, and cost. Get roof squares, waste %, and replacement estimate."
+        "description": "Estimate roof area, pitch, materials, and cost. Get roof squares, waste %, and replacement estimate.",
+        "href": "/construction/roofing-calculator"
       },
       {
         "name": "Crushed Stone Calculator",
@@ -138,7 +139,8 @@
       {
         "name": "Tattoo Tip Calculator",
         "category": "Other",
-        "description": "Calculate tattoo tip amount, total with tip, multi-session totals, and per-person split instantly."
+        "description": "Calculate tattoo tip amount, total with tip, multi-session totals, and per-person split instantly.",
+        "href": "/tattoo-tip-calculator"
       },
       {
         "name": "Depop Fee Calculator",
@@ -178,7 +180,8 @@
       {
         "name": "Pool Volume Calculator",
         "category": "Other",
-        "description": "Calculate pool volume in gallons, litres, and m³ for rectangular, round, oval, and kidney-shaped pools."
+        "description": "Calculate pool volume in gallons, litres, and m³ for rectangular, round, oval, and kidney-shaped pools.",
+        "href": "/pool-volume-calculator"
       },
       {
         "name": "Electricity Bill Calculator",

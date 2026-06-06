@@ -67,6 +67,19 @@
     "title": "Todas as Calculadoras",
     "showInFooter": true
   },
+  "featuredCalculators": {
+    "title": "Calculadoras Populares",
+    "items": [
+      {
+        "name": "Tattoo Tip Calculator",
+        "href": "/tattoo-tip-calculator"
+      },
+      {
+        "name": "Pool Volume Calculator",
+        "href": "/pool-volume-calculator"
+      }
+    ]
+  },
   "popularCalculators": {
     "title": "Calculadoras Financeiras Populares",
     "items": [
