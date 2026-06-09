@@ -179,7 +179,13 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
   }, [handleImageUpload]);
 
   if (!editor) {
-    return null;
+    return (
+      <div
+        className={`border-2 border-gray-200 rounded-2xl bg-gray-50 p-8 text-sm text-gray-500 ${className ?? ""}`}
+      >
+        Loading editor…
+      </div>
+    );
   }
 
   return (

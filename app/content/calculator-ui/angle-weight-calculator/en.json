@@ -1,4 +1,6 @@
 {
+  "pageTitle": "Angle Weight Calculator",
+  "pageDescription": "Calculate the weight of steel, MS, SS, and aluminum angle bars based on dimensions and length",
   "calculatorTitle": "Angle Weight Calculator",
   "calculatorDescription": "Calculate the weight of steel, MS, SS, and aluminum angle bars based on dimensions and length",
   "materialLabel": "Material Type",

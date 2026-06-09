@@ -1,0 +1,97 @@
+{
+  "color": "orange",
+  "sections": [
+    {
+      "heading": "Quick Answer",
+      "content": "An **angle weight calculator** is a tool used to determine the weight of angle bars (L-shaped metal sections) based on their dimensions, material type, and length. The weight is calculated using the angle weight calculation formula: **Weight (kg) = Cross-sectional Area × Length × Material Density**. For steel angle bars, the density is typically 7850 kg/m³, while for aluminum angles it is about 2700 kg/m³."
+    },
+    {
+      "heading": "Angle Weight Calculator: Complete Guide",
+      "content": "Angle bars—also known as L-sections or angle irons—are widely used in construction, fabrication, machinery frames, towers, and structural supports. Accurately calculating their weight is essential for material planning and structural design.\n\nAn **angle weight calculator online** simplifies this process by automatically computing weight based on dimensions such as leg length, thickness, and length of the angle section.\n\nThis guide explains everything you need to know about the **steel angle weight calculator**, formulas, charts, and downloadable tools like **angle weight calculator Excel** sheets and PDF charts."
+    },
+    {
+      "heading": "What is an Angle Weight Calculator?",
+      "content": "An **angle weight calculator** is a formula-based or digital tool that determines the weight of angle bars (L-shaped metal sections).\n\nIt is commonly used by structural engineers, fabrication shops, construction companies, metal suppliers, mechanical engineers, and industrial designers.\n\nThe calculator works for **MS angle weight calculator** (Mild Steel), **SS angle weight calculator** (Stainless Steel), and **aluminum angle weight calculator** materials. It supports **equal angle weight calculator**, **unequal angle weight calculator**, **L angle weight calculator**, and **angle section weight calculator** types."
+    },
+    {
+      "heading": "Types of Angle Bars",
+      "subSections": [
+        {
+          "heading": "Equal Angle Bars",
+          "content": "In equal angles, both legs of the L-section have the same dimensions.\n\n**Example:** 50 mm × 50 mm × 6 mm\n\nThese are widely used in frames, towers, and structural reinforcements."
+        },
+        {
+          "heading": "Unequal Angle Bars",
+          "content": "In unequal angles, the legs have different sizes.\n\n**Example:** 75 mm × 50 mm × 6 mm\n\nThese are commonly used in structural applications where load distribution is uneven."
+        }
+      ]
+    },
+    {
+      "heading": "Angle Weight Calculation Formula",
+      "content": "The standard **angle weight calculation formula** is:\n\n**Weight (kg) = Cross-sectional Area (m²) × Length (m) × Density (kg/m³)**\n\nFor steel angles, a simplified per-meter formula is often used:\n\n**Weight per meter (kg/m) = (A + B − T) × T × 0.00785**\n\nWhere:\n- A = Leg 1 width (mm)\n- B = Leg 2 width (mm)\n- T = Thickness (mm)\n- 0.00785 = Steel density factor"
+    },
+    {
+      "heading": "Steel Angle Weight Calculator",
+      "content": "A **steel angle weight calculator** is the most commonly used version because steel angles are widely used in construction and infrastructure.\n\n| Material | Density |\n| --- | --- |\n| Mild Steel | 7850 kg/m³ |\n| Stainless Steel | 8000 kg/m³ |\n| Aluminum | 2700 kg/m³ |\n\nUsing the correct density ensures accurate results."
+    },
+    {
+      "heading": "Aluminum Angle Weight Calculator",
+      "content": "An **aluminum angle weight calculator** works the same way but uses a lower density value.\n\nAluminum advantages include lightweight construction, corrosion resistance, ideal use in aerospace and marine applications, and easier transport.\n\nBecause aluminum density is much lower, aluminum angle bars weigh about one-third of steel angles."
+    },
+    {
+      "heading": "How to Use an Angle Weight Calculator",
+      "subSections": [
+        {
+          "heading": "Step 1",
+          "content": "Select the material type (MS, SS, aluminum)."
+        },
+        {
+          "heading": "Step 2",
+          "content": "Enter the leg dimensions. **Example:** A = 50 mm, B = 50 mm"
+        },
+        {
+          "heading": "Step 3",
+          "content": "Enter the thickness. **Example:** 6 mm"
+        },
+        {
+          "heading": "Step 4",
+          "content": "Enter the length. **Example:** 6 meters"
+        },
+        {
+          "heading": "Step 5",
+          "content": "Click Calculate. The calculator will return the total weight in kg."
+        }
+      ]
+    },
+    {
+      "heading": "Conclusion",
+      "content": "An **angle weight calculator** is an essential tool for engineers, builders, and metal fabricators. Whether calculating MS angles, stainless steel angles, or aluminum sections, accurate weight estimation ensures better planning, cost control, and structural safety."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is an angle weight calculator?",
+      "answer": "An angle weight calculator is a tool used to determine the weight of L-shaped metal sections based on their dimensions, length, and material density."
+    },
+    {
+      "question": "How do you calculate angle weight?",
+      "answer": "The angle weight calculation formula is:\n\nWeight = Cross-section Area × Length × Density\n\nFor steel: Weight/m = (A + B − T) × T × 0.00785"
+    },
+    {
+      "question": "What is the weight of a 50×50×6 angle?",
+      "answer": "A 50×50×6 mm equal angle weighs approximately **4.43 kg per meter**."
+    },
+    {
+      "question": "Where can I download an angle weight chart PDF?",
+      "answer": "Many engineering websites and steel manufacturers provide angle weight chart PDF files containing standard size tables."
+    },
+    {
+      "question": "Is there an angle weight calculator in Excel?",
+      "answer": "Yes. Many engineers use an angle weight calculator Excel spreadsheet to automatically calculate weight for multiple angle sizes."
+    },
+    {
+      "question": "What materials can be calculated?",
+      "answer": "Most calculators support Mild Steel, Stainless Steel, and Aluminum — allowing use as a steel angle weight calculator, ss angle weight calculator, or aluminum angle weight calculator."
+    }
+  ]
+}

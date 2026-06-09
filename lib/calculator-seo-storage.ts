@@ -121,9 +121,13 @@ async function writeBlobJson(pathname: string, body: string): Promise<void> {
   });
 }
 
-/** On Vercel with Blob, bundled repo JSON is stale after admin saves — skip it. */
-function shouldReadFilesystemFallback(): boolean {
-  return isLocalDev() || !blobStorageEnabled();
+/** Read bundled repo JSON when Blob has no file for this calculator yet. */
+async function readFilesystemJson(pathname: string): Promise<string | null> {
+  try {
+    return await readFile(pathname, "utf-8");
+  } catch {
+    return null;
+  }
 }
 
 export async function readCalculatorSeoFile(
@@ -139,10 +143,9 @@ export async function readCalculatorSeoFile(
     }
   }
 
-  if (!shouldReadFilesystemFallback()) return null;
-
+  const raw = await readFilesystemJson(seoFilePath(storageId, language));
+  if (!raw) return null;
   try {
-    const raw = await readFile(seoFilePath(storageId, language), "utf-8");
     return JSON.parse(raw) as CalculatorSeoData;
   } catch {
     return null;
@@ -187,12 +190,14 @@ export async function writeCalculatorUiFile(
     } catch {
       return;
     }
-  } else if (shouldReadFilesystemFallback()) {
-    try {
-      const raw = await readFile(uiFilePath(storageId, language), "utf-8");
-      ui = JSON.parse(raw) as Record<string, unknown>;
-    } catch {
-      return;
+  } else {
+    const raw = await readFilesystemJson(uiFilePath(storageId, language));
+    if (raw) {
+      try {
+        ui = JSON.parse(raw) as Record<string, unknown>;
+      } catch {
+        return;
+      }
     }
   }
 
@@ -253,10 +258,9 @@ export async function readCalculatorGuideHtmlFile(
     }
   }
 
-  if (!shouldReadFilesystemFallback()) return null;
-
+  const raw = await readFilesystemJson(guideHtmlFilePath(storageId, language));
+  if (!raw) return null;
   try {
-    const raw = await readFile(guideHtmlFilePath(storageId, language), "utf-8");
     const parsed = JSON.parse(raw) as { html?: string };
     return typeof parsed.html === "string" && parsed.html.trim() ? parsed.html : null;
   } catch {
@@ -277,10 +281,9 @@ export async function readCalculatorUiFile(
     }
   }
 
-  if (!shouldReadFilesystemFallback()) return null;
-
+  const raw = await readFilesystemJson(uiFilePath(storageId, language));
+  if (!raw) return null;
   try {
-    const raw = await readFile(uiFilePath(storageId, language), "utf-8");
     return JSON.parse(raw) as Record<string, unknown>;
   } catch {
     return null;

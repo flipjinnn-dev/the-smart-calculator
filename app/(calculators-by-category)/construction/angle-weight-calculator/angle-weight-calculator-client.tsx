@@ -9,6 +9,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Scale, Calculator, TrendingUp, AlertCircle } from "lucide-react";
 import SimilarCalculators from "@/components/similar-calculators";
+import CalculatorGuide from "@/components/calculator-guide";
 
 interface ContentData {
   calculatorTitle: string;
@@ -94,6 +95,11 @@ export default function AngleWeightCalculatorClient({
   guideContent?: any;
 }) {
   const contentData = content || defaultContent;
+  const guideData = guideContent || { color: "orange", sections: [], faq: [] };
+  const hasManagedGuide =
+    Boolean(guideData?.htmlContent?.trim()) ||
+    (guideData?.sections?.length ?? 0) > 0 ||
+    (guideData?.faq?.length ?? 0) > 0;
 
   const [material, setMaterial] = useState<string>("mild_steel");
   const [angleType, setAngleType] = useState<string>("equal");
@@ -576,6 +582,13 @@ export default function AngleWeightCalculatorClient({
               </div>
             </div>
 
+            {hasManagedGuide ? (
+              <div className="mt-16">
+                <CalculatorGuide {...guideData} />
+              </div>
+            ) : null}
+
+            {!hasManagedGuide ? (
             <div className="mt-16 max-w-4xl mx-auto prose prose-lg">
               <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
                 <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-500 p-6 rounded-lg mb-8">
@@ -1111,6 +1124,7 @@ export default function AngleWeightCalculatorClient({
                 </p>
               </div>
             </div>
+            ) : null}
 
             <div className="mt-16">
               <SimilarCalculators

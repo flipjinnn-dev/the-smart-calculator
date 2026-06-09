@@ -78,15 +78,48 @@ export async function getCalculatorSeoListItems(): Promise<CalculatorSeoListItem
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 
+function firstNonEmpty(...values: (string | undefined | null)[]): string {
+  for (const value of values) {
+    const trimmed = value?.trim();
+    if (trimmed) return trimmed;
+  }
+  return "";
+}
+
+function heroFromUiRecord(
+  ui: Record<string, unknown> | null
+): { pageTitle: string; pageDescription: string } | null {
+  if (!ui) return null;
+  const pageTitle = firstNonEmpty(
+    String(ui.pageTitle ?? ""),
+    String(ui.title ?? ""),
+    String(ui.calculatorTitle ?? ""),
+    String(ui.heroTitle ?? "")
+  );
+  const pageDescription = firstNonEmpty(
+    String(ui.pageDescription ?? ""),
+    String(ui.description ?? ""),
+    String(ui.calculatorDescription ?? ""),
+    String(ui.heroDescription ?? "")
+  );
+  if (!pageTitle && !pageDescription) return null;
+  return { pageTitle, pageDescription };
+}
+
 async function readUiHero(
   storageId: string
 ): Promise<{ pageTitle: string; pageDescription: string } | null> {
-  const ui = await readCalculatorUiFile(storageId, "en");
-  if (!ui) return null;
-  const pageTitle = String(ui.pageTitle ?? ui.title ?? "");
-  const pageDescription = String(ui.pageDescription ?? ui.description ?? "");
-  if (!pageTitle && !pageDescription) return null;
-  return { pageTitle, pageDescription };
+  const fromStorage = heroFromUiRecord(await readCalculatorUiFile(storageId, "en"));
+  if (fromStorage) return fromStorage;
+
+  try {
+    const ui = (
+      await import(`@/app/content/calculator-ui/${storageId}/en.json`)
+    ).default as Record<string, unknown>;
+    return heroFromUiRecord(ui);
+  } catch {
+    return null;
+  }
 }
 
 function buildDefaultSchema(
@@ -201,25 +234,33 @@ export async function loadOrBuildCalculatorSeo(
     }
   }
 
+  const defaults = buildDefaultCalculatorSeo(registryId);
+
   if (saved) {
     const uiHero = await readUiHero(storageId);
     return {
       ...saved,
-      guideHtml: saved.guideHtml?.trim() || guideHtml,
-      pageTitle: saved.pageTitle || uiHero?.pageTitle || "",
-      pageDescription: saved.pageDescription || uiHero?.pageDescription || "",
+      metaTitle: firstNonEmpty(saved.metaTitle, defaults?.metaTitle),
+      metaDescription: firstNonEmpty(saved.metaDescription, defaults?.metaDescription),
+      keywords: firstNonEmpty(saved.keywords, defaults?.keywords),
+      pageTitle: firstNonEmpty(saved.pageTitle, uiHero?.pageTitle, defaults?.pageTitle),
+      pageDescription: firstNonEmpty(
+        saved.pageDescription,
+        uiHero?.pageDescription,
+        defaults?.pageDescription
+      ),
+      guideHtml: firstNonEmpty(saved.guideHtml, guideHtml),
     };
   }
 
-  const defaults = buildDefaultCalculatorSeo(registryId);
   if (!defaults) return null;
 
   const uiHero = await readUiHero(storageId);
   return {
     ...defaults,
     guideHtml,
-    pageTitle: uiHero?.pageTitle || defaults.pageTitle,
-    pageDescription: uiHero?.pageDescription || defaults.pageDescription,
+    pageTitle: firstNonEmpty(uiHero?.pageTitle, defaults.pageTitle),
+    pageDescription: firstNonEmpty(uiHero?.pageDescription, defaults.pageDescription),
   };
 }
 
