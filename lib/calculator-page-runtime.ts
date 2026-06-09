@@ -5,12 +5,13 @@ import type { Metadata } from "next";
 import { getCanonicalUrl, getCalculatorUrl } from "@/lib/url-utils";
 import type { CalculatorGuideData } from "@/components/calculator-guide";
 import {
-  getCalculatorStorageId,
   loadCalculatorSeo,
   buildDefaultCalculatorSeo,
   getCalculatorById,
+  getCalculatorStorageId,
 } from "@/lib/calculator-seo";
-import { getCalculatorMetaEntry, resolveCalculatorMetaKey } from "@/lib/calculator-meta-key";
+import { loadRawCalculatorGuideContent } from "@/lib/load-calculator-guide";
+import { getCalculatorMetaEntry } from "@/lib/calculator-meta-key";
 import { readCalculatorUiFile } from "@/lib/calculator-seo-storage";
 import {
   getCalculatorAlternateLanguages,
@@ -196,47 +197,26 @@ export async function loadCalculatorUiContent(
   return ui;
 }
 
-type RawFaqItem = {
-  question?: string;
-  answer?: string;
-  q?: string;
-  a?: string;
-};
-
-/** Guide JSON may use `q`/`a` or `question`/`answer`; component expects the latter. */
-function normalizeGuideData(
-  raw: CalculatorGuideData & { faq?: RawFaqItem[] }
-): CalculatorGuideData {
-  return {
-    ...raw,
-    faq: (raw.faq ?? []).map((item) => ({
-      question: item.question ?? item.q ?? "",
-      answer: item.answer ?? item.a ?? "",
-    })),
-  };
-}
-
 export async function loadCalculatorGuideContent(
   calculatorId: string,
   language: string
 ): Promise<CalculatorGuideData> {
-  const storageId = getCalculatorStorageId(calculatorId);
-  const fallback: CalculatorGuideData = { color: "blue", sections: [], faq: [] };
-  try {
-    const raw = (
-      await import(
-        `@/app/content/calculator-guide/${storageId}/${language}.json`
-      )
-    ).default as CalculatorGuideData & { faq?: RawFaqItem[] };
-    return normalizeGuideData(raw);
-  } catch {
-    try {
-      const raw = (
-        await import(`@/app/content/calculator-guide/${storageId}/en.json`)
-      ).default as CalculatorGuideData & { faq?: RawFaqItem[] };
-      return normalizeGuideData(raw);
-    } catch {
-      return fallback;
+  noStore();
+  const guide = await loadRawCalculatorGuideContent(calculatorId, language);
+
+  if (language === "en") {
+    const seo = await loadCalculatorSeo(calculatorId, "en");
+    const html = seo?.guideHtml?.trim();
+    if (html) {
+      return {
+        ...guide,
+        htmlContent: html,
+        sections: [],
+        sectionsAfterFaq: [],
+        faq: [],
+      };
     }
   }
+
+  return guide;
 }

@@ -17,6 +17,8 @@ import {
   listSavedSeoStorageIds,
   type SeoStorageBackend,
 } from "@/lib/calculator-seo-storage";
+import { calculatorGuideToHtml } from "@/lib/calculator-guide-html";
+import { loadRawCalculatorGuideContent } from "@/lib/load-calculator-guide";
 
 export type { CalculatorSeoData, CalculatorSeoListItem } from "@/lib/calculator-seo-types";
 import type { CalculatorSeoData, CalculatorSeoListItem } from "@/lib/calculator-seo-types";
@@ -167,33 +169,38 @@ export async function loadOrBuildCalculatorSeo(
   calculatorId: string,
   language: string = "en"
 ): Promise<CalculatorSeoData | null> {
-  const saved = await loadCalculatorSeo(calculatorId, language);
-  if (saved) {
-    const storageId = getCalculatorStorageId(calculatorId);
-    const uiHero = await readUiHero(storageId);
-    if (uiHero) {
-      return {
-        ...saved,
-        pageTitle: saved.pageTitle || uiHero.pageTitle,
-        pageDescription: saved.pageDescription || uiHero.pageDescription,
-      };
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  const saved = await loadCalculatorSeo(registryId, language);
+  const storageId = getCalculatorStorageId(registryId);
+
+  let guideHtml = saved?.guideHtml?.trim() || "";
+  if (!guideHtml && language === "en") {
+    const guide = await loadRawCalculatorGuideContent(registryId, language);
+    if ((guide.sections?.length ?? 0) > 0 || (guide.faq?.length ?? 0) > 0) {
+      guideHtml = calculatorGuideToHtml(guide);
     }
-    return saved;
   }
 
-  const defaults = buildDefaultCalculatorSeo(calculatorId);
-  if (!defaults) return null;
-
-  const storageId = getCalculatorStorageId(calculatorId);
-  const uiHero = await readUiHero(storageId);
-  if (uiHero) {
+  if (saved) {
+    const uiHero = await readUiHero(storageId);
     return {
-      ...defaults,
-      pageTitle: uiHero.pageTitle || defaults.pageTitle,
-      pageDescription: uiHero.pageDescription || defaults.pageDescription,
+      ...saved,
+      guideHtml: saved.guideHtml?.trim() || guideHtml,
+      pageTitle: saved.pageTitle || uiHero?.pageTitle || "",
+      pageDescription: saved.pageDescription || uiHero?.pageDescription || "",
     };
   }
-  return defaults;
+
+  const defaults = buildDefaultCalculatorSeo(registryId);
+  if (!defaults) return null;
+
+  const uiHero = await readUiHero(storageId);
+  return {
+    ...defaults,
+    guideHtml,
+    pageTitle: uiHero?.pageTitle || defaults.pageTitle,
+    pageDescription: uiHero?.pageDescription || defaults.pageDescription,
+  };
 }
 
 export async function saveCalculatorSeo(
@@ -201,10 +208,11 @@ export async function saveCalculatorSeo(
   language: string,
   data: CalculatorSeoData
 ): Promise<SeoStorageBackend> {
-  if (!isAdminCalculatorId(calculatorId)) {
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  if (!isAdminCalculatorId(registryId)) {
     throw new Error("Unknown calculator");
   }
-  const storageId = getCalculatorStorageId(calculatorId);
+  const storageId = getCalculatorStorageId(registryId);
   return writeCalculatorSeoFile(storageId, language, data);
 }
 
@@ -214,7 +222,8 @@ export async function syncCalculatorUiFromSeo(
   pageTitle: string,
   pageDescription: string
 ): Promise<void> {
-  const storageId = getCalculatorStorageId(calculatorId);
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  const storageId = getCalculatorStorageId(registryId);
   try {
     await writeCalculatorUiFile(storageId, "en", pageTitle, pageDescription);
   } catch (e) {

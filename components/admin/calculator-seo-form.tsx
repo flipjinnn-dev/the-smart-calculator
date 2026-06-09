@@ -8,6 +8,7 @@ import { Loader2, RefreshCw } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { RichTextEditor } from "@/components/ui/rich-text-editor";
 import type { CalculatorSeoData } from "@/lib/calculator-seo";
 
 type Props = {
@@ -109,7 +110,7 @@ export function CalculatorSeoForm({
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-8 max-w-3xl">
+    <form onSubmit={handleSubmit} className="space-y-8 max-w-5xl">
       <div className="flex flex-wrap gap-3 text-sm">
         <Link href="/admin/calculators/seo" className="text-blue-600 hover:underline">
           ← All calculators
@@ -192,6 +193,20 @@ export function CalculatorSeoForm({
             className="mt-1"
           />
         </div>
+      </section>
+
+      <section className="space-y-4 rounded-xl border bg-white p-6 shadow-sm">
+        <h2 className="text-lg font-semibold">Page content (below calculator)</h2>
+        <p className="text-sm text-gray-600">
+          Edit the guide, FAQs, and article content shown below the calculator. Use headings,
+          lists, bold, and links — same editor as blog posts.
+        </p>
+        <RichTextEditor
+          content={form.guideHtml ?? ""}
+          onChange={(html) => update("guideHtml", html)}
+          placeholder="Write calculator guide content…"
+          className="min-h-[320px]"
+        />
       </section>
 
       <section className="space-y-4 rounded-xl border bg-white p-6 shadow-sm">

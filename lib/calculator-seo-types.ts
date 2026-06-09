@@ -4,6 +4,8 @@ export type CalculatorSeoData = {
   keywords?: string;
   pageTitle: string;
   pageDescription: string;
+  /** Rich HTML for the guide/content section below the calculator. */
+  guideHtml?: string;
   canonical?: string;
   openGraph: {
     title: string;

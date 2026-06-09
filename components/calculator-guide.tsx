@@ -20,6 +20,7 @@ function renderInlineWithBold(
 }
 import 'katex/dist/katex.min.css';
 import Latex from 'react-latex-next';
+import { CalculatorGuideHtml } from '@/components/calculator-guide-html';
 import {
   CheckCircle2,
   Briefcase,
@@ -62,6 +63,8 @@ export interface CalculatorGuideData {
   color: string
   sections: Section[]
   faq: FAQ[]
+  /** When set (admin SEO), renders rich HTML instead of structured sections. */
+  htmlContent?: string
   /** Rendered after FAQ (e.g. closing Summary). Article layout: same card styles as main sections. */
   sectionsAfterFaq?: Section[]
 }
@@ -134,14 +137,37 @@ const getColorVariants = (color: string) => {
 }
 
 export default function CalculatorGuide({ data, layout = 'default' }: CalculatorGuideProps) {
+  const hasHtml = Boolean(data?.htmlContent?.trim())
   const hasSections = (data?.sections?.length ?? 0) > 0
   const hasFaq = (data?.faq?.length ?? 0) > 0
   const hasAfterFaq = (data?.sectionsAfterFaq?.length ?? 0) > 0
-  if (!data || (!hasSections && !hasFaq && !hasAfterFaq)) {
+  if (!data || (!hasHtml && !hasSections && !hasFaq && !hasAfterFaq)) {
     return null;
   }
 
   const colors = getColorVariants(data.color)
+
+  if (hasHtml && data.htmlContent) {
+    const htmlBlock = (
+      <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
+        <CalculatorGuideHtml html={data.htmlContent} />
+      </div>
+    );
+
+    if (layout === 'article') {
+      return (
+        <section className="w-full max-w-7xl mx-auto px-2 sm:px-4 pb-12">
+          {htmlBlock}
+        </section>
+      );
+    }
+
+    return (
+      <section className="w-full max-w-7xl mx-auto px-2 sm:px-4 py-12">
+        {htmlBlock}
+      </section>
+    );
+  }
 
   const renderIconBullets = (
     content: string,
