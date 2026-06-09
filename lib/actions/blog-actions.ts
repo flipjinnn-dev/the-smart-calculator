@@ -3,6 +3,45 @@
 import { client } from '@/lib/sanity/config';
 import { revalidatePath } from 'next/cache';
 
+/** Blog categories aligned with site calculator sections. Missing ones are created in Sanity on fetch. */
+const DEFAULT_BLOG_CATEGORIES = [
+  { title: 'Financial', slug: 'financial' },
+  { title: 'Health & Fitness', slug: 'health' },
+  { title: 'Math', slug: 'math' },
+  { title: 'Physics', slug: 'physics' },
+  { title: 'Construction', slug: 'construction' },
+  { title: 'Food', slug: 'food' },
+  { title: 'Sports', slug: 'sports' },
+  { title: 'Games', slug: 'games' },
+  { title: 'Business', slug: 'business' },
+  { title: 'Software', slug: 'software' },
+  { title: 'Other', slug: 'other' },
+] as const;
+
+async function ensureDefaultBlogCategories() {
+  const existing = await client.fetch<
+    { _id: string; title: string; slug?: { current?: string } }[]
+  >(`*[_type == "category"] { _id, title, slug }`);
+
+  const existingSlugs = new Set(
+    existing.map((c) => (c.slug?.current || c.title).toLowerCase())
+  );
+
+  for (const cat of DEFAULT_BLOG_CATEGORIES) {
+    if (existingSlugs.has(cat.slug)) continue;
+    try {
+      await client.create({
+        _type: 'category',
+        title: cat.title,
+        slug: { _type: 'slug', current: cat.slug },
+      });
+      existingSlugs.add(cat.slug);
+    } catch (error) {
+      console.error(`Failed to create blog category "${cat.title}":`, error);
+    }
+  }
+}
+
 export async function getAllBlogs() {
   const query = `*[_type == "blog"] | order(publishedAt desc) {
     _id,
@@ -96,11 +135,13 @@ export async function getAllAuthors() {
 }
 
 export async function getAllCategories() {
-  const query = `*[_type == "category"] {
+  await ensureDefaultBlogCategories();
+
+  const query = `*[_type == "category"] | order(title asc) {
     _id,
     title,
     description
   }`;
-  
+
   return await client.fetch(query);
 }
