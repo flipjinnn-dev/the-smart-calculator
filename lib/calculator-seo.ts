@@ -14,6 +14,8 @@ import {
   readCalculatorUiFile,
   writeCalculatorSeoFile,
   writeCalculatorUiFile,
+  writeCalculatorGuideHtmlFile,
+  readCalculatorGuideHtmlFile,
   listSavedSeoStorageIds,
   type SeoStorageBackend,
 } from "@/lib/calculator-seo-storage";
@@ -161,7 +163,22 @@ export async function loadCalculatorSeo(
     return null;
   }
   const storageId = getCalculatorStorageId(registryId);
-  return readCalculatorSeoFile(storageId, language);
+  const saved = await readCalculatorSeoFile(storageId, language);
+  const guideHtml =
+    saved?.guideHtml?.trim() ||
+    (await readCalculatorGuideHtmlFile(storageId, language)) ||
+    "";
+
+  if (saved) {
+    return guideHtml ? { ...saved, guideHtml } : saved;
+  }
+
+  if (guideHtml) {
+    const defaults = buildDefaultCalculatorSeo(registryId);
+    return defaults ? { ...defaults, guideHtml } : null;
+  }
+
+  return null;
 }
 
 /** Load saved SEO file, or build defaults from meta + calculator-ui + registry. */
@@ -173,7 +190,10 @@ export async function loadOrBuildCalculatorSeo(
   const saved = await loadCalculatorSeo(registryId, language);
   const storageId = getCalculatorStorageId(registryId);
 
-  let guideHtml = saved?.guideHtml?.trim() || "";
+  let guideHtml =
+    saved?.guideHtml?.trim() ||
+    (await loadSavedCalculatorGuideHtml(registryId, language)) ||
+    "";
   if (!guideHtml && language === "en") {
     const guide = await loadRawCalculatorGuideContent(registryId, language);
     if ((guide.sections?.length ?? 0) > 0 || (guide.faq?.length ?? 0) > 0) {
@@ -214,6 +234,36 @@ export async function saveCalculatorSeo(
   }
   const storageId = getCalculatorStorageId(registryId);
   return writeCalculatorSeoFile(storageId, language, data);
+}
+
+/** Persist guide HTML to dedicated storage (local file or Vercel Blob). */
+export async function syncCalculatorGuideHtml(
+  calculatorId: string,
+  guideHtml: string
+): Promise<void> {
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  const storageId = getCalculatorStorageId(registryId);
+  try {
+    await writeCalculatorGuideHtmlFile(storageId, "en", guideHtml);
+  } catch (e) {
+    console.error("syncCalculatorGuideHtml:", e);
+  }
+}
+
+/** Resolve saved guide HTML from SEO file or guide-html storage. */
+export async function loadSavedCalculatorGuideHtml(
+  calculatorId: string,
+  language: string = "en"
+): Promise<string | null> {
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  if (!isAdminCalculatorId(registryId)) return null;
+  const storageId = getCalculatorStorageId(registryId);
+
+  const seo = await readCalculatorSeoFile(storageId, language);
+  const fromSeo = seo?.guideHtml?.trim();
+  if (fromSeo) return fromSeo;
+
+  return readCalculatorGuideHtmlFile(storageId, language);
 }
 
 /** Sync on-page hero fields into calculator-ui JSON (English). */

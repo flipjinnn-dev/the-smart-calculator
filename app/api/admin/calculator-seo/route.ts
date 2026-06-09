@@ -3,6 +3,7 @@ import {
   loadOrBuildCalculatorSeo,
   saveCalculatorSeo,
   syncCalculatorUiFromSeo,
+  syncCalculatorGuideHtml,
   isAdminCalculatorId,
   type CalculatorSeoData,
 } from "@/lib/calculator-seo";
@@ -69,6 +70,7 @@ export async function POST(request: Request) {
       keywords: String(body.keywords ?? "").trim(),
       pageTitle: String(body.pageTitle ?? "").trim(),
       pageDescription: String(body.pageDescription ?? "").trim(),
+      guideHtml: String(body.guideHtml ?? ""),
       canonical: String(body.canonical ?? "").trim(),
       openGraph: {
         title: String(body.openGraph?.title ?? body.metaTitle ?? "").trim(),
@@ -98,6 +100,7 @@ export async function POST(request: Request) {
       data.pageTitle,
       data.pageDescription
     );
+    await syncCalculatorGuideHtml(calculatorId, data.guideHtml ?? "");
 
     const revalidatedPaths = await revalidateCalculatorCache(
       calculatorId,

@@ -32,7 +32,7 @@ import {
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { useCallback, useState, useRef } from 'react';
+import { useCallback, useState, useRef, useEffect } from 'react';
 
 interface RichTextEditorProps {
   content: string;
@@ -98,6 +98,10 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
     ],
     content,
     immediatelyRender: false,
+    onCreate: ({ editor: createdEditor }) => {
+      editorRef.current = createdEditor;
+      onChange(createdEditor.getHTML());
+    },
     onUpdate: ({ editor }) => {
       onChange(editor.getHTML());
     },
@@ -126,6 +130,14 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
   if (editor && !editorRef.current) {
     editorRef.current = editor;
   }
+
+  useEffect(() => {
+    if (!editor) return;
+    const current = editor.getHTML();
+    if (content !== current) {
+      editor.commands.setContent(content || "", { emitUpdate: false });
+    }
+  }, [content, editor]);
 
   const openLinkDialog = useCallback(() => {
     if (!editor) return;

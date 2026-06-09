@@ -5,8 +5,10 @@ import type { CalculatorSeoData } from "@/lib/calculator-seo-types";
 
 const SEO_DIR = path.join(process.cwd(), "app", "content", "calculator-seo");
 const UI_DIR = path.join(process.cwd(), "app", "content", "calculator-ui");
+const GUIDE_HTML_DIR = path.join(process.cwd(), "app", "content", "calculator-guide-html");
 const BLOB_SEO_PREFIX = "calculator-seo";
 const BLOB_UI_PREFIX = "calculator-ui";
+const BLOB_GUIDE_HTML_PREFIX = "calculator-guide-html";
 
 export type SeoStorageBackend = "filesystem" | "blob";
 
@@ -50,6 +52,14 @@ function seoBlobPath(storageId: string, language: string): string {
 
 function uiBlobPath(storageId: string, language: string): string {
   return `${BLOB_UI_PREFIX}/${storageId}/${language}.json`;
+}
+
+function guideHtmlFilePath(storageId: string, language: string): string {
+  return path.join(GUIDE_HTML_DIR, storageId, `${language}.json`);
+}
+
+function guideHtmlBlobPath(storageId: string, language: string): string {
+  return `${BLOB_GUIDE_HTML_PREFIX}/${storageId}/${language}.json`;
 }
 
 export function getLiveSaveSetupMessage(): string {
@@ -205,6 +215,52 @@ export async function writeCalculatorUiFile(
 
   if (blobStorageEnabled()) {
     await writeBlobJson(uiBlobPath(storageId, language), json);
+  }
+}
+
+export async function writeCalculatorGuideHtmlFile(
+  storageId: string,
+  language: string,
+  html: string
+): Promise<void> {
+  const json = `${JSON.stringify({ html }, null, 2)}\n`;
+
+  if (isLocalDev()) {
+    const dir = path.join(GUIDE_HTML_DIR, storageId);
+    await mkdir(dir, { recursive: true });
+    await writeFile(guideHtmlFilePath(storageId, language), json, "utf-8");
+    return;
+  }
+
+  if (blobStorageEnabled()) {
+    await writeBlobJson(guideHtmlBlobPath(storageId, language), json);
+  }
+}
+
+export async function readCalculatorGuideHtmlFile(
+  storageId: string,
+  language: string
+): Promise<string | null> {
+  const blobRaw = await readBlobJson(guideHtmlBlobPath(storageId, language));
+  if (blobRaw) {
+    try {
+      const parsed = JSON.parse(blobRaw) as { html?: string };
+      if (typeof parsed.html === "string" && parsed.html.trim()) {
+        return parsed.html;
+      }
+    } catch {
+      // fall through
+    }
+  }
+
+  if (!shouldReadFilesystemFallback()) return null;
+
+  try {
+    const raw = await readFile(guideHtmlFilePath(storageId, language), "utf-8");
+    const parsed = JSON.parse(raw) as { html?: string };
+    return typeof parsed.html === "string" && parsed.html.trim() ? parsed.html : null;
+  } catch {
+    return null;
   }
 }
 

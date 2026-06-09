@@ -9,6 +9,7 @@ import {
   buildDefaultCalculatorSeo,
   getCalculatorById,
   getCalculatorStorageId,
+  loadSavedCalculatorGuideHtml,
 } from "@/lib/calculator-seo";
 import { loadRawCalculatorGuideContent } from "@/lib/load-calculator-guide";
 import { getCalculatorMetaEntry } from "@/lib/calculator-meta-key";
@@ -205,8 +206,7 @@ export async function loadCalculatorGuideContent(
   const guide = await loadRawCalculatorGuideContent(calculatorId, language);
 
   if (language === "en") {
-    const seo = await loadCalculatorSeo(calculatorId, "en");
-    const html = seo?.guideHtml?.trim();
+    const html = (await loadSavedCalculatorGuideHtml(calculatorId, "en"))?.trim();
     if (html) {
       return {
         ...guide,
