@@ -16,6 +16,8 @@ import {
   getCalculatorAlternateLanguages,
   withSelfReferencingHreflang,
   SITE_ORIGIN,
+  canonicalFromRequestPathname,
+  normalizePathname,
 } from "@/lib/seo-hreflang";
 import { getLocaleFromLanguage } from "@/lib/metadata-utils";
 
@@ -50,27 +52,53 @@ function resolveCalculatorTitle(
   return buildDefaultCalculatorSeo(calculatorId)?.metaTitle?.trim();
 }
 
-/** Metadata for `<head>` — sync sources only so tags stay in head (no dynamic streaming). */
+/** Metadata for `<head>`. Admin SEO file (en) overrides meta/calculators.ts when saved. */
 export async function generateCalculatorMetadata(
   calculatorId: string
 ): Promise<Metadata> {
+  noStore();
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
   const pathname =
     headersList.get("x-pathname") || getCalculatorUrl(calculatorId, language);
-  const path = pathname.startsWith("/") ? pathname : `/${pathname}`;
+  const path = normalizePathname(pathname);
 
-  const canonicalUrl = getCanonicalUrl(calculatorId, language);
+  const slugPath = normalizePathname(getCalculatorUrl(calculatorId, language));
+  const canonicalUrl =
+    path === slugPath
+      ? canonicalFromRequestPathname(path)
+      : getCanonicalUrl(calculatorId, language);
   const meta = getCalculatorMetaEntry(calculatorId, language);
+  const savedSeo =
+    language === "en" ? await loadCalculatorSeo(calculatorId, "en") : null;
+
   const title =
+    savedSeo?.metaTitle?.trim() ||
     resolveCalculatorTitle(calculatorId, language) ||
     "Smart Calculator | Free Online Calculators";
   const description =
+    savedSeo?.metaDescription?.trim() ||
     resolveCalculatorDescription(calculatorId, language) ||
     "Free online calculator tools for finance, health, math, physics, and more.";
   const keywords =
+    savedSeo?.keywords?.trim() ||
     meta?.keywords?.trim() ||
     getCalculatorMetaEntry(calculatorId, "en")?.keywords?.trim();
+
+  const ogTitle = savedSeo?.openGraph?.title?.trim() || title;
+  const ogDescription = savedSeo?.openGraph?.description?.trim() || description;
+  const ogImagePath = savedSeo?.openGraph?.image?.trim() || "/og-image.png";
+  const ogImage = ogImagePath.startsWith("http")
+    ? ogImagePath
+    : `${SITE_ORIGIN}${ogImagePath.startsWith("/") ? ogImagePath : `/${ogImagePath}`}`;
+
+  const twitterTitle = savedSeo?.twitter?.title?.trim() || ogTitle;
+  const twitterDescription =
+    savedSeo?.twitter?.description?.trim() || ogDescription;
+  const twitterImagePath = savedSeo?.twitter?.image?.trim() || ogImagePath;
+  const twitterImage = twitterImagePath.startsWith("http")
+    ? twitterImagePath
+    : `${SITE_ORIGIN}${twitterImagePath.startsWith("/") ? twitterImagePath : `/${twitterImagePath}`}`;
 
   return {
     metadataBase: new URL(SITE_ORIGIN),
@@ -86,26 +114,26 @@ export async function generateCalculatorMetadata(
       ),
     },
     openGraph: {
-      title,
-      description,
+      title: ogTitle,
+      description: ogDescription,
       type: "website",
       url: canonicalUrl,
-      siteName: "Smart Calculator",
+      siteName: savedSeo?.openGraph?.siteName?.trim() || "Smart Calculator",
       locale: getLocaleFromLanguage(language),
       images: [
         {
-          url: DEFAULT_OG_IMAGE,
+          url: ogImage,
           width: 1200,
           height: 630,
-          alt: title,
+          alt: ogTitle,
         },
       ],
     },
     twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [DEFAULT_OG_IMAGE],
+      card: savedSeo?.twitter?.card === "summary" ? "summary" : "summary_large_image",
+      title: twitterTitle,
+      description: twitterDescription,
+      images: [twitterImage],
     },
     robots: { index: true, follow: true },
   };

@@ -32,8 +32,20 @@ export function isAdminCalculatorId(calculatorId: string): boolean {
   return calculators.some((c) => c.id === calculatorId);
 }
 
+/** Map layout/meta ids (e.g. `age-calculator`) to admin registry ids (e.g. `age`). */
+export function resolveRegistryCalculatorId(calculatorId: string): string {
+  if (isAdminCalculatorId(calculatorId)) {
+    return calculatorId;
+  }
+  const byStorage = calculators.find(
+    (c) => getCalculatorFileName(c.id) === calculatorId
+  );
+  return byStorage?.id ?? calculatorId;
+}
+
 export function getCalculatorById(calculatorId: string) {
-  return calculators.find((c) => c.id === calculatorId);
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  return calculators.find((c) => c.id === registryId);
 }
 
 export function getCalculatorAdminCategories(): { id: string; label: string }[] {
@@ -142,10 +154,11 @@ export async function loadCalculatorSeo(
   calculatorId: string,
   language: string = "en"
 ): Promise<CalculatorSeoData | null> {
-  if (!isAdminCalculatorId(calculatorId)) {
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  if (!isAdminCalculatorId(registryId)) {
     return null;
   }
-  const storageId = getCalculatorStorageId(calculatorId);
+  const storageId = getCalculatorStorageId(registryId);
   return readCalculatorSeoFile(storageId, language);
 }
 
