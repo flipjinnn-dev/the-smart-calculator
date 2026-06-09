@@ -18,24 +18,78 @@ const DEFAULT_BLOG_CATEGORIES = [
   { title: 'Other', slug: 'other' },
 ] as const;
 
-async function ensureDefaultBlogCategories() {
-  const existing = await client.fetch<
-    { _id: string; title: string; slug?: { current?: string } }[]
-  >(`*[_type == "category"] { _id, title, slug }`);
+type SanityCategory = {
+  _id: string;
+  title: string;
+  description?: string;
+  slug?: { current?: string };
+};
 
-  const existingSlugs = new Set(
-    existing.map((c) => (c.slug?.current || c.title).toLowerCase())
+function canonicalCategoryKey(title: string, slug?: string): string {
+  const titleKey = title.toLowerCase().trim();
+  const slugKey = (slug || "").toLowerCase().trim();
+
+  for (const cat of DEFAULT_BLOG_CATEGORIES) {
+    const defaultTitle = cat.title.toLowerCase();
+    if (titleKey === defaultTitle || slugKey === cat.slug) {
+      return cat.slug;
+    }
+  }
+
+  return slugKey || titleKey.replace(/\s+/g, "-");
+}
+
+function categoryAlreadyExists(
+  existing: SanityCategory[],
+  cat: (typeof DEFAULT_BLOG_CATEGORIES)[number]
+): boolean {
+  return existing.some((item) => {
+    const key = canonicalCategoryKey(item.title, item.slug?.current);
+    return key === cat.slug || item.title.toLowerCase().trim() === cat.title.toLowerCase();
+  });
+}
+
+function dedupeCategories(categories: SanityCategory[]): SanityCategory[] {
+  const seen = new Set<string>();
+  const deduped: SanityCategory[] = [];
+
+  for (const category of categories) {
+    const key = canonicalCategoryKey(category.title, category.slug?.current);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    deduped.push(category);
+  }
+
+  const order = new Map(
+    DEFAULT_BLOG_CATEGORIES.map((cat, index) => [cat.slug, index])
+  );
+
+  return deduped.sort((a, b) => {
+    const aOrder = order.get(canonicalCategoryKey(a.title, a.slug?.current)) ?? 999;
+    const bOrder = order.get(canonicalCategoryKey(b.title, b.slug?.current)) ?? 999;
+    if (aOrder !== bOrder) return aOrder - bOrder;
+    return a.title.localeCompare(b.title);
+  });
+}
+
+async function ensureDefaultBlogCategories() {
+  const existing = await client.fetch<SanityCategory[]>(
+    `*[_type == "category"] { _id, title, slug }`
   );
 
   for (const cat of DEFAULT_BLOG_CATEGORIES) {
-    if (existingSlugs.has(cat.slug)) continue;
+    if (categoryAlreadyExists(existing, cat)) continue;
     try {
-      await client.create({
-        _type: 'category',
+      const created = await client.create({
+        _type: "category",
         title: cat.title,
-        slug: { _type: 'slug', current: cat.slug },
+        slug: { _type: "slug", current: cat.slug },
       });
-      existingSlugs.add(cat.slug);
+      existing.push({
+        _id: created._id,
+        title: cat.title,
+        slug: { current: cat.slug },
+      });
     } catch (error) {
       console.error(`Failed to create blog category "${cat.title}":`, error);
     }
@@ -137,11 +191,13 @@ export async function getAllAuthors() {
 export async function getAllCategories() {
   await ensureDefaultBlogCategories();
 
-  const query = `*[_type == "category"] | order(title asc) {
+  const query = `*[_type == "category"] {
     _id,
     title,
-    description
+    description,
+    slug
   }`;
 
-  return await client.fetch(query);
+  const categories = await client.fetch<SanityCategory[]>(query);
+  return dedupeCategories(categories);
 }
