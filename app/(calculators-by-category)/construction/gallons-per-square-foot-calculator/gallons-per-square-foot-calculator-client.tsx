@@ -137,7 +137,7 @@ export default function GallonsPerSquareFootCalculatorClient({ content, guideCon
   };
   return <>
 
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
 
       {/* Main Content */}
       <main className="py-8 px-4 sm:px-6 lg:px-8 bg-white">
@@ -152,9 +152,9 @@ export default function GallonsPerSquareFootCalculatorClient({ content, guideCon
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             {/* Calculator Form */}
-            <div className="lg:col-span-2">
+            <div>
               <Card className="shadow-2xl border-0 bg-white p-0">
                 <CardHeader className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-t-lg border-b px-8 py-6">
                   <CardTitle className="flex items-center space-x-3 text-2xl">
@@ -308,7 +308,7 @@ export default function GallonsPerSquareFootCalculatorClient({ content, guideCon
             initialRatingTotal={0}
             initialRatingCount={0}
           />
-          <CalculatorGuide data={guideData} />
+          <CalculatorGuide data={guideData} layout="article" />
           <SimilarCalculators calculators={[{
             calculatorName: "Calculate Board Feet",
             calculatorHref: "/construction/board-foot-calculator",

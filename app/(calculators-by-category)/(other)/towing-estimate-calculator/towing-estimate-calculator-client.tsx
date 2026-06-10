@@ -526,7 +526,7 @@ const [vehicleType, setVehicleType] = useState("");
             initialRatingTotal={0}
             initialRatingCount={0}
           />
-          <CalculatorGuide data={guideData} />
+          <CalculatorGuide data={guideData} layout="article" />
           </div>
         )}
 

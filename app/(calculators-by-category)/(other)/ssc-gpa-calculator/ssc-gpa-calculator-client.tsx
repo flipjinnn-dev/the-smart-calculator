@@ -10,6 +10,7 @@ import { GraduationCap, Calculator, RotateCcw, BookOpen, TrendingUp, Award, Aler
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import SimilarCalculators from "@/components/similar-calculators";
+import CalculatorGuide, { type CalculatorGuideData } from "@/components/calculator-guide";
 import { RatingProfileSection } from '@/components/rating-profile-section';
 
 interface Subject {
@@ -41,7 +42,17 @@ const MAIN_SUBJECTS = [
   "Biology"
 ];
 
-export default function SscGpaCalculatorClient() {
+interface SscGpaCalculatorClientProps {
+  content?: any;
+  guideContent?: CalculatorGuideData;
+}
+
+export default function SscGpaCalculatorClient({
+  content,
+  guideContent,
+}: SscGpaCalculatorClientProps) {
+  const guideData = guideContent || { color: "blue", sections: [], faq: [] };
+  const contentData = content || {};
   const [inputMode, setInputMode] = useState<"marks" | "grades">("marks");
   const [subjects, setSubjects] = useState<Subject[]>(
     MAIN_SUBJECTS.map(name => ({
@@ -178,22 +189,29 @@ export default function SscGpaCalculatorClient() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
-      <div className="container mx-auto px-4 py-8 max-w-7xl">
-        <div className="text-center mb-8">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <GraduationCap className="w-12 h-12 text-blue-600" />
-            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              SSC GPA Calculator
-            </h1>
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <main className="py-8 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+        <header className="text-center mb-10">
+          <div className="flex justify-center mb-4">
+            <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shadow-lg">
+              <GraduationCap className="w-8 h-8 text-white" />
+            </div>
           </div>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Calculate your Secondary School Certificate GPA instantly using the official Bangladesh grading system
+          <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+            {contentData.pageTitle || "SSC GPA Calculator"}
+          </h1>
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            {contentData.pageDescriptionBefore ?? ""}
+            {contentData.pageDescriptionBold ? (
+              <strong className="font-semibold text-gray-900">{contentData.pageDescriptionBold}</strong>
+            ) : null}
+            {contentData.pageDescriptionAfter ?? contentData.pageDescription ?? "Calculate SSC GPA using the official Bangladesh grading scale with marks or letter grades."}
           </p>
-        </div>
+        </header>
 
-        <div className="grid lg:grid-cols-3 gap-8 mb-12">
-          <div className="lg:col-span-2">
+        <div className="grid lg:grid-cols-2 gap-8 items-start mb-12">
+          <div>
             <Card className="shadow-xl border-2 pt-2 border-blue-100">
               <CardHeader className="bg-gradient-to-r py-4 from-blue-600 to-indigo-600 text-white">
                 <CardTitle className="flex items-center gap-2 text-2xl">
@@ -454,294 +472,9 @@ export default function SscGpaCalculatorClient() {
           </Card>
         )}
 
-        <Card className="shadow-xl mb-12 pt-2">
-          <CardHeader className="bg-gradient-to-r py-4 from-blue-600 to-indigo-600 text-white">
-            <CardTitle className="text-2xl">SSC GPA Calculator – Complete Guide</CardTitle>
-          </CardHeader>
-          <CardContent className="p-8 prose max-w-none">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">What Is SSC and Why GPA Matters?</h2>
-            <p className="text-gray-700 leading-relaxed mb-6">
-              The <strong>Secondary School Certificate (SSC)</strong> is a public examination conducted in several countries such as Bangladesh, India, and Pakistan. In Bangladesh, SSC exams are administered by education boards under the Ministry of Education.
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-6">
-              Your SSC GPA plays a critical role in:
-            </p>
-            <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
-              <li>College admissions</li>
-              <li>Scholarship eligibility</li>
-              <li>Academic stream selection (Science, Commerce, Humanities)</li>
-              <li>Merit-based opportunities</li>
-            </ul>
-            <p className="text-gray-700 leading-relaxed mb-8">
-              Understanding the SSC GPA calculation system ensures transparency and accuracy in evaluating your academic performance.
-            </p>
+          <CalculatorGuide data={guideData} layout="article" />
 
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">How to Calculate SSC GPA (Step-by-Step)</h2>
-            
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-6">
-              <h3 className="text-xl font-bold text-blue-900 mb-3">Step 1: Convert Marks to Grade Points</h3>
-              <p className="text-gray-700">Use the official grading table to convert each subject's marks into grade points.</p>
-            </div>
-
-            <div className="bg-indigo-50 border-l-4 border-indigo-600 p-6 mb-6">
-              <h3 className="text-xl font-bold text-indigo-900 mb-3">Step 2: Add All Grade Points</h3>
-              <p className="text-gray-700">Sum up the grade points of all 9 mandatory subjects.</p>
-            </div>
-
-            <div className="bg-purple-50 border-l-4 border-purple-600 p-6 mb-6">
-              <h3 className="text-xl font-bold text-purple-900 mb-3">Step 3: Adjust Optional Subject</h3>
-              <p className="text-gray-700">If you have an optional subject, subtract 2 from its grade point (minimum 0) and add to total.</p>
-            </div>
-
-            <div className="bg-green-50 border-l-4 border-green-600 p-6 mb-8">
-              <h3 className="text-xl font-bold text-green-900 mb-3">Step 4: Divide by 9</h3>
-              <p className="text-gray-700 mb-4">Divide the total points by 9 (number of main subjects) to get your final GPA.</p>
-              <div className="bg-white p-4 rounded-lg border-2 border-gray-300 text-center">
-                <div className="text-2xl font-bold text-gray-800">
-                  GPA = (Total Grade Points + Optional Bonus) ÷ 9
-                </div>
-              </div>
-            </div>
-
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Example Calculation</h2>
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-xl border-2 border-blue-200 mb-8">
-              <h3 className="text-xl font-bold mb-4">Sample Student Results:</h3>
-              <div className="grid md:grid-cols-2 gap-4 mb-4">
-                <div className="bg-white p-4 rounded-lg">
-                  <div className="font-semibold text-gray-700 mb-2">Main Subjects:</div>
-                  <ul className="space-y-1 text-sm">
-                    <li>Bangla: A (4.0)</li>
-                    <li>English: A- (3.5)</li>
-                    <li>Math: A+ (5.0)</li>
-                    <li>Religion: A (4.0)</li>
-                    <li>IT: A (4.0)</li>
-                    <li>BGS: B (3.0)</li>
-                    <li>Physics: A- (3.5)</li>
-                    <li>Chemistry: B (3.0)</li>
-                    <li>Biology: A (4.0)</li>
-                  </ul>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <div className="font-semibold text-gray-700 mb-2">Optional Subject:</div>
-                  <p className="text-sm">Agriculture: A+ (5.0)</p>
-                  <p className="text-sm mt-2">Adjusted: 5.0 - 2.0 = <strong>3.0</strong></p>
-                </div>
-              </div>
-              <div className="bg-white p-4 rounded-lg">
-                <p className="font-semibold mb-2">Calculation:</p>
-                <p className="text-sm">Total Main Points: 4.0 + 3.5 + 5.0 + 4.0 + 4.0 + 3.0 + 3.5 + 3.0 + 4.0 = <strong>34.0</strong></p>
-                <p className="text-sm">Optional Bonus: <strong>3.0</strong></p>
-                <p className="text-sm">Total: 34.0 + 3.0 = <strong>37.0</strong></p>
-                <p className="text-sm mt-2">GPA = 37.0 ÷ 9 = <strong className="text-2xl text-blue-600">4.11</strong></p>
-              </div>
-            </div>
-
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">SSC GPA to Percentage Calculator</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Many colleges ask for percentage instead of GPA. The conversion formula is simple:
-            </p>
-            <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-xl border-2 border-purple-300 mb-6 text-center">
-              <div className="text-3xl font-bold text-purple-800 mb-2">
-                Percentage = GPA × 20
-              </div>
-              <p className="text-gray-600 mt-3">Example: 4.60 GPA × 20 = <strong>92%</strong></p>
-              <p className="text-sm text-gray-500 mt-2">This formula is widely used in Bangladesh SSC systems.</p>
-            </div>
-
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Important Rules to Remember</h2>
-            <div className="grid md:grid-cols-2 gap-4 mb-8">
-              <Alert className="border-red-300 bg-red-50">
-                <AlertCircle className="h-5 w-5 text-red-600" />
-                <AlertDescription className="text-red-800">
-                  <strong>F Grade Rule:</strong> If you get F in any mandatory subject, your final GPA = 0.00
-                </AlertDescription>
-              </Alert>
-              <Alert className="border-blue-300 bg-blue-50">
-                <AlertCircle className="h-5 w-5 text-blue-600" />
-                <AlertDescription className="text-blue-800">
-                  <strong>Optional Subject:</strong> Maximum contribution is grade point minus 2 (minimum 0)
-                </AlertDescription>
-              </Alert>
-              <Alert className="border-green-300 bg-green-50">
-                <AlertCircle className="h-5 w-5 text-green-600" />
-                <AlertDescription className="text-green-800">
-                  <strong>Division Factor:</strong> Always divide by 9 main subjects, not total subjects
-                </AlertDescription>
-              </Alert>
-              <Alert className="border-purple-300 bg-purple-50">
-                <AlertCircle className="h-5 w-5 text-purple-600" />
-                <AlertDescription className="text-purple-800">
-                  <strong>GPA Scale:</strong> Bangladesh SSC uses 5.00 scale (not 4.0 like some systems)
-                </AlertDescription>
-              </Alert>
-            </div>
-
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">GPA Score Interpretation</h2>
-            <div className="overflow-x-auto mb-8">
-              <table className="w-full border-collapse border-2 border-gray-300">
-                <thead className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
-                  <tr>
-                    <th className="border border-gray-300 p-3 text-left">GPA Range</th>
-                    <th className="border border-gray-300 p-3 text-left">Meaning</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="bg-green-50">
-                    <td className="border border-gray-300 p-3 font-bold">5.00</td>
-                    <td className="border border-gray-300 p-3">Excellent (Top Score)</td>
-                  </tr>
-                  <tr className="bg-blue-50">
-                    <td className="border border-gray-300 p-3 font-bold">4.00–4.99</td>
-                    <td className="border border-gray-300 p-3">Very Good</td>
-                  </tr>
-                  <tr className="bg-indigo-50">
-                    <td className="border border-gray-300 p-3 font-bold">3.50–3.99</td>
-                    <td className="border border-gray-300 p-3">Good</td>
-                  </tr>
-                  <tr className="bg-purple-50">
-                    <td className="border border-gray-300 p-3 font-bold">3.00–3.49</td>
-                    <td className="border border-gray-300 p-3">Average</td>
-                  </tr>
-                  <tr className="bg-yellow-50">
-                    <td className="border border-gray-300 p-3 font-bold">2.00–2.99</td>
-                    <td className="border border-gray-300 p-3">Passed</td>
-                  </tr>
-                  <tr className="bg-orange-50">
-                    <td className="border border-gray-300 p-3 font-bold">1.00–1.99</td>
-                    <td className="border border-gray-300 p-3">Needs Improvement</td>
-                  </tr>
-                  <tr className="bg-red-50">
-                    <td className="border border-gray-300 p-3 font-bold">0.00</td>
-                    <td className="border border-gray-300 p-3">Failed</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Middle School GPA vs SSC GPA</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Many students confuse middle school GPA with SSC GPA. Here's the key difference:
-            </p>
-            <div className="overflow-x-auto mb-8">
-              <table className="w-full border-collapse border-2 border-gray-300">
-                <thead className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
-                  <tr>
-                    <th className="border border-gray-300 p-3 text-left">Feature</th>
-                    <th className="border border-gray-300 p-3 text-left">Middle School GPA</th>
-                    <th className="border border-gray-300 p-3 text-left">SSC GPA</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-300 p-3 font-semibold">Scale</td>
-                    <td className="border border-gray-300 p-3">Often 4.0</td>
-                    <td className="border border-gray-300 p-3">Often 5.0</td>
-                  </tr>
-                  <tr className="bg-white">
-                    <td className="border border-gray-300 p-3 font-semibold">Credits</td>
-                    <td className="border border-gray-300 p-3">Sometimes none</td>
-                    <td className="border border-gray-300 p-3">Usually fixed subjects</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-300 p-3 font-semibold">Weighting</td>
-                    <td className="border border-gray-300 p-3">Rare</td>
-                    <td className="border border-gray-300 p-3">Optional subject bonus</td>
-                  </tr>
-                  <tr className="bg-white">
-                    <td className="border border-gray-300 p-3 font-semibold">National Exam?</td>
-                    <td className="border border-gray-300 p-3">No</td>
-                    <td className="border border-gray-300 p-3">Yes</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-gray-700 leading-relaxed mb-8">
-              A <strong>middle school GPA calculator</strong> typically averages grades without national board rules, while SSC follows strict examination board regulations.
-            </p>
-
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Expert Tips for Improving SSC GPA</h2>
-            <div className="grid md:grid-cols-2 gap-4 mb-8">
-              <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
-                <h3 className="font-bold text-blue-900 mb-2">✓ Focus on high-credit subjects</h3>
-                <p className="text-sm text-gray-700">Prioritize subjects that carry more weight in your board</p>
-              </div>
-              <div className="bg-green-50 p-4 rounded-lg border-l-4 border-green-600">
-                <h3 className="font-bold text-green-900 mb-2">✓ Aim for 80+ to secure A+</h3>
-                <p className="text-sm text-gray-700">Getting A+ (5.0) in multiple subjects significantly boosts GPA</p>
-              </div>
-              <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-600">
-                <h3 className="font-bold text-purple-900 mb-2">✓ Improve weakest subject first</h3>
-                <p className="text-sm text-gray-700">Avoid F grades at all costs - they result in 0.00 GPA</p>
-              </div>
-              <div className="bg-indigo-50 p-4 rounded-lg border-l-4 border-indigo-600">
-                <h3 className="font-bold text-indigo-900 mb-2">✓ Track expected GPA before exams</h3>
-                <p className="text-sm text-gray-700">Use this calculator to plan your target scores</p>
-              </div>
-            </div>
-
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-            
-            <div className="space-y-4 mb-8">
-              <details className="bg-gray-50 p-4 rounded-lg border border-gray-300">
-                <summary className="font-bold text-gray-900 cursor-pointer">What is an SSC GPA calculator?</summary>
-                <p className="mt-3 text-gray-700">An SSC GPA calculator is a digital or manual tool used to compute GPA based on SSC grading rules, converting marks to grade points and calculating the final GPA on a 5.00 scale.</p>
-              </details>
-
-              <details className="bg-gray-50 p-4 rounded-lg border border-gray-300">
-                <summary className="font-bold text-gray-900 cursor-pointer">How to calculate SSC GPA manually?</summary>
-                <p className="mt-3 text-gray-700">Convert marks to grade points using the grading scale, sum them, adjust optional subject points (minus 2), then divide by 9 main subjects.</p>
-              </details>
-
-              <details className="bg-gray-50 p-4 rounded-lg border border-gray-300">
-                <summary className="font-bold text-gray-900 cursor-pointer">What is the SSC GPA calculation system?</summary>
-                <p className="mt-3 text-gray-700">Most SSC systems use a 5.00 GPA scale with grade points assigned based on percentage ranges: A+ (80-100) = 5.0, A (70-79) = 4.0, A- (60-69) = 3.5, B (50-59) = 3.0, C (40-49) = 2.0, D (33-39) = 1.0, F (0-32) = 0.0.</p>
-              </details>
-
-              <details className="bg-gray-50 p-4 rounded-lg border border-gray-300">
-                <summary className="font-bold text-gray-900 cursor-pointer">Is SSC GPA different from middle school GPA?</summary>
-                <p className="mt-3 text-gray-700">Yes. A middle school GPA calculator typically uses a 4.0 scale and may not include credits, while SSC follows national exam rules with a 5.00 scale and specific subject requirements.</p>
-              </details>
-
-              <details className="bg-gray-50 p-4 rounded-lg border border-gray-300">
-                <summary className="font-bold text-gray-900 cursor-pointer">How does an SSC GPA to percentage calculator work?</summary>
-                <p className="mt-3 text-gray-700">It multiplies GPA by 20 (in Bangladesh format) to convert GPA into percentage. For example, 4.60 GPA × 20 = 92%.</p>
-              </details>
-
-              <details className="bg-gray-50 p-4 rounded-lg border border-gray-300">
-                <summary className="font-bold text-gray-900 cursor-pointer">Can I calculate SSC GPA with marks?</summary>
-                <p className="mt-3 text-gray-700">Yes. Use an SSC GPA calculator with marks to automatically convert marks into grade points and calculate your final GPA instantly.</p>
-              </details>
-
-              <details className="bg-gray-50 p-4 rounded-lg border border-gray-300">
-                <summary className="font-bold text-gray-900 cursor-pointer">What is the highest SSC GPA?</summary>
-                <p className="mt-3 text-gray-700">In Bangladesh SSC system, the highest GPA is 5.00, achieved by scoring A+ (80-100%) in all subjects.</p>
-              </details>
-
-              <details className="bg-gray-50 p-4 rounded-lg border border-gray-300">
-                <summary className="font-bold text-gray-900 cursor-pointer">What happens if I get F in one subject?</summary>
-                <p className="mt-3 text-gray-700">If you receive F grade in any mandatory subject, your overall SSC GPA becomes 0.00 regardless of other grades.</p>
-              </details>
-            </div>
-
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Who Should Use an SSC GPA Calculator?</h2>
-            <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-              <li><strong>SSC students</strong> - Track academic performance and plan target scores</li>
-              <li><strong>Parents</strong> - Monitor children's academic progress</li>
-              <li><strong>Teachers</strong> - Evaluate student performance quickly</li>
-              <li><strong>Academic counselors</strong> - Guide students on college admissions</li>
-              <li><strong>Admission consultants</strong> - Assess eligibility for programs</li>
-            </ul>
-
-            <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-8 rounded-xl">
-              <h2 className="text-3xl font-bold mb-4">Final Summary</h2>
-              <p className="text-lg leading-relaxed">
-                An <strong>SSC GPA calculator</strong> is an essential academic tool for accurately computing GPA under the official SSC grading framework. Whether you need an <strong>SSC GPA calculator online</strong>, an <strong>SSC GPA to percentage calculator</strong>, an <strong>SSC GPA to marks calculator</strong>, or want to understand <strong>how to calculate SSC GPA</strong> manually, mastering the <strong>SSC GPA calculation system</strong> ensures better academic planning and result analysis.
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-
-        <RatingProfileSection
+                    <RatingProfileSection
           entityId="ssc-gpa-calculator"
           entityType="calculator"
           creatorSlug="aiden-asher"
@@ -759,7 +492,8 @@ export default function SscGpaCalculatorClient() {
           color="blue"
           title="Similar Calculators"
         />
-      </div>
+        </div>
+      </main>
     </div>
   );
 }

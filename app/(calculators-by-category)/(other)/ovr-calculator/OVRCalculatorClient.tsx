@@ -9,6 +9,9 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import SimilarCalculators from "@/components/similar-calculators"
+import CalculatorGuide, { type CalculatorGuideData } from "@/components/calculator-guide"
+import { RatingProfileSection } from "@/components/rating-profile-section"
 
 type PlayerPosition = "ST" | "CF" | "LW" | "RW" | "CAM" | "CM" | "CDM" | "LB" | "RB" | "CB" | "GK"
 
@@ -50,7 +53,17 @@ interface TeamPlayer {
   name: string
 }
 
-export default function OVRCalculatorClient() {
+interface OVRCalculatorClientProps {
+  content?: any
+  guideContent?: CalculatorGuideData
+}
+
+export default function OVRCalculatorClient({
+  content,
+  guideContent,
+}: OVRCalculatorClientProps) {
+  const guideData = guideContent || { color: "blue", sections: [], faq: [] }
+  const contentData = content || {}
   const [position, setPosition] = useState<PlayerPosition>("ST")
   const [stats, setStats] = useState<PlayerStats>({
     pace: 85,
@@ -64,8 +77,6 @@ export default function OVRCalculatorClient() {
   const [skillBoost, setSkillBoost] = useState<number>(0)
   const [ovr, setOvr] = useState<number | null>(null)
   const [showFormula, setShowFormula] = useState(false)
-  const contentSectionRef = useRef<HTMLDivElement>(null)
-
   const [teamPlayers, setTeamPlayers] = useState<TeamPlayer[]>([
     { id: 1, ovr: 0, name: "Player 1" },
     { id: 2, ovr: 0, name: "Player 2" },
@@ -163,45 +174,26 @@ export default function OVRCalculatorClient() {
   }
 
   return (
-    <div className="container mx-auto p-4 max-w-7xl">
-      <div className="text-center mb-12">
-        <div className="flex items-center justify-center gap-3 mb-4">
-          <div className="p-4 bg-gradient-to-br from-blue-600 to-purple-700 rounded-2xl shadow-lg">
-            <Trophy className="h-10 w-10 text-white" />
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <main className="py-8 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+      <header className="text-center mb-10">
+        <div className="flex justify-center mb-4">
+          <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shadow-lg">
+            <Trophy className="h-8 w-8 text-white" />
           </div>
-          <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            OVR Calculator
-          </h1>
         </div>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-          Calculate Overall Rating (OVR) for FC & FIFA players using position-based weighted formulas. Fast, accurate, and easy to use.
+        <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+          {contentData.pageTitle || "OVR Calculator"}
+        </h1>
+        <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          {contentData.pageDescriptionBefore ?? ""}
+          {contentData.pageDescriptionBold ? (
+            <strong className="font-semibold text-gray-900">{contentData.pageDescriptionBold}</strong>
+          ) : null}
+          {contentData.pageDescriptionAfter ?? contentData.pageDescription ?? "Calculate Overall Rating (OVR) for FC and FIFA players using position-based weighted stats."}
         </p>
-      </div>
-
-      <section className="mb-12 bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 border border-blue-200">
-        <p className="text-lg text-gray-700 leading-relaxed mb-4">
-          An <strong>OVR calculator</strong> helps you calculate a player's Overall Rating based on their stats and position. Different positions use different stat weights to determine the final OVR.
-        </p>
-        <div className="bg-white p-6 rounded-xl border-2 border-blue-500 mb-4">
-          <p className="text-center text-2xl font-semibold text-gray-900">
-            OVR = <span className="text-blue-600">(Stats × Position Weights)</span> + Boosts
-          </p>
-        </div>
-        <div className="grid md:grid-cols-3 gap-4 text-sm text-gray-700">
-          <div className="bg-white p-4 rounded-lg">
-            <p className="font-semibold text-blue-600 mb-1">Position Weights</p>
-            <p>Each position prioritizes different stats</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg">
-            <p className="font-semibold text-blue-600 mb-1">Player Stats</p>
-            <p>Pace, Shooting, Passing, Dribbling, Defending, Physical</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg">
-            <p className="font-semibold text-blue-600 mb-1">FC Mobile Boosts</p>
-            <p>Rank and Skill Boosts add to final OVR</p>
-          </div>
-        </div>
-      </section>
+      </header>
 
       <div className="grid lg:grid-cols-2 gap-8 items-start mb-12">
         <Card className="shadow-2xl border-2 pt-0 border-blue-100 hover:shadow-blue-100 transition-shadow duration-300">
@@ -477,140 +469,27 @@ export default function OVRCalculatorClient() {
         </div>
       </div>
 
-      <div ref={contentSectionRef} className="bg-white rounded-2xl shadow-xl p-8 space-y-8">
-        <div className="text-center mb-8">
-          <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-            OVR Calculator – Accurate Overall Rating Tools for FC & FIFA Players
-          </h2>
-          <p className="text-gray-600 text-lg">Complete guide to calculating player ratings in EA Sports FC and FIFA Mobile</p>
-        </div>
+      <CalculatorGuide data={guideData} layout="article" />
 
-        <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-xl border-2 border-blue-200">
-          <p className="text-lg text-gray-700 leading-relaxed">
-            An <strong>OVR calculator</strong> is a tool that helps you calculate a player's or team's Overall Rating (OVR) based on in-game stats such as pace, shooting, passing, defending, physical, and skill boosts. Whether you need an <strong>fc mobile ovr calculator</strong>, an <strong>ovr calculator fifa mobile</strong>, or an advanced <strong>ovr calculator ea fc</strong>, these tools estimate ratings using weighted formulas similar to those used in EA Sports FC Mobile and older FIFA Mobile systems.
-          </p>
-          <p className="text-lg text-gray-700 leading-relaxed mt-3">
-            If you want to know <strong>how to calculate OVR in FIFA</strong>, compare upgrades, or predict team rating changes, this complete guide explains everything with formulas, examples, FAQs, and expert tips.
-          </p>
-        </div>
+      <RatingProfileSection
+        entityId="ovr-calculator"
+        entityType="calculator"
+        creatorSlug="aiden-asher"
+        initialRatingTotal={0}
+        initialRatingCount={0}
+      />
 
-        <div>
-          <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
-            <Info className="w-6 h-6 text-purple-600" />
-            What Is an OVR Calculator?
-          </h3>
-          <p className="text-gray-700 leading-relaxed">
-            An <strong>OVR calculator online</strong> is a digital tool that estimates a player's Overall Rating (OVR) using individual attribute stats. OVR (Overall Rating) represents a player's total quality in football simulation games such as:
-          </p>
-          <ul className="list-disc list-inside ml-4 mt-3 space-y-1 text-gray-700">
-            <li>EA Sports FC</li>
-            <li>EA Sports FC Mobile</li>
-            <li>FIFA Mobile</li>
-          </ul>
-          <p className="text-gray-700 leading-relaxed mt-3">
-            In competitive modes like Division Rivals, H2H, and VS Attack, even +1 OVR can significantly impact matchmaking and gameplay performance.
-          </p>
+      <SimilarCalculators
+        calculators={[{
+          calculatorName: "Age Calculator",
+          calculatorHref: "/age-calculator",
+          calculatorDescription: "Calculate age in years, months, and days from a birth date"
+        }]}
+        color="blue"
+        title="Related Other Calculators"
+      />
         </div>
-
-        <div>
-          <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
-            <Trophy className="w-6 h-6 text-yellow-600" />
-            Why OVR Matters in FC & FIFA Games
-          </h3>
-          <p className="text-gray-700 leading-relaxed mb-3">OVR determines:</p>
-          <ul className="list-disc list-inside ml-4 space-y-1 text-gray-700">
-            <li>Matchmaking strength</li>
-            <li>Team chemistry performance</li>
-            <li>AI behavior</li>
-            <li>Market value of cards</li>
-            <li>Squad Building Challenge (SBC) eligibility</li>
-          </ul>
-        </div>
-
-        <div>
-          <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
-            <Calculator className="w-6 h-6 text-blue-600" />
-            How to Calculate OVR in FIFA (Step-by-Step)
-          </h3>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Many players ask: <strong>how to calculate OVR in FIFA</strong> manually?
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            While EA doesn't publicly reveal full formulas, OVR is calculated using weighted averages of key stats based on position.
-          </p>
-
-          <div className="bg-blue-50 p-5 rounded-xl border-2 border-blue-200 mb-4">
-            <h4 className="font-bold text-blue-900 mb-3">Example: Striker (ST) OVR Formula Approximation</h4>
-            <p className="text-gray-700 mb-2">Forwards rely heavily on:</p>
-            <ul className="list-disc list-inside ml-4 space-y-1 text-gray-700 mb-3">
-              <li>Pace</li>
-              <li>Shooting</li>
-              <li>Dribbling</li>
-              <li>Physical</li>
-            </ul>
-            <div className="bg-white p-4 rounded-lg font-mono text-sm">
-              <p className="text-gray-800">
-                OVR = (Pace × 0.25) + (Shooting × 0.30) + (Dribbling × 0.20)
-              </p>
-              <p className="text-gray-800 ml-12">
-                + (Passing × 0.10) + (Physical × 0.10) + (Defending × 0.05)
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
-            <Info className="w-6 h-6 text-purple-600" />
-            FAQs – OVR Calculator Guide
-          </h3>
-          <div className="space-y-4">
-            <div className="bg-gray-50 p-5 rounded-xl border-2 border-gray-200">
-              <h4 className="font-bold text-gray-900 mb-2">1. What is an OVR calculator?</h4>
-              <p className="text-gray-700">
-                An OVR calculator estimates player overall rating based on weighted stats in FC or FIFA games.
-              </p>
-            </div>
-            <div className="bg-gray-50 p-5 rounded-xl border-2 border-gray-200">
-              <h4 className="font-bold text-gray-900 mb-2">2. How to calculate OVR in FIFA manually?</h4>
-              <p className="text-gray-700">
-                Use weighted averages based on position. Shooting and Pace dominate attackers; Defending and Physical dominate defenders.
-              </p>
-            </div>
-            <div className="bg-gray-50 p-5 rounded-xl border-2 border-gray-200">
-              <h4 className="font-bold text-gray-900 mb-2">3. Is there an accurate FC Mobile OVR calculator?</h4>
-              <p className="text-gray-700">
-                Yes, advanced tools simulate rank, skill boost, and training modifiers.
-              </p>
-            </div>
-            <div className="bg-gray-50 p-5 rounded-xl border-2 border-gray-200">
-              <h4 className="font-bold text-gray-900 mb-2">4. How does team OVR calculator in FC Mobile work?</h4>
-              <p className="text-gray-700">
-                It averages starting XI OVR and applies rounding rules with boost modifiers.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-6 rounded-xl border-2 border-purple-200">
-          <h3 className="text-2xl font-bold text-gray-800 mb-4">Final Summary</h3>
-          <p className="text-gray-700 leading-relaxed mb-3">
-            An <strong>OVR calculator</strong> is essential for serious players in FC and FIFA games. Whether you use an <strong>ovr calculator fc mobile</strong>, <strong>ovr calculator fifa mobile</strong>, <strong>ovr calculator ea fc</strong>, or <strong>ovr calculator renderz</strong>, the key is understanding that OVR is a weighted calculation — not a simple average.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-3">
-            If you want to know <strong>how to calculate OVR in FIFA</strong>, remember:
-          </p>
-          <ul className="list-disc list-inside ml-4 space-y-1 text-gray-700 mb-3">
-            <li>Position determines weight</li>
-            <li>Key stats dominate rating</li>
-            <li>Rank & skill boosts impact FC Mobile</li>
-            <li>Team OVR differs from individual OVR</li>
-          </ul>
-          <p className="text-gray-700 leading-relaxed">
-            Using a reliable <strong>ovr calculator online</strong> gives you a competitive edge in squad building, trading, and ranked gameplay.
-          </p>
-        </div>
-      </div>
+      </main>
     </div>
   )
 }

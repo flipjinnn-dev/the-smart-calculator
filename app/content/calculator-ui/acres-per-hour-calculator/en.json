@@ -1,4 +1,8 @@
 {
+  "pageTitle": "Acres Per Hour Calculator",
+  "pageDescriptionBefore": "Estimate field coverage for mowing, planting, and spraying using ",
+  "pageDescriptionBold": "width, speed, and field efficiency",
+  "pageDescriptionAfter": " — plan jobs and equipment productivity in seconds.",
   "title": "Acres Per Hour Calculator for Mowing, Planting & Farm Equipment",
   "description": "Calculate acres per hour for mowing, planting, spraying, and tillage using width, speed, and efficiency. Fast, accurate results.",
   "input_title": "Equipment & Field Data",

@@ -1,5 +1,8 @@
 {
   "pageTitle": "Time Calculator",
+  "pageDescriptionBefore": "Add, subtract, or compare durations in ",
+  "pageDescriptionBold": "days, hours, minutes, and seconds",
+  "pageDescriptionAfter": " — enter two time values, pick an operation, and get instant results.",
   "pageDescription": "A time calculator helps you add, subtract, or find the difference between two times in hours, minutes, and seconds. Enter your start and end times, choose your operation, and get an instant result no manual math needed.",
   "operation_2": "Operation",
   "addition_3": "Addition",

@@ -140,7 +140,7 @@ const resultsRef = useRef<HTMLDivElement>(null);
   };
   return <>
 
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-slate-50">
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
 
       {/* Main Content */}
       <main className="py-8 px-4 sm:px-6 lg:px-8">
@@ -151,13 +151,19 @@ const resultsRef = useRef<HTMLDivElement>(null);
                 <Clock className="w-8 h-8 text-white" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{contentData.pageTitle}</h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
+            <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">{contentData.pageTitle}</h1>
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              {contentData.pageDescriptionBefore ?? ""}
+              {contentData.pageDescriptionBold ? (
+                <strong className="font-semibold text-gray-900">{contentData.pageDescriptionBold}</strong>
+              ) : null}
+              {contentData.pageDescriptionAfter ?? contentData.pageDescription ?? ""}
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             {/* Calculator Form (left) */}
-            <div className="lg:col-span-2">
+            <div>
               <Card className="shadow-2xl border-0 bg-white p-0">
                 <CardHeader className="bg-gradient-to-r from-gray-50 to-slate-50 rounded-t-lg border-b px-8 py-6">
                   <CardTitle className="flex items-center space-x-3 text-2xl">
@@ -404,52 +410,6 @@ const resultsRef = useRef<HTMLDivElement>(null);
             </Card>
           </div>}
 
-          <div className="mt-12">
-            <Card className="shadow-2xl border-0 bg-gradient-to-br from-gray-50 to-slate-100 p-8">
-              <CardHeader className="w-full flex flex-row items-center justify-start mb-4">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-r from-gray-600 to-slate-700 flex items-center justify-center mr-3 shadow-lg">
-                  <Clock className="w-6 h-6 text-white" />
-                </div>
-                <CardTitle className="text-2xl font-bold text-gray-700 tracking-tight">{contentData.understanding_time_calculations_51}</CardTitle>
-              </CardHeader>
-              <CardContent className="w-full">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-700 mb-3">{contentData.how_it_works_52}</h3>
-                    <p className="text-gray-700 mb-4">{contentData.time_calculations_involve_converting_time_units_to_53}</p>
-                    <h3 className="text-lg font-semibold text-gray-700 mb-3">{contentData.conversion_factors_54}</h3>
-                    <ul className="list-disc list-inside text-gray-700 space-y-2">
-                      <li>{contentData.k_1_day_86400_seconds_55}</li>
-                      <li>{contentData.k_1_hour_3600_seconds_56}</li>
-                      <li>{contentData.k_1_minute_60_seconds_57}</li>
-                      <li>{contentData.k_1_second_1_second_58}</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-700 mb-3">{contentData.sample_calculation_59}</h3>
-                    <div className="bg-white p-4 rounded-lg border border-gray-200 mb-4">
-                      <p className="text-gray-700 mb-2">
-                        <strong>{contentData.example_60}</strong>{contentData.addition_61}</p>
-                      <p className="text-gray-700">{contentData.time_a_1d_2h_30m_20s_62}</p>
-                      <p className="text-gray-700">{contentData.time_b_0d_5h_45m_40s_63}</p>
-                    </div>
-                    <div className="bg-white p-4 rounded-lg border border-gray-200">
-                      <p className="text-gray-700 mb-2">
-                        <strong>{contentData.steps_64}</strong>
-                      </p>
-                      <p className="text-gray-700">{contentData.a_95420_seconds_65}</p>
-                      <p className="text-gray-700">{contentData.b_20740_seconds_66}</p>
-                      <p className="text-gray-700">{contentData.sum_116160_seconds_67}</p>
-                      <p className="text-gray-700 font-semibold">{contentData.result_1d_8h_16m_0s_68}</p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-        
-          {/* Rating and Profile Section */}
           <RatingProfileSection
             entityId="time-calculator"
             entityType="calculator"
@@ -457,8 +417,8 @@ const resultsRef = useRef<HTMLDivElement>(null);
             initialRatingTotal={0}
             initialRatingCount={0}
           />
-          <CalculatorGuide data={guideData} />
-        <SimilarCalculators calculators={[{
+          <CalculatorGuide data={guideData} layout="article" />
+          <SimilarCalculators calculators={[{
           calculatorName: "Age Calculator",
           calculatorHref: "/age-calculator",
           calculatorDescription: "Calculate age in years, months, and days based on birth date with precise calculations including leap years"
@@ -466,8 +426,8 @@ const resultsRef = useRef<HTMLDivElement>(null);
         ]}
           color="gray"
           title="Related Other Calculators" />
+        </div>
       </main>
-
     </div>
   </>;
 }

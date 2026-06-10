@@ -128,9 +128,9 @@ const [result, setResult] = useState<any>(null);
               <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{contentData.pageDescription}</p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
               {/* Calculator Form (left) */}
-              <div className="lg:col-span-2">
+              <div>
                 <Card className="shadow-2xl border-0 bg-white p-0">
                   <CardHeader className="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-t-lg border-b px-8 py-6">
                     <CardTitle className="flex items-center space-x-3 text-2xl">
@@ -471,7 +471,7 @@ const [result, setResult] = useState<any>(null);
             initialRatingCount={0}
           />
           <div className="mt-8">
-            <CalculatorGuide data={guideData} />
+            <CalculatorGuide data={guideData} layout="article" />
           </div>
 
         </main>

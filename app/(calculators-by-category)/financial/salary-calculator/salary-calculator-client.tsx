@@ -191,7 +191,7 @@ const resultsRef = useRef<HTMLDivElement>(null);
   };
   return <>
 
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
 
         {/* Main Content */}
         <main className="py-8 px-4 sm:px-6 lg:px-8">
@@ -431,7 +431,7 @@ const resultsRef = useRef<HTMLDivElement>(null);
             initialRatingTotal={0}
             initialRatingCount={0}
           />
-          <CalculatorGuide data={guideData} />
+          <CalculatorGuide data={guideData} layout="article" />
             </div>
           </div>
         </main>
