@@ -1,0 +1,82 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "What Is an Aquarium Substrate Calculator and Why Do You Need One?",
+      "content": "An **aquarium substrate calculator** computes how much gravel, sand, or aquasoil your tank needs from length, width, and desired depth. It converts volume into liters, weight (kg/lbs), and bag counts so you do not over- or under-buy substrate.\n\nSubstrate anchors plants, hosts beneficial bacteria, and affects water chemistry. Accurate amounts save money and support healthy fish and planted setups."
+    },
+    {
+      "heading": "How Our Aquarium Substrate Calculator Works",
+      "content": "Enter tank length and width, choose desired substrate depth, and select gravel, sand, or planted soil. The calculator uses:\n\n**V = L × W × D**\n\nVolume converts to liters (cm³ ÷ 1,000) and weight uses substrate-specific density. Results include bag count with a 10% buffer for slopes and settling.",
+      "subSections": [
+        {
+          "heading": "Step 1 — Measure your tank base",
+          "content": "Use length and width only; tank height is not used for substrate volume."
+        },
+        {
+          "heading": "Step 2 — Decide depth",
+          "content": "Use **1–2 inches** (2.5–5 cm) for fish-only tanks or **2–4 inches** (5–10 cm) average for planted tanks. Average high and low points for sloped aquascapes."
+        },
+        {
+          "heading": "Step 3 — Pick substrate type",
+          "content": "Gravel (~1.6 kg/L), sand (~1.4 kg/L), aquasoil (~0.9 kg/L), ADA Amazonia (~0.85 kg/L), Fluval Stratum (~0.75 kg/L), or Seachem Flourite (~1.3 kg/L)."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding Different Types of Aquarium Substrates",
+      "subSections": [
+        {
+          "heading": "Aquarium Gravel",
+          "content": "Durable 2–5 mm gravel for fish-only or lightly planted tanks. Medium density (~1,000 cm³ per kg). Rinse thoroughly before use."
+        },
+        {
+          "heading": "Aquarium Sand",
+          "content": "Fine 0.5–2 mm sand for natural looks. Packs denser than gravel; add ~10% extra volume. Ideal depth **1–2 inches** for fish-only setups."
+        },
+        {
+          "heading": "Aquasoil and Planted Substrates",
+          "content": "Nutrient-rich soils (ADA Amazonia, Fluval Stratum, Seachem Flourite) for planted tanks. Lighter density; plan **3–5 inches** average for heavy root feeders. Cap with sand or gravel to reduce clouding."
+        }
+      ]
+    },
+    {
+      "heading": "Recommended Substrate Depth",
+      "content": "Fish-only: **1–2 inches**. Planted: **2–4 inches** average with slopes (shallow front, deeper back). Carpeting plants often need **3+ inches** minimum."
+    },
+    {
+      "heading": "Common Mistakes to Avoid",
+      "content": "- Using tank height instead of substrate depth\n- Ignoring slope averaging\n- Skipping the 10–15% buffer\n- Forgetting substrate density differs by type\n- Not rinsing substrate before adding it to the tank"
+    },
+    {
+      "heading": "Pro Tips",
+      "content": "- Rinse all substrates until water runs clear\n- Build gentle slopes for planted displays\n- Test water after adding new aquasoil\n- Vacuum only the top layer during maintenance\n- Track bag sizes for your preferred brand in the calculator"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How much substrate for aquarium do I need as a general rule?",
+      "answer": "About **1–2 pounds per gallon** for gravel at 1-inch depth, but always use the calculator for your exact tank size and depth."
+    },
+    {
+      "question": "What is the best depth for gravel?",
+      "answer": "**1–2 inches** for fish-only tanks and **2–4 inches** average for planted setups."
+    },
+    {
+      "question": "Does the sand calculator differ from gravel?",
+      "answer": "Yes. Sand packs denser, so weight is higher for the same volume. The calculator adjusts by substrate type."
+    },
+    {
+      "question": "Can I use the planted substrate calculator for fish-only tanks?",
+      "answer": "Yes. Choose lower depth and inert gravel or sand for fish-only setups."
+    },
+    {
+      "question": "How do I handle sloped substrate?",
+      "answer": "Enter the **average** of your highest and lowest depth points. Add 10–15% buffer for settling."
+    },
+    {
+      "question": "How often should I recalculate substrate needs?",
+      "answer": "Only when rescaping or upgrading tanks. Regular maintenance preserves your original layer."
+    }
+  ]
+}

@@ -1,9 +1,23 @@
-import AquariumClient from "./aquarium-client"
-import type { Metadata } from "next";
-import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+import AquariumClient from "./aquarium-client";
+import { headers } from "next/headers";
+import {
+  loadCalculatorUiContent,
+  loadCalculatorGuideContent,
+} from "@/lib/calculator-page-runtime";
 
+export default async function AquariumSubstrateCalculatorPage() {
+  const headersList = await headers();
+  const language = headersList.get("x-language") || "en";
+  const content = await loadCalculatorUiContent(
+    "aquarium-substrate-calculator",
+    language
+  );
+  const guideContent = await loadCalculatorGuideContent(
+    "aquarium-substrate-calculator",
+    language
+  );
 
-
-export default function AquariumSubstrateCalculatorPage() {
-  return <AquariumClient />
+  return (
+    <AquariumClient content={content} guideContent={guideContent} />
+  );
 }

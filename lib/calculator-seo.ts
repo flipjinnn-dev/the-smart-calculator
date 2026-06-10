@@ -20,6 +20,10 @@ import {
   type SeoStorageBackend,
 } from "@/lib/calculator-seo-storage";
 import { resolveGuideHtmlFromJson } from "@/lib/load-calculator-guide";
+import {
+  firstMeaningfulGuideHtml,
+  isMeaningfulGuideHtml,
+} from "@/lib/calculator-guide-html-utils";
 
 export type { CalculatorSeoData, CalculatorSeoListItem } from "@/lib/calculator-seo-types";
 import type { CalculatorSeoData, CalculatorSeoListItem } from "@/lib/calculator-seo-types";
@@ -203,10 +207,10 @@ export async function loadCalculatorSeo(
   }
   const storageId = getCalculatorStorageId(registryId);
   const saved = await readCalculatorSeoFile(storageId, language);
-  const guideHtml =
-    saved?.guideHtml?.trim() ||
-    (await readCalculatorGuideHtmlFile(storageId, language)) ||
-    "";
+  const guideHtml = firstMeaningfulGuideHtml(
+    saved?.guideHtml,
+    await readCalculatorGuideHtmlFile(storageId, language)
+  );
 
   if (saved) {
     return guideHtml ? { ...saved, guideHtml } : saved;
@@ -229,11 +233,11 @@ export async function loadOrBuildCalculatorSeo(
   const saved = await loadCalculatorSeo(registryId, language);
   const storageId = getCalculatorStorageId(registryId);
 
-  let guideHtml =
-    saved?.guideHtml?.trim() ||
-    (await loadSavedCalculatorGuideHtml(registryId, language)) ||
-    "";
-  if (!guideHtml && language === "en") {
+  let guideHtml = firstMeaningfulGuideHtml(
+    saved?.guideHtml,
+    await loadSavedCalculatorGuideHtml(registryId, language)
+  );
+  if (!isMeaningfulGuideHtml(guideHtml) && language === "en") {
     guideHtml = await resolveGuideHtmlFromJson(registryId, language);
   }
 
@@ -252,7 +256,7 @@ export async function loadOrBuildCalculatorSeo(
         uiHero?.pageDescription,
         defaults?.pageDescription
       ),
-      guideHtml: firstNonEmpty(
+      guideHtml: firstMeaningfulGuideHtml(
         saved.guideHtml,
         guideHtml,
         defaults?.metaDescription
@@ -265,11 +269,12 @@ export async function loadOrBuildCalculatorSeo(
   if (!defaults) return null;
 
   const uiHero = await readUiHero(storageId);
-  const fallbackGuideHtml =
-    guideHtml ||
-    (defaults.metaDescription
+  const fallbackGuideHtml = firstMeaningfulGuideHtml(
+    guideHtml,
+    defaults.metaDescription
       ? `<p>${escapeHtmlText(defaults.metaDescription)}</p>`
-      : "");
+      : ""
+  );
 
   return {
     ...defaults,
@@ -316,10 +321,12 @@ export async function loadSavedCalculatorGuideHtml(
   const storageId = getCalculatorStorageId(registryId);
 
   const seo = await readCalculatorSeoFile(storageId, language);
-  const fromSeo = seo?.guideHtml?.trim();
-  if (fromSeo) return fromSeo;
+  if (isMeaningfulGuideHtml(seo?.guideHtml)) {
+    return seo!.guideHtml!.trim();
+  }
 
-  return readCalculatorGuideHtmlFile(storageId, language);
+  const fromGuideFile = await readCalculatorGuideHtmlFile(storageId, language);
+  return isMeaningfulGuideHtml(fromGuideFile) ? fromGuideFile : null;
 }
 
 /** Sync on-page hero fields into calculator-ui JSON (English). */

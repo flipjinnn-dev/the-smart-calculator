@@ -2,6 +2,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import AquariumSubstrateCalculator from "@/components/aquarium-substrate-calculator"
+import CalculatorGuide from "@/components/calculator-guide"
 import { Droplets, Calculator, Info, BookOpen, CheckCircle, Lightbulb, HelpCircle } from "lucide-react"
 import {
   Accordion,
@@ -10,14 +11,36 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 
-export default function AquariumSubstrateCalculatorClient() {
+type Props = {
+  content?: Record<string, unknown> | null;
+  guideContent?: {
+    htmlContent?: string;
+    sections?: unknown[];
+    faq?: unknown[];
+    color?: string;
+  } | null;
+};
+
+export default function AquariumSubstrateCalculatorClient({
+  content,
+  guideContent,
+}: Props) {
+  const pageTitle =
+    String(content?.pageTitle ?? content?.calculatorTitle ?? "").trim() ||
+    "Aquarium Substrate Calculator: How Much Gravel, Sand, or Soil Do You Need?";
+  const guideData = guideContent || { color: "blue", sections: [], faq: [] };
+  const hasManagedGuide =
+    Boolean(guideData?.htmlContent?.trim()) ||
+    (guideData?.sections?.length ?? 0) > 0 ||
+    (guideData?.faq?.length ?? 0) > 0;
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       <div className="container mx-auto px-4 py-12 max-w-7xl">
         {/* Hero Section */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-green-600 to-teal-600 bg-clip-text text-transparent">
-            Aquarium Substrate Calculator: How Much Gravel, Sand, or Soil Do You Need?
+            {pageTitle}
           </h1>
           {/* <p className="text-lg text-gray-700 max-w-5xl mx-auto leading-relaxed">
             Use this aquarium substrate calculator to instantly determine the exact volume and weight of substrate your aquarium requires. Enter your tank length, width, and desired depth (typically 2–4 inches or 5–10 cm for most setups), choose gravel, sand, or nutrient-rich soil, and receive precise results in liters, kilograms, or pounds. For a standard 55-gallon tank with 3 inches of depth, you need about 45–60 liters of substrate depending on type. This aquarium gravel calculator, aquarium sand calculator, and planted aquarium substrate calculator prevent over- or under-buying while ensuring optimal plant growth and fish health. You calculate once, set up confidently, and enjoy a thriving aquarium.
@@ -39,7 +62,14 @@ export default function AquariumSubstrateCalculatorClient() {
           </Card>
         </div>
 
+        {hasManagedGuide ? (
+          <div className="mt-12">
+            <CalculatorGuide {...guideData} />
+          </div>
+        ) : null}
+
         {/* Main Content */}
+        {!hasManagedGuide ? (
         <div className="space-y-12">
           {/* What Is Section */}
           <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 sm:p-8 shadow-lg">
@@ -351,6 +381,7 @@ export default function AquariumSubstrateCalculatorClient() {
             </Accordion>
           </div>
         </div>
+        ) : null}
       </div>
     </div>
   )
