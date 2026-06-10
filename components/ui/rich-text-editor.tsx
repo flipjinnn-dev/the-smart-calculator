@@ -100,7 +100,6 @@ export function RichTextEditor({ content, onChange, placeholder, className }: Ri
     immediatelyRender: false,
     onCreate: ({ editor: createdEditor }) => {
       editorRef.current = createdEditor;
-      onChange(createdEditor.getHTML());
     },
     onUpdate: ({ editor }) => {
       onChange(editor.getHTML());

@@ -19,8 +19,7 @@ import {
   listSavedSeoStorageIds,
   type SeoStorageBackend,
 } from "@/lib/calculator-seo-storage";
-import { calculatorGuideToHtml } from "@/lib/calculator-guide-html";
-import { loadRawCalculatorGuideContent } from "@/lib/load-calculator-guide";
+import { resolveGuideHtmlFromJson } from "@/lib/load-calculator-guide";
 
 export type { CalculatorSeoData, CalculatorSeoListItem } from "@/lib/calculator-seo-types";
 import type { CalculatorSeoData, CalculatorSeoListItem } from "@/lib/calculator-seo-types";
@@ -76,6 +75,13 @@ export async function getCalculatorSeoListItems(): Promise<CalculatorSeoListItem
       };
     })
     .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+function escapeHtmlText(text: string): string {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
 }
 
 function firstNonEmpty(...values: (string | undefined | null)[]): string {
@@ -228,10 +234,7 @@ export async function loadOrBuildCalculatorSeo(
     (await loadSavedCalculatorGuideHtml(registryId, language)) ||
     "";
   if (!guideHtml && language === "en") {
-    const guide = await loadRawCalculatorGuideContent(registryId, language);
-    if ((guide.sections?.length ?? 0) > 0 || (guide.faq?.length ?? 0) > 0) {
-      guideHtml = calculatorGuideToHtml(guide);
-    }
+    guideHtml = await resolveGuideHtmlFromJson(registryId, language);
   }
 
   const defaults = buildDefaultCalculatorSeo(registryId);
@@ -249,16 +252,28 @@ export async function loadOrBuildCalculatorSeo(
         uiHero?.pageDescription,
         defaults?.pageDescription
       ),
-      guideHtml: firstNonEmpty(saved.guideHtml, guideHtml),
+      guideHtml: firstNonEmpty(
+        saved.guideHtml,
+        guideHtml,
+        defaults?.metaDescription
+          ? `<p>${escapeHtmlText(defaults.metaDescription)}</p>`
+          : ""
+      ),
     };
   }
 
   if (!defaults) return null;
 
   const uiHero = await readUiHero(storageId);
+  const fallbackGuideHtml =
+    guideHtml ||
+    (defaults.metaDescription
+      ? `<p>${escapeHtmlText(defaults.metaDescription)}</p>`
+      : "");
+
   return {
     ...defaults,
-    guideHtml,
+    guideHtml: fallbackGuideHtml,
     pageTitle: firstNonEmpty(uiHero?.pageTitle, defaults.pageTitle),
     pageDescription: firstNonEmpty(uiHero?.pageDescription, defaults.pageDescription),
   };

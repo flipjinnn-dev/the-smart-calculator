@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -29,10 +29,47 @@ export function CalculatorSeoForm({
   const [schemaText, setSchemaText] = useState(
     JSON.stringify(initial.schema, null, 2)
   );
+  const [editorKey, setEditorKey] = useState(0);
+  const [loadingContent, setLoadingContent] = useState(false);
   const [saving, setSaving] = useState(false);
   const [clearing, setClearing] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    setForm(initial);
+    setSchemaText(JSON.stringify(initial.schema, null, 2));
+    setEditorKey((key) => key + 1);
+  }, [calculatorId, initial.metaTitle, initial.guideHtml, initial.pageTitle]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function refreshFromApi() {
+      setLoadingContent(true);
+      try {
+        const res = await fetch(
+          `/api/admin/calculator-seo?calculatorId=${encodeURIComponent(calculatorId)}&language=en`,
+          { credentials: "same-origin", cache: "no-store" }
+        );
+        if (!res.ok || cancelled) return;
+        const json = (await res.json()) as { data?: CalculatorSeoData };
+        if (!json.data || cancelled) return;
+        setForm(json.data);
+        setSchemaText(JSON.stringify(json.data.schema, null, 2));
+        setEditorKey((key) => key + 1);
+      } catch {
+        // keep server-rendered initial
+      } finally {
+        if (!cancelled) setLoadingContent(false);
+      }
+    }
+
+    void refreshFromApi();
+    return () => {
+      cancelled = true;
+    };
+  }, [calculatorId]);
 
   const update = <K extends keyof CalculatorSeoData>(
     key: K,
@@ -201,7 +238,11 @@ export function CalculatorSeoForm({
           Edit the guide, FAQs, and article content shown below the calculator. Use headings,
           lists, bold, and links — same editor as blog posts.
         </p>
+        {loadingContent ? (
+          <p className="text-sm text-gray-500">Loading page content…</p>
+        ) : null}
         <RichTextEditor
+          key={`${calculatorId}-${editorKey}`}
           content={form.guideHtml ?? ""}
           onChange={(html) => update("guideHtml", html)}
           placeholder="Write calculator guide content…"
