@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Sourdough Calculator: Complete Guide to Hydration, Ratios & Loaves",
+      "content": "Free sourdough calculator for perfect bread. Calculate hydration percentages, baker's ratios, and scale recipes. Get exact measurements for flour, water, starter & salt."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter your values in the calculator above and click calculate to see instant results. Adjust inputs to compare scenarios and find the option that fits your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the Sourdough Calculator: Complete Guide to Hydration, Ratios & Loaves do?",
+      "answer": "Free sourdough calculator for perfect bread. Calculate hydration percentages, baker's ratios, and scale recipes. Get exact measurements for flour, water, starter & salt."
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes. Smart Calculator tools are free, work in your browser, and require no signup."
+    }
+  ]
+}

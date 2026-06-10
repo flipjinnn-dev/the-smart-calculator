@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Candy Wheel – Spin & Pick Candy Instantly Online",
+      "content": "Spin the candy wheel to instantly pick a random candy. A fun, fair and interactive spinner for parties, classrooms and online games."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter your values in the calculator above and click calculate to see instant results. Adjust inputs to compare scenarios and find the option that fits your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the Candy Wheel – Spin & Pick Candy Instantly Online do?",
+      "answer": "Spin the candy wheel to instantly pick a random candy. A fun, fair and interactive spinner for parties, classrooms and online games."
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes. Smart Calculator tools are free, work in your browser, and require no signup."
+    }
+  ]
+}

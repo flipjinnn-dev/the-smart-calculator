@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Fix and Flip Calculator | ARV & ROI Tool",
+      "content": "Use this fix and flip calculator to estimate profit, ROI, ARV, rehab, financing, holding and selling costs for accurate real estate deal analysis."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter your values in the calculator above and click calculate to see instant results. Adjust inputs to compare scenarios and find the option that fits your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the Fix and Flip Calculator | ARV & ROI Tool do?",
+      "answer": "Use this fix and flip calculator to estimate profit, ROI, ARV, rehab, financing, holding and selling costs for accurate real estate deal analysis."
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes. Smart Calculator tools are free, work in your browser, and require no signup."
+    }
+  ]
+}

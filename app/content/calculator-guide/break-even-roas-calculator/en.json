@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Break-Even ROAS Calculator – Calculate Break-Even ROAS Easily",
+      "content": "Use our Break-Even ROAS Calculator to quickly compute break-even roas from stats, weights, and performance metrics. Fast, accurate, and easy to use."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter your values in the calculator above and click calculate to see instant results. Adjust inputs to compare scenarios and find the option that fits your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the Break-Even ROAS Calculator – Calculate Break-Even ROAS Easily do?",
+      "answer": "Use our Break-Even ROAS Calculator to quickly compute break-even roas from stats, weights, and performance metrics. Fast, accurate, and easy to use."
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes. Smart Calculator tools are free, work in your browser, and require no signup."
+    }
+  ]
+}

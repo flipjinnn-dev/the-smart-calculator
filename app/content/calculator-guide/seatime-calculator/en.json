@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Seatime Calculator — Accurate Sea Time Calculation for Seafarers",
+      "content": "Instantly calculate your total sea service in days and months with this free seatime calculator. Perfect for DG Shipping (India), MCA (UK), USCG (USA), and STCW applications."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter your values in the calculator above and click calculate to see instant results. Adjust inputs to compare scenarios and find the option that fits your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the Seatime Calculator — Accurate Sea Time Calculation for Seafarers do?",
+      "answer": "Instantly calculate your total sea service in days and months with this free seatime calculator. Perfect for DG Shipping (India), MCA (UK), USCG (USA), and STCW applications."
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes. Smart Calculator tools are free, work in your browser, and require no signup."
+    }
+  ]
+}

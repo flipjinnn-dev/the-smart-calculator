@@ -8,6 +8,8 @@ import {
 import { getCanonicalUrl } from "@/lib/url-utils";
 import { CalculatorSeoForm } from "@/components/admin/calculator-seo-form";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Edit Calculator SEO",
   robots: { index: false, follow: false },

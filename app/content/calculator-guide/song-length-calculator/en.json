@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Song Length Calculator - Calculate Song Duration Instantly",
+      "content": "Free song length calculator to calculate total duration of songs, playlists, and tracks. Add multiple songs, convert time formats, and estimate song length using BPM."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter your values in the calculator above and click calculate to see instant results. Adjust inputs to compare scenarios and find the option that fits your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the Song Length Calculator - Calculate Song Duration Instantly do?",
+      "answer": "Free song length calculator to calculate total duration of songs, playlists, and tracks. Add multiple songs, convert time formats, and estimate song length using BPM."
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes. Smart Calculator tools are free, work in your browser, and require no signup."
+    }
+  ]
+}

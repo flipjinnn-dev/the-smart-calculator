@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "ERA Calculator | Free Earned Run Average Calculator for Baseball & Softball",
+      "content": "Free ERA calculator (Earned Run Average) for baseball and softball pitchers. Calculate ERA with 9-inning or 7-inning formulas. Includes MLB ERA standards, xERA explanation, and Japanese era converter."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter your values in the calculator above and click calculate to see instant results. Adjust inputs to compare scenarios and find the option that fits your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the ERA Calculator | Free Earned Run Average Calculator for Baseball & Softball do?",
+      "answer": "Free ERA calculator (Earned Run Average) for baseball and softball pitchers. Calculate ERA with 9-inning or 7-inning formulas. Includes MLB ERA standards, xERA explanation, and Japanese era converter."
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes. Smart Calculator tools are free, work in your browser, and require no signup."
+    }
+  ]
+}

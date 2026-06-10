@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Shipping Cost Calculator | Fast Shipping Estimates",
+      "content": "Use our **Shipping Price Calculator** to get fast, accurate shipping estimates for local and worldwide delivery. Enter package weight, dimensions, origin, destination, and carrier to compare rates."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter shipment details including weight, box size, shipping zone or country, and service level. The calculator estimates cost based on common carrier rate structures so you can budget before you ship."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the shipping cost calculator do?",
+      "answer": "It estimates shipping price from package weight, dimensions, and route so you can compare local and international delivery options."
+    },
+    {
+      "question": "Is this shipping calculator free?",
+      "answer": "Yes. Smart Calculator tools are free and work in your browser with no signup required."
+    }
+  ]
+}

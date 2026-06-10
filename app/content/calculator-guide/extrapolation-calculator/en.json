@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Extrapolation Calculator | Predict Future Values Online",
+      "content": "Use our extrapolation calculator to predict future values from data points using linear and exponential methods. Fast, accurate online forecasting tool."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter your values in the calculator above and click calculate to see instant results. Adjust inputs to compare scenarios and find the option that fits your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the Extrapolation Calculator | Predict Future Values Online do?",
+      "answer": "Use our extrapolation calculator to predict future values from data points using linear and exponential methods. Fast, accurate online forecasting tool."
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes. Smart Calculator tools are free, work in your browser, and require no signup."
+    }
+  ]
+}

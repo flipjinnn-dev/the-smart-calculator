@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "Power-to-Weight Ratio Calculator - Calculate Acceleration & Efficiency",
+      "content": "Calculate acceleration & efficiency of cars, bikes, F1 cars, or cyclists with our Power-to-Weight Ratio Calculator. Compare performance instantly!"
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter your values in the calculator above and click calculate to see instant results. Adjust inputs to compare scenarios and find the option that fits your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the Power-to-Weight Ratio Calculator - Calculate Acceleration & Efficiency do?",
+      "answer": "Calculate acceleration & efficiency of cars, bikes, F1 cars, or cyclists with our Power-to-Weight Ratio Calculator. Compare performance instantly!"
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes. Smart Calculator tools are free, work in your browser, and require no signup."
+    }
+  ]
+}

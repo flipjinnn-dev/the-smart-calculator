@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "OVR Calculator – Calculate Overall Rating Easily",
+      "content": "Use our OVR Calculator to quickly compute overall ratings from stats, weights, and performance metrics. Fast, accurate, and easy to use."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter your values in the calculator above and click calculate to see instant results. Adjust inputs to compare scenarios and find the option that fits your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the OVR Calculator – Calculate Overall Rating Easily do?",
+      "answer": "Use our OVR Calculator to quickly compute overall ratings from stats, weights, and performance metrics. Fast, accurate, and easy to use."
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes. Smart Calculator tools are free, work in your browser, and require no signup."
+    }
+  ]
+}

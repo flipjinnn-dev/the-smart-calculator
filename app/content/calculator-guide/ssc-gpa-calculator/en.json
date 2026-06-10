@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "SSC GPA Calculator – Fast & Accurate Results",
+      "content": "Use our SSC GPA calculator to compute GPA, convert to percentage or marks, and understand the SSC grading system instantly."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter your values in the calculator above and click calculate to see instant results. Adjust inputs to compare scenarios and find the option that fits your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the SSC GPA Calculator – Fast & Accurate Results do?",
+      "answer": "Use our SSC GPA calculator to compute GPA, convert to percentage or marks, and understand the SSC grading system instantly."
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes. Smart Calculator tools are free, work in your browser, and require no signup."
+    }
+  ]
+}

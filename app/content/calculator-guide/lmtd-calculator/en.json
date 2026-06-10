@@ -1,0 +1,23 @@
+{
+  "color": "blue",
+  "sections": [
+    {
+      "heading": "LMTD Calculator – Log Mean Temperature Difference Calculator",
+      "content": "Free LMTD calculator for heat exchangers. Calculate log mean temperature difference, correction factors, and thermal performance. Supports counterflow, parallel flow, shell-and-tube, and cross-flow configurations."
+    },
+    {
+      "heading": "How to Use This Calculator",
+      "content": "Enter your values in the calculator above and click calculate to see instant results. Adjust inputs to compare scenarios and find the option that fits your needs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does the LMTD Calculator – Log Mean Temperature Difference Calculator do?",
+      "answer": "Free LMTD calculator for heat exchangers. Calculate log mean temperature difference, correction factors, and thermal performance. Supports counterflow, parallel flow, shell-and-tube, and cross-flow configurations."
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes. Smart Calculator tools are free, work in your browser, and require no signup."
+    }
+  ]
+}
