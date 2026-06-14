@@ -27,4 +27,4 @@ export default async function AdminLoginPage({ searchParams }: PageProps) {
       </Suspense>
     </div>
   );
-}
+}  
