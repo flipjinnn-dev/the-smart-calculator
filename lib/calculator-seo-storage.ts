@@ -179,7 +179,12 @@ export async function writeCalculatorUiFile(
   storageId: string,
   language: string,
   pageTitle: string,
-  pageDescription: string
+  pageDescription: string,
+  meta?: {
+    metaTitle?: string;
+    metaDescription?: string;
+    keywords?: string;
+  }
 ): Promise<void> {
   let ui: Record<string, unknown> | null = null;
 
@@ -210,6 +215,10 @@ export async function writeCalculatorUiFile(
     ui.title = pageTitle;
     ui.description = pageDescription;
   }
+
+  if (meta?.metaTitle?.trim()) ui.metaTitle = meta.metaTitle.trim();
+  if (meta?.metaDescription?.trim()) ui.metaDescription = meta.metaDescription.trim();
+  if (meta?.keywords?.trim()) ui.keywords = meta.keywords.trim();
 
   const json = `${JSON.stringify(ui, null, 2)}\n`;
 

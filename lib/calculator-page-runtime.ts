@@ -6,7 +6,6 @@ import { getCanonicalUrl, getCalculatorUrl } from "@/lib/url-utils";
 import type { CalculatorGuideData } from "@/components/calculator-guide";
 import {
   loadCalculatorSeo,
-  getCachedCalculatorSeo,
   buildDefaultCalculatorSeo,
   getCalculatorById,
   getCalculatorStorageId,
@@ -16,6 +15,7 @@ import {
   calculatorGuideCacheTag,
   resolveRegistryCalculatorId,
 } from "@/lib/calculator-seo";
+import { readSavedCalculatorSeoMetaSync } from "@/lib/calculator-seo-sync-read";
 import { loadRawCalculatorGuideContent } from "@/lib/load-calculator-guide";
 import { getCalculatorMetaEntry } from "@/lib/calculator-meta-key";
 import { readCalculatorUiFile } from "@/lib/calculator-seo-storage";
@@ -76,7 +76,9 @@ export async function generateCalculatorMetadata(
       : getCanonicalUrl(calculatorId, language);
   const meta = getCalculatorMetaEntry(calculatorId, language);
   const savedSeo =
-    language === "en" ? await getCachedCalculatorSeo(calculatorId, "en") : null;
+    language === "en"
+      ? readSavedCalculatorSeoMetaSync(calculatorId, "en")
+      : null;
 
   const title =
     savedSeo?.metaTitle?.trim() ||

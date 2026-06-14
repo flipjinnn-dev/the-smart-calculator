@@ -374,16 +374,27 @@ export async function loadSavedCalculatorGuideHtml(
   return isMeaningfulGuideHtml(fromGuideFile) ? fromGuideFile : null;
 }
 
-/** Sync on-page hero fields into calculator-ui JSON (English). */
+/** Sync on-page hero + head meta fields into calculator-ui JSON (English). */
 export async function syncCalculatorUiFromSeo(
   calculatorId: string,
   pageTitle: string,
-  pageDescription: string
+  pageDescription: string,
+  meta?: {
+    metaTitle?: string;
+    metaDescription?: string;
+    keywords?: string;
+  }
 ): Promise<void> {
   const registryId = resolveRegistryCalculatorId(calculatorId);
   const storageId = getCalculatorStorageId(registryId);
   try {
-    await writeCalculatorUiFile(storageId, "en", pageTitle, pageDescription);
+    await writeCalculatorUiFile(
+      storageId,
+      "en",
+      pageTitle,
+      pageDescription,
+      meta
+    );
   } catch (e) {
     console.error("syncCalculatorUiFromSeo:", e);
   }

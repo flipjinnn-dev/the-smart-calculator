@@ -98,7 +98,12 @@ export async function POST(request: Request) {
     await syncCalculatorUiFromSeo(
       calculatorId,
       data.pageTitle,
-      data.pageDescription
+      data.pageDescription,
+      {
+        metaTitle: data.metaTitle,
+        metaDescription: data.metaDescription,
+        keywords: data.keywords,
+      }
     );
     await syncCalculatorGuideHtml(calculatorId, data.guideHtml ?? "");
 
