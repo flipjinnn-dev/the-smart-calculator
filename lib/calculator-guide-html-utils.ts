@@ -21,3 +21,25 @@ export function firstMeaningfulGuideHtml(
   }
   return "";
 }
+
+/** Remove head-only tags if pasted into admin guide HTML (title/meta belong in page metadata). */
+export function stripHeadElementsFromGuideHtml(html: string): string {
+  if (!html) return html;
+
+  return html
+    .replace(/<meta\s+[^>]*\/?>/gi, "")
+    .replace(/<meta\s+[^>]*>.*?<\/meta>/gi, "")
+    .replace(/<link\b[\s\S]*?>/gi, "")
+    .replace(/<\/link>/gi, "")
+    .replace(/<title\s*[^>]*>[\s\S]*?<\/title>/gi, "")
+    .replace(/<script\s+[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi, "")
+    .replace(/<script\s+[^>]*>[\s\S]*?<\/script>/gi, "")
+    .replace(/<style\s+[^>]*>[\s\S]*?<\/style>/gi, "")
+    .replace(/<base\s+[^>]*\/?>/gi, "")
+    .replace(/<noscript\s+[^>]*>[\s\S]*?<\/noscript>/gi, "")
+    .replace(/<head\s*[^>]*>[\s\S]*?<\/head>/gi, "")
+    .replace(/<\/?html[^>]*>/gi, "")
+    .replace(/<\/?body[^>]*>/gi, "")
+    .replace(/\n\s*\n\s*\n/g, "\n\n")
+    .trim();
+}

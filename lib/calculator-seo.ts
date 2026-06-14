@@ -1,6 +1,7 @@
 import { readFile } from "fs/promises";
 import path from "path";
 import type { Metadata } from "next";
+import { unstable_cache } from "next/cache";
 import { getCanonicalUrl } from "@/lib/url-utils";
 import { resolveCalculatorMetaKey } from "@/lib/calculator-meta-key";
 import { calculatorsMeta } from "@/meta/calculators";
@@ -222,6 +223,34 @@ export async function loadCalculatorSeo(
   }
 
   return null;
+}
+
+/** Cache tag for admin SEO — bust via `revalidateCalculatorCache` after admin saves. */
+export function calculatorSeoCacheTag(
+  calculatorId: string,
+  language: string = "en"
+): string {
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  return `calculator-seo-${registryId}-${language}`;
+}
+
+/**
+ * Cached SEO read for `generateMetadata` so `<title>` resolves in `<head>`
+ * (avoids Next.js streaming metadata into `<body>`).
+ */
+export function getCachedCalculatorSeo(
+  calculatorId: string,
+  language: string = "en"
+): Promise<CalculatorSeoData | null> {
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  return unstable_cache(
+    () => loadCalculatorSeo(registryId, language),
+    ["calculator-seo", registryId, language],
+    {
+      revalidate: 300,
+      tags: [calculatorSeoCacheTag(registryId, language)],
+    }
+  )();
 }
 
 /** Load saved SEO file, or build defaults from meta + calculator-ui + registry. */

@@ -6,6 +6,7 @@ import { getCanonicalUrl, getCalculatorUrl } from "@/lib/url-utils";
 import type { CalculatorGuideData } from "@/components/calculator-guide";
 import {
   loadCalculatorSeo,
+  getCachedCalculatorSeo,
   buildDefaultCalculatorSeo,
   getCalculatorById,
   getCalculatorStorageId,
@@ -58,7 +59,6 @@ function resolveCalculatorTitle(
 export async function generateCalculatorMetadata(
   calculatorId: string
 ): Promise<Metadata> {
-  noStore();
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
   const pathname =
@@ -72,7 +72,7 @@ export async function generateCalculatorMetadata(
       : getCanonicalUrl(calculatorId, language);
   const meta = getCalculatorMetaEntry(calculatorId, language);
   const savedSeo =
-    language === "en" ? await loadCalculatorSeo(calculatorId, "en") : null;
+    language === "en" ? await getCachedCalculatorSeo(calculatorId, "en") : null;
 
   const title =
     savedSeo?.metaTitle?.trim() ||

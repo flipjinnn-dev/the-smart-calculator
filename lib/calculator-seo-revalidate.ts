@@ -1,7 +1,11 @@
 import "server-only";
-import { revalidatePath } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
 import { getCalculatorUrl } from "@/lib/url-utils";
-import { getCalculatorById, loadCalculatorSeo } from "@/lib/calculator-seo";
+import {
+  getCalculatorById,
+  loadCalculatorSeo,
+  calculatorSeoCacheTag,
+} from "@/lib/calculator-seo";
 
 function toPathname(urlOrPath: string): string | null {
   const s = urlOrPath.trim();
@@ -40,6 +44,8 @@ export async function revalidateCalculatorCache(
     const fromCanonical = toPathname(canonical);
     if (fromCanonical) paths.add(fromCanonical);
   }
+
+  revalidateTag(calculatorSeoCacheTag(calculatorId, "en"));
 
   const revalidated: string[] = [];
   for (const path of paths) {

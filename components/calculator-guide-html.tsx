@@ -1,3 +1,5 @@
+import { stripHeadElementsFromGuideHtml } from "@/lib/calculator-guide-html-utils";
+
 const GUIDE_HTML_STYLES = `
   .calculator-guide-html h1 { font-size: 2rem; font-weight: 700; color: #111827; margin-top: 2rem; margin-bottom: 1rem; line-height: 1.2; }
   .calculator-guide-html h2 { font-size: 1.75rem; font-weight: 700; color: #111827; margin-top: 1.75rem; margin-bottom: 0.75rem; line-height: 1.3; }
@@ -27,14 +29,15 @@ type Props = {
 };
 
 export function CalculatorGuideHtml({ html, className = "" }: Props) {
-  if (!html.trim()) return null;
+  const safeHtml = stripHeadElementsFromGuideHtml(html);
+  if (!safeHtml.trim()) return null;
 
   return (
     <>
       <style>{GUIDE_HTML_STYLES}</style>
       <div
         className={`calculator-guide-html ${className}`.trim()}
-        dangerouslySetInnerHTML={{ __html: html }}
+        dangerouslySetInnerHTML={{ __html: safeHtml }}
       />
     </>
   );
