@@ -6,6 +6,7 @@ import {
 
 import IncomeTaxCalculatorClient from "./income-tax-calculator-client";
 
+
 export default async function IncomeTaxCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

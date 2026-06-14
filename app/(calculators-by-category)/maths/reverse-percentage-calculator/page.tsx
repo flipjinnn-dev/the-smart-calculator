@@ -4,9 +4,8 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-import type { Metadata } from "next";
-import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 import ReversePercentageCalculatorClient from "./reverse-percentage-calculator-client";
+
 
 
 

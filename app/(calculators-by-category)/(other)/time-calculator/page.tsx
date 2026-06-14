@@ -6,6 +6,7 @@ import {
 
 import TimeCalculatorClient from "./time-calculator-client";
 
+
 export default async function TimeCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

@@ -6,6 +6,7 @@ import {
 
 import BodySurfaceAreaCalculatorClient from "./body-surface-area-calculator-client";
 
+
 export default async function BodySurfaceAreaCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

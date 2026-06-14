@@ -6,6 +6,7 @@ import {
 
 import IdealWeightCalculatorClient from "./ideal-weight-calculator-client";
 
+
 export default async function IdealWeightCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

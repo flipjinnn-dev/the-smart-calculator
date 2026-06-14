@@ -3,6 +3,7 @@ import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
 const CALCULATOR_ID = "era-calculator";
 
+
 export async function generateMetadata(): Promise<Metadata> {
   return generateCalculatorMetadata(CALCULATOR_ID);
 }

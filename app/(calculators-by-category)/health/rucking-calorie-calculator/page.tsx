@@ -6,6 +6,7 @@ import {
 
 import RuckingCalorieCalculatorClient from "./rucking-calorie-calculator-client";
 
+
 export default async function RuckingCalorieCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

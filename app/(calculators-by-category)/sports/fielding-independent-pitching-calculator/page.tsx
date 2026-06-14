@@ -6,6 +6,7 @@ import {
 
 import FieldingIndependentPitchingCalculatorClient from "./fielding-independent-pitching-calculator-client";
 
+
 export default async function FieldingIndependentPitchingCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

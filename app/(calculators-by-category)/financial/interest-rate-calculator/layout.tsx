@@ -4,6 +4,7 @@ import { CalculatorLayoutShell } from "@/components/calculator-layout-shell";
 
 const CALCULATOR_ID = "interest-rate-calculator";
 
+
 export async function generateMetadata(): Promise<Metadata> {
   return generateCalculatorMetadata(CALCULATOR_ID);
 }

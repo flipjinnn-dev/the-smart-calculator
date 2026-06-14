@@ -4,6 +4,7 @@ import { CalculatorLayoutShell } from "@/components/calculator-layout-shell";
 
 const CALCULATOR_ID = "dry-to-cooked-pasta-converter";
 
+
 export async function generateMetadata(): Promise<Metadata> {
   return generateCalculatorMetadata(CALCULATOR_ID);
 }

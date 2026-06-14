@@ -6,6 +6,7 @@ import {
 
 import InvestmentCalculatorClient from "./investment-calculator-client";
 
+
 export default async function InvestmentCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

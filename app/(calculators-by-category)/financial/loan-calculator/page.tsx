@@ -6,6 +6,7 @@ import {
 
 import LoanCalculatorClient from "./loan-calculator-client";
 
+
 export default async function LoanCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

@@ -6,6 +6,7 @@ import {
 
 import EstateTaxCalculatorClient from "./estate-tax-calculator-client";
 
+
 export default async function EstateTaxCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

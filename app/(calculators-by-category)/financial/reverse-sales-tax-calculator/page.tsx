@@ -6,6 +6,7 @@ import {
 } from "@/lib/calculator-page-runtime";
 
 
+
 export default async function ReverseSalesTaxCalculator() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";

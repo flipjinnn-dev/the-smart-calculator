@@ -6,6 +6,7 @@ import {
 
 import AgeCalculatorClient from "./age-calculator-client";
 
+
 export default async function AgeCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

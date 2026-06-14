@@ -6,6 +6,7 @@ import {
 import SalaryCalculatorClient from "./salary-calculator-client";
 
 
+
 export default async function SalaryCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

@@ -6,6 +6,7 @@ import {
 
 import LeanBodyMassCalculatorClient from "./lean-body-mass-calculator-client";
 
+
 export default async function LeanBodyMassCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

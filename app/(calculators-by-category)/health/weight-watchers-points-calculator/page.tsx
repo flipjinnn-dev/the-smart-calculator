@@ -6,6 +6,7 @@ import {
 
 import WeightWatchersPointsCalculatorClient from "./weight-watchers-points-calculator-client";
 
+
 export default async function WeightWatchersPointsCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

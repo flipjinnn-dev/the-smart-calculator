@@ -6,6 +6,7 @@ import {
 
 import PaceCalculatorClient from "./pace-calculator-client";
 
+
 export default async function PaceCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

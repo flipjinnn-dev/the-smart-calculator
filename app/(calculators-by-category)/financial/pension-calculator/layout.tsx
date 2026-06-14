@@ -4,6 +4,7 @@ import { CalculatorLayoutShell } from "@/components/calculator-layout-shell";
 
 const CALCULATOR_ID = "pension-calculator";
 
+
 export async function generateMetadata(): Promise<Metadata> {
   return generateCalculatorMetadata(CALCULATOR_ID);
 }

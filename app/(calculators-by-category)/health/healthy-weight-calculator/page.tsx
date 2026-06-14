@@ -6,6 +6,7 @@ import {
 
 import HealthyWeightCalculatorClient from "./healthy-weight-calculator-client";
 
+
 export default async function HealthyWeightCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

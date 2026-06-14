@@ -6,6 +6,7 @@ import {
 
 import BoardFootCalculatorClient from "./board-foot-calculator-client";
 
+
 export default async function BoardFootCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

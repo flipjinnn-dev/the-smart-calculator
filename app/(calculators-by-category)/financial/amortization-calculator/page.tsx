@@ -7,6 +7,7 @@ import {
 import AmortizationCalculatorClient from "./amortization-calculator-client";
 
 
+
 export default async function AmortizationCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

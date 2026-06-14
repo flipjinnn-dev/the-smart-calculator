@@ -6,6 +6,7 @@ import {
 
 import BallisticCoefficientCalculatorClient from "./ballistic-coefficient-calculator-client";
 
+
 export default async function BallisticCoefficientCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

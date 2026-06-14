@@ -6,6 +6,7 @@ import {
 
 import VelocityCalculatorClient from "./velocity-calculator-client";
 
+
 export default async function VelocityCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

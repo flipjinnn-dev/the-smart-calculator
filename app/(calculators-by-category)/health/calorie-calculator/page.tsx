@@ -6,6 +6,7 @@ import {
 
 import CalorieCalculatorClient from "./calorie-calculator-client";
 
+
 export default async function CalorieCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

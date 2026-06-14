@@ -6,6 +6,7 @@ import {
 
 import InterestRateCalculatorClient from "./interest-rate-calculator-client";
 
+
 export default async function InterestRateCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

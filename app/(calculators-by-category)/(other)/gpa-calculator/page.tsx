@@ -6,6 +6,7 @@ import {
 
 import GpaCalculatorClient from "./gpa-calculator-client";
 
+
 export default async function GpaCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

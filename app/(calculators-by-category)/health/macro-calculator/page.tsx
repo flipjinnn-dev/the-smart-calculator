@@ -6,6 +6,7 @@ import {
 
 import MacroCalculatorClient from "./macro-calculator-client";
 
+
 export default async function MacroCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

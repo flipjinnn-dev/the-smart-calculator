@@ -6,6 +6,7 @@ import {
 
 import PercentageCalculatorClient from "./percentage-calculator-client";
 
+
 export default async function PercentageCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

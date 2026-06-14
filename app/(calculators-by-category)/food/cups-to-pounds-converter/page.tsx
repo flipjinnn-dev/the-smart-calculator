@@ -6,6 +6,7 @@ import {
 
 import CupsToPoundsConverterClient from "./cups-to-pounds-converter-client";
 
+
 export default async function CupsToPoundsConverterCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

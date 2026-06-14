@@ -6,6 +6,7 @@ import {
 
 import HouseAffordabilityCalculatorClient from "./house-affordability-calculator-client";
 
+
 export default async function HouseAffordabilityCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

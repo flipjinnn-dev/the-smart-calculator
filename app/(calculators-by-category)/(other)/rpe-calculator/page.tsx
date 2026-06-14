@@ -6,6 +6,7 @@ import {
 
 import RpeCalculatorClient from "./rpe-calculator-client";
 
+
 export default async function RpeCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

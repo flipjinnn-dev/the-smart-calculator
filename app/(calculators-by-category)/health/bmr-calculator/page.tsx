@@ -6,6 +6,7 @@ import {
 
 import BmrCalculatorClient from "./bmr-calculator-client";
 
+
 export default async function BmrCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

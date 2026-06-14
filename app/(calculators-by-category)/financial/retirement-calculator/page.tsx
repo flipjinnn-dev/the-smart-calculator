@@ -6,6 +6,7 @@ import {
 
 import RetirementCalculatorClient from "./retirement-calculator-client";
 
+
 export default async function RetirementCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

@@ -6,6 +6,7 @@ import {
 
 import EnterpriseSeoRoiCalculatorClient from "./enterprise-seo-roi-calculator-client";
 
+
 export default async function EnterpriseSeoRoiCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

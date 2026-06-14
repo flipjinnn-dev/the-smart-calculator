@@ -6,6 +6,7 @@ import {
 
 import RandomNumberGeneratorClient from "./random-number-generator-client";
 
+
 export default async function RandomNumberGeneratorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

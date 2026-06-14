@@ -6,6 +6,7 @@ import {
 
 import IpSubnetCalculatorClient from "./ip-subnet-calculator-client";
 
+
 export default async function IpSubnetCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

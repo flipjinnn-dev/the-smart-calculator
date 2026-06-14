@@ -6,6 +6,7 @@ import {
 
 import CompoundInterestCalculatorClient from "./compound-interest-calculator-client";
 
+
 export default async function CompoundInterestCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

@@ -4,6 +4,7 @@ import { CalculatorLayoutShell } from "@/components/calculator-layout-shell";
 
 const CALCULATOR_ID = "critical-point-calculator";
 
+
 export async function generateMetadata(): Promise<Metadata> {
   return generateCalculatorMetadata(CALCULATOR_ID);
 }

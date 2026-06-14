@@ -6,6 +6,7 @@ import {
 
 import CurrencyCalculatorClient from "./currency-calculator-client";
 
+
 export default async function CurrencyCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

@@ -6,6 +6,7 @@ import {
 
 import TargetHeartRateCalculatorClient from "./target-heart-rate-calculator-client";
 
+
 export default async function TargetHeartRateCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

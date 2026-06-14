@@ -6,6 +6,7 @@ import {
 
 import RelativeExtremaCalculatorClient from "./relative-extrema-calculator-client";
 
+
 export default async function RelativeExtremaCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

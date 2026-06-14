@@ -6,6 +6,7 @@ import {
 
 import HeightCalculatorClient from "./height-calculator-client";
 
+
 export default async function HeightCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

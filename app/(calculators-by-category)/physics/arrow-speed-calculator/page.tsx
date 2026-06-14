@@ -6,6 +6,7 @@ import {
 
 import ArrowSpeedCalculatorClient from "./arrow-speed-calculator-client";
 
+
 export default async function ArrowSpeedCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

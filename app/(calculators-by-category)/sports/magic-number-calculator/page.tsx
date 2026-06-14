@@ -6,6 +6,7 @@ import {
 
 import MagicNumberCalculatorClient from "./magic-number-calculator-client";
 
+
 export default async function MagicNumberCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

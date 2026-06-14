@@ -1,9 +1,9 @@
 import { headers } from "next/headers";
-import {
-  loadCalculatorUiContent,
+import {loadCalculatorUiContent,
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 import InvisalignCostCalculatorClient from "./invisalign-cost-calculator-client";
+
 
 export default async function InvisalignCostCalculatorPage() {
   const headersList = await headers();

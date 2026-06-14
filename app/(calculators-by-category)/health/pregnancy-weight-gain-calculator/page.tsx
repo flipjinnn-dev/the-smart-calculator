@@ -6,6 +6,7 @@ import {
 
 import PregnancyWeightGainCalculatorClient from "./pregnancy-weight-gain-calculator-client";
 
+
 export default async function PregnancyWeightGainCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

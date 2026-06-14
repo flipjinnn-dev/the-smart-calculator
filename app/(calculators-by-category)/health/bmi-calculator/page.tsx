@@ -6,6 +6,7 @@ import {
 
 import BmiCalculatorClient from "./bmi-calculator-client";
 
+
 export default async function BmiCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

@@ -6,6 +6,7 @@ import {
 
 import SquareFeetToCubicYardsCalculatorClient from "./square-feet-to-cubic-yards-calculator-client";
 
+
 export default async function SquareFeetToCubicYardsCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

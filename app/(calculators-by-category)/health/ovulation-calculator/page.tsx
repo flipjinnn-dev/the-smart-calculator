@@ -6,6 +6,7 @@ import {
 
 import OvulationCalculatorClient from "./ovulation-calculator-client";
 
+
 export default async function OvulationCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

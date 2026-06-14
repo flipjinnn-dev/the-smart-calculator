@@ -6,6 +6,7 @@ import {
 
 import SocialSecurityCalculatorClient from "./social-security-calculator-client";
 
+
 export default async function SocialSecurityCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

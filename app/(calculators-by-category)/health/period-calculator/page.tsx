@@ -6,6 +6,7 @@ import {
 
 import PeriodCalculatorClient from "./period-calculator-client";
 
+
 export default async function PeriodCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

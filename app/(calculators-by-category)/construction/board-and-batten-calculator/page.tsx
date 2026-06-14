@@ -1,8 +1,8 @@
 import BoardAndBattenCalculatorClient from "./board-and-batten-calculator-client"
 import { headers } from "next/headers";
-import {
-  loadCalculatorUiContent,
+import {loadCalculatorUiContent,
 } from "@/lib/calculator-page-runtime";
+
 
 
 export default async function BoardAndBattenCalculator() {

@@ -6,6 +6,7 @@ import {
 
 import GallonsPerSquareFootCalculatorClient from "./gallons-per-square-foot-calculator-client";
 
+
 export default async function GallonsPerSquareFootCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

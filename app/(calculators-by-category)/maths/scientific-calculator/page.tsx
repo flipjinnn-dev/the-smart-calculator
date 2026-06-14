@@ -6,6 +6,7 @@ import {
 
 import ScientificCalculatorClient from "./scientific-calculator-client";
 
+
 export default async function ScientificCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

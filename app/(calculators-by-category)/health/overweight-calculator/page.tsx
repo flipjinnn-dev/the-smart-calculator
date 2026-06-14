@@ -6,6 +6,7 @@ import {
 
 import OverweightCalculatorClient from "./overweight-calculator-client";
 
+
 export default async function OverweightCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

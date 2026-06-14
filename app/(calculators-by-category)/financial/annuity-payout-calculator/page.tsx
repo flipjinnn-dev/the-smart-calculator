@@ -6,6 +6,7 @@ import {
 
 import AnnuityPayoutCalculatorClient from "./annuity-payout-calculator-client";
 
+
 export default async function AnnuityPayoutCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

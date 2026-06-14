@@ -6,6 +6,7 @@ import {
 
 import MarriageCalculatorClient from "./marriage-calculator-client";
 
+
 export default async function MarriageCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

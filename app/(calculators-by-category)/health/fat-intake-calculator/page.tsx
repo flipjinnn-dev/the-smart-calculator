@@ -6,6 +6,7 @@ import {
 
 import FatIntakeCalculatorClient from "./fat-intake-calculator-client";
 
+
 export default async function FatIntakeCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

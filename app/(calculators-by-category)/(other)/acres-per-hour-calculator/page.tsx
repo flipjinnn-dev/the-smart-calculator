@@ -5,6 +5,7 @@ import {
 } from "@/lib/calculator-page-runtime";
 import AcresPerHourCalculatorClient from "./acres-per-hour-calculator-client";
 
+
 export default async function AcresPerHourCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";

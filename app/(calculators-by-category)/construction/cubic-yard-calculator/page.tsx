@@ -6,6 +6,7 @@ import {
 
 import CubicYardCalculatorClient from "./cubic-yard-calculator-client";
 
+
 export default async function CubicYardCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

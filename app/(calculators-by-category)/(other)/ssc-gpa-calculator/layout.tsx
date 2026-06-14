@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import Script from "next/script";
-
 import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
+import Script from "next/script";
+
 const CALCULATOR_ID = "ssc-gpa-calculator";
+
 
 export async function generateMetadata(): Promise<Metadata> {
   return generateCalculatorMetadata(CALCULATOR_ID);

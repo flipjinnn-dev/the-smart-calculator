@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
 import Script from "next/script";
-import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
+import {
+  } from "@/lib/calculator-page-runtime";
 import DentalImplantCostCalculatorClient from "./dental-implant-cost-calculator-client";
 import Image from "next/image";
+
 
 
 

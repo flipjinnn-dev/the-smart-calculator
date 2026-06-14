@@ -6,6 +6,7 @@ import {
 
 import SimpsonsRuleCalculatorClient from "./simpsons-rule-calculator-client";
 
+
 export default async function SimpsonsRuleCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

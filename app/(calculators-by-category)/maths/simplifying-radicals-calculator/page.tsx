@@ -1,11 +1,10 @@
 import { headers } from "next/headers";
-import type { Metadata } from "next";
 import {
   loadCalculatorUiContent,
   loadCalculatorGuideContent,
-  generateCalculatorMetadata,
 } from "@/lib/calculator-page-runtime";
 import SimplifyingRadicalsCalculatorClient from "./simplifying-radicals-calculator-client";
+
 
 
 

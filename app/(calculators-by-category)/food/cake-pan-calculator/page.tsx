@@ -6,6 +6,7 @@ import {
 
 import CakePanCalculatorClient from "./cake-pan-calculator-client";
 
+
 export default async function CakePanCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

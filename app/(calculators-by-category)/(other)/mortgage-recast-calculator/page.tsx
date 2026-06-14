@@ -1,9 +1,9 @@
 import { headers } from "next/headers";
-import {
-  loadCalculatorUiContent,
+import {loadCalculatorUiContent,
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 import MortgageRecastCalculatorClient from "./mortgage-recast-calculator-client";
+
 
 export default async function MortgageRecastCalculatorPage() {
   const headersList = await headers();

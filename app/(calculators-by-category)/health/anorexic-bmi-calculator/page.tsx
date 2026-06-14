@@ -6,6 +6,7 @@ import {
 
 import AnorexicBmiCalculatorClient from "./anorexic-bmi-calculator-client";
 
+
 export default async function AnorexicBmiCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

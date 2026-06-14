@@ -6,6 +6,7 @@ import {
 
 import PregnancyCalculatorClient from "./pregnancy-calculator-client";
 
+
 export default async function PregnancyCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

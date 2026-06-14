@@ -5,6 +5,7 @@ import {
 } from "@/lib/calculator-page-runtime";
 import DepopFeeCalculatorClient from "./depop-fee-calculator-client";
 
+
 export default async function DepopFeeCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";

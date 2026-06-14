@@ -5,6 +5,7 @@ import {
 } from "@/lib/calculator-page-runtime";
 import VoriciCalculatorClient from "./vorici-calculator-client";
 
+
 export default async function VoriciCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";

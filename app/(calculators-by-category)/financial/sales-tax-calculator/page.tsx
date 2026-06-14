@@ -6,6 +6,7 @@ import {
 
 import SalesTaxCalculatorClient from "./sales-tax-calculator-client";
 
+
 export default async function SalesTaxCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

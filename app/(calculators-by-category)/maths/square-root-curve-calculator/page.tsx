@@ -6,6 +6,7 @@ import {
 
 import SquareRootCurveCalculatorClient from "./square-root-curve-calculator-client";
 
+
 export default async function SquareRootCurveCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";

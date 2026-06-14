@@ -6,6 +6,7 @@ import {
 
 import CarbohydrateCalculatorClient from "./carbohydrate-calculator-client";
 
+
 export default async function CarbohydrateCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

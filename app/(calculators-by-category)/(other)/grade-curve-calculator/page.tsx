@@ -6,6 +6,7 @@ import {
 
 import GradeCurveCalculatorClient from "./grade-curve-calculator-client";
 
+
 export default async function GradeCurveCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

@@ -5,6 +5,7 @@ import {
 } from "@/lib/calculator-page-runtime";
 
 
+
 export default async function EmpiricalRuleCalculator() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";

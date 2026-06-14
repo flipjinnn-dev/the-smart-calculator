@@ -6,6 +6,7 @@ import {
 
 import BodyTypeCalculatorClient from "./body-type-calculator-client";
 
+
 export default async function BodyTypeCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

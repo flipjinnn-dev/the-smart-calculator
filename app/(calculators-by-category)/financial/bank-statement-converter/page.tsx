@@ -4,9 +4,8 @@ import {
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 
-import type { Metadata } from "next";
-import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 import BankStatementConverterClient from "./bank-statement-converter-client";
+
 
 
 

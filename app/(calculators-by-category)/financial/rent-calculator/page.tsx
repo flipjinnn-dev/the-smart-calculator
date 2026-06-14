@@ -6,6 +6,7 @@ import {
 
 import RentCalculatorClient from "./rent-calculator-client";
 
+
 export default async function RentCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

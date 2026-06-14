@@ -7,6 +7,7 @@ import {
 import OrthogonalProjectionCalculatorClient from "./orthogonal-projection-calculator-client";
 
 
+
 export default async function OrthogonalProjectionCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

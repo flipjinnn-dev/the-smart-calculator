@@ -1,8 +1,7 @@
 import PowerToWeightRatioCalculatorClient from "./power-to-weight-ratio-calculator-client"
 import { headers } from "next/headers";
-import {
-  loadCalculatorUiContent,
-} from "@/lib/calculator-page-runtime";
+import { loadCalculatorUiContent } from "@/lib/calculator-page-runtime";
+
 
 
 export default async function PowerToWeightRatioCalculator() {

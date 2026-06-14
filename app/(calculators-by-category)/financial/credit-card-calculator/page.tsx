@@ -6,6 +6,7 @@ import {
 
 import CreditCardCalculatorClient from "./credit-card-calculator-client";
 
+
 export default async function CreditCardCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

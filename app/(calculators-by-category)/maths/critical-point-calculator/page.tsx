@@ -6,6 +6,7 @@ import {
 
 import CriticalPointCalculatorClient from "./critical-point-calculator-client";
 
+
 export default async function CriticalPointCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

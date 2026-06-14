@@ -3,10 +3,6 @@ import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
 const CALCULATOR_ID = "crushed-stone-calculator";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata(CALCULATOR_ID);
-}
-
 const jsonLdSchema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -117,6 +113,11 @@ const jsonLdSchema = {
     },
   ],
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata(CALCULATOR_ID);
+}
 
 export default function CrushedStoneCalculatorLayout({
   children,

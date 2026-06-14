@@ -5,6 +5,8 @@ import {
   getCalculatorById,
   loadCalculatorSeo,
   calculatorSeoCacheTag,
+  calculatorUiCacheTag,
+  calculatorGuideCacheTag,
 } from "@/lib/calculator-seo";
 
 function toPathname(urlOrPath: string): string | null {
@@ -45,7 +47,11 @@ export async function revalidateCalculatorCache(
     if (fromCanonical) paths.add(fromCanonical);
   }
 
-  revalidateTag(calculatorSeoCacheTag(calculatorId, "en"));
+  // Route Handler (admin save): expire immediately so meta title/description update on next request.
+  const expireNow = { expire: 0 } as const;
+  revalidateTag(calculatorSeoCacheTag(calculatorId, "en"), expireNow);
+  revalidateTag(calculatorUiCacheTag(calculatorId, "en"), expireNow);
+  revalidateTag(calculatorGuideCacheTag(calculatorId, "en"), expireNow);
 
   const revalidated: string[] = [];
   for (const path of paths) {

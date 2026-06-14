@@ -1,14 +1,13 @@
-import type { Metadata } from "next";
 import { headers } from "next/headers";
 import {
   loadCalculatorUiContent,
   loadCalculatorGuideContent,
-  generateCalculatorMetadata,
 } from "@/lib/calculator-page-runtime";
 
 
 
 import PoolVolumeCalculatorClient from "./pool-volume-calculator-client";
+
 
 export default async function PoolVolumeCalculatorPage() {
   const headersList = await headers();

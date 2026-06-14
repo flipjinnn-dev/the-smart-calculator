@@ -6,6 +6,7 @@ import {
 
 import WebsiteCostCalculatorClient from "./website-cost-calculator-client";
 
+
 export default async function WebsiteCostCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

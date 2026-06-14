@@ -6,6 +6,7 @@ import {
 
 import InflationCalculatorClient from "./inflation-calculator-client";
 
+
 export default async function InflationCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

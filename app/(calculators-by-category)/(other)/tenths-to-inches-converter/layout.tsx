@@ -1,13 +1,9 @@
-import Script from "next/script";
-
 import type { Metadata } from "next";
 import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-const CALCULATOR_ID = "tenths-to-inches-converter";
+import Script from "next/script";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata(CALCULATOR_ID);
-}
+const CALCULATOR_ID = "tenths-to-inches-converter";
 
 const jsonLdSchema = {
   "@context": "https://schema.org",
@@ -80,6 +76,11 @@ const jsonLdSchema = {
     },
   ],
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata(CALCULATOR_ID);
+}
 
 export default function TenthsToInchesConverterLayout({
   children,

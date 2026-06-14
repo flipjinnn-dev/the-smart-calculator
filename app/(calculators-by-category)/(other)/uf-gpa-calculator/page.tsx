@@ -1,9 +1,9 @@
 import UfGpaCalculatorClient from "./uf-gpa-calculator-client"
 import { headers } from "next/headers";
-import {
-  loadCalculatorUiContent,
+import {loadCalculatorUiContent,
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
+
 
 
 export default async function UfGpaCalculatorPage() {

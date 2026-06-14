@@ -6,6 +6,7 @@ import {
 
 import PercentErrorCalculatorClient from "./percent-error-calculator-client";
 
+
 export default async function PercentErrorCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

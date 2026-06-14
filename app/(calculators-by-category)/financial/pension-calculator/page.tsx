@@ -6,6 +6,7 @@ import {
 
 import PensionCalculatorClient from "./pension-calculator-client";
 
+
 export default async function PensionCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

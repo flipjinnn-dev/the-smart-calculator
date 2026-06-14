@@ -6,6 +6,7 @@ import {
 
 import FinanceCalculatorClient from "./finance-calculator-client";
 
+
 export default async function FinanceCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

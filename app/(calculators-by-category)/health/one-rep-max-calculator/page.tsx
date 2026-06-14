@@ -6,6 +6,7 @@ import {
 
 import OneRepMaxCalculatorClient from "./one-rep-max-calculator-client";
 
+
 export default async function OneRepMaxCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

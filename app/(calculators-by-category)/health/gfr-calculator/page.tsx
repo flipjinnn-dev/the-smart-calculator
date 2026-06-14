@@ -6,6 +6,7 @@ import {
 
 import GfrCalculatorClient from "./gfr-calculator-client";
 
+
 export default async function GfrCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

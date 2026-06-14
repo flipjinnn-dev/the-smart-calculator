@@ -6,6 +6,7 @@ import {
 
 import PaymentCalculatorClient from "./payment-calculator-client";
 
+
 export default async function PaymentCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

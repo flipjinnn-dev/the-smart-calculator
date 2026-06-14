@@ -6,6 +6,7 @@ import {
 
 import ButterCalculatorClient from "./butter-calculator-client";
 
+
 export default async function ButterCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

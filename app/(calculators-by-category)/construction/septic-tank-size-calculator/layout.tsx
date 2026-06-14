@@ -1,13 +1,9 @@
-import Script from "next/script";
-
 import type { Metadata } from "next";
 import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
-const CALCULATOR_ID = "septic-tank-size-calculator";
+import Script from "next/script";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata(CALCULATOR_ID);
-}
+const CALCULATOR_ID = "septic-tank-size-calculator";
 
 const jsonLdSchema = {
   "@context": "https://schema.org",
@@ -136,6 +132,11 @@ const jsonLdSchema = {
     },
   ],
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata(CALCULATOR_ID);
+}
 
 export default function SepticTankSizeCalculatorLayout({
   children,

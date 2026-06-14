@@ -6,6 +6,7 @@ import {
 
 import ProteinCalculatorClient from "./protein-calculator-client";
 
+
 export default async function ProteinCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

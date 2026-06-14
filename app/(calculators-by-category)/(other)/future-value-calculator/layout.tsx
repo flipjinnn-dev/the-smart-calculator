@@ -1,12 +1,8 @@
-import Script from "next/script";
 import type { Metadata } from "next";
 import { generateCalculatorMetadata } from "@/lib/calculator-page-runtime";
 
+import Script from "next/script";
 const CALCULATOR_ID = "future-value-calculator";
-
-export async function generateMetadata(): Promise<Metadata> {
-  return generateCalculatorMetadata(CALCULATOR_ID);
-}
 
 const jsonLdSchema = {
   "@context": "https://schema.org",
@@ -50,6 +46,11 @@ const jsonLdSchema = {
     },
   ],
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateCalculatorMetadata(CALCULATOR_ID);
+}
 
 export default function FutureValueCalculatorLayout({
   children,

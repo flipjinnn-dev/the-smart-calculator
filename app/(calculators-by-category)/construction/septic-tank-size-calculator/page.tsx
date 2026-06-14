@@ -1,11 +1,10 @@
 import { headers } from "next/headers";
-import type { Metadata } from "next";
 import {
   loadCalculatorUiContent,
   loadCalculatorGuideContent,
-  generateCalculatorMetadata,
 } from "@/lib/calculator-page-runtime";
 import SepticTankSizeCalculatorClient from "./septic-tank-size-calculator-client";
+
 
 
 

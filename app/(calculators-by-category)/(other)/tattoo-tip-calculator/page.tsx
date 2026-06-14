@@ -1,14 +1,13 @@
-import type { Metadata } from "next";
 import { headers } from "next/headers";
 import {
   loadCalculatorUiContent,
   loadCalculatorGuideContent,
-  generateCalculatorMetadata,
 } from "@/lib/calculator-page-runtime";
 
 
 
 import TattooTipCalculatorClient from "./tattoo-tip-calculator-client";
+
 
 export default async function TattooTipCalculatorPage() {
   const headersList = await headers();

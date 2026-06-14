@@ -6,6 +6,7 @@ import {
 
 import EarnedRunAverageCalculatorClient from "./earned-run-average-calculator-client";
 
+
 export default async function EarnedRunAverageCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

@@ -234,6 +234,22 @@ export function calculatorSeoCacheTag(
   return `calculator-seo-${registryId}-${language}`;
 }
 
+export function calculatorUiCacheTag(
+  calculatorId: string,
+  language: string = "en"
+): string {
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  return `calculator-ui-${registryId}-${language}`;
+}
+
+export function calculatorGuideCacheTag(
+  calculatorId: string,
+  language: string = "en"
+): string {
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  return `calculator-guide-${registryId}-${language}`;
+}
+
 /**
  * Cached SEO read for `generateMetadata` so `<title>` resolves in `<head>`
  * (avoids Next.js streaming metadata into `<body>`).

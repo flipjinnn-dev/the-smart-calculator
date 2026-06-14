@@ -6,6 +6,7 @@ import {
 
 import CarJumpDistanceCalculatorClient from "./car-jump-distance-calculator-client";
 
+
 export default async function CarJumpDistanceCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

@@ -6,6 +6,7 @@ import {
 
 import ConceptionCalculatorClient from "./conception-calculator-client";
 
+
 export default async function ConceptionCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

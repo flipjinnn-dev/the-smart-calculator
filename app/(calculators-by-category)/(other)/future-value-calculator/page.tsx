@@ -1,9 +1,9 @@
 import { headers } from "next/headers";
-import {
-  loadCalculatorUiContent,
+import {loadCalculatorUiContent,
   loadCalculatorGuideContent,
 } from "@/lib/calculator-page-runtime";
 import FutureValueCalculatorClient from "./future-value-calculator-client";
+
 
 export default async function FutureValueCalculatorPage() {
   const headersList = await headers();

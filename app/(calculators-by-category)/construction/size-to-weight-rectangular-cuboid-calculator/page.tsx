@@ -6,6 +6,7 @@ import {
 
 import SizeToWeightRectangularCuboidCalculatorClient from "./size-to-weight-rectangular-cuboid-calculator-client";
 
+
 export default async function SizeToWeightRectangularCuboidCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

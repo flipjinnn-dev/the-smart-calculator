@@ -6,6 +6,7 @@ import {
 
 import PiecewiseFunctionCalculatorGrapherClient from "./piecewise-function-calculator-grapher-client";
 
+
 export default async function PiecewiseFunctionCalculatorGrapherCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

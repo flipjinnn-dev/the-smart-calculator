@@ -6,6 +6,7 @@ import {
 
 import BodyFatCalculatorClient from "./body-fat-calculator-client";
 
+
 export default async function BodyFatCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

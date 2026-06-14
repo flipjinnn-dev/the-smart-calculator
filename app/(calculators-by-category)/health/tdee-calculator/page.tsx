@@ -6,6 +6,7 @@ import {
 
 import TdeeCalculatorClient from "./tdee-calculator-client";
 
+
 export default async function TdeeCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

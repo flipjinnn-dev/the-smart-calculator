@@ -6,6 +6,7 @@ import {
 
 import MeanValueTheoremCalculatorClient from "./mean-value-theorem-calculator-client";
 
+
 export default async function MeanValueTheoremCalculatorCalculator() {
   const headersList = await headers();
   const language = headersList.get('x-language') || 'en';

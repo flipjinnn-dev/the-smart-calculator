@@ -5,6 +5,7 @@ import {
 } from "@/lib/calculator-page-runtime";
 import NoticePeriodCalculatorClient from "./notice-period-calculator-client";
 
+
 export default async function NoticePeriodCalculatorPage() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";

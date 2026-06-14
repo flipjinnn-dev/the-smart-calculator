@@ -1,5 +1,5 @@
 import "server-only";
-import { unstable_noStore as noStore } from "next/cache";
+import { unstable_cache } from "next/cache";
 import { headers } from "next/headers";
 import type { Metadata } from "next";
 import { getCanonicalUrl, getCalculatorUrl } from "@/lib/url-utils";
@@ -11,6 +11,10 @@ import {
   getCalculatorById,
   getCalculatorStorageId,
   loadSavedCalculatorGuideHtml,
+  calculatorSeoCacheTag,
+  calculatorUiCacheTag,
+  calculatorGuideCacheTag,
+  resolveRegistryCalculatorId,
 } from "@/lib/calculator-seo";
 import { loadRawCalculatorGuideContent } from "@/lib/load-calculator-guide";
 import { getCalculatorMetaEntry } from "@/lib/calculator-meta-key";
@@ -160,11 +164,10 @@ function applySeoHeroToUi(
   return next;
 }
 
-export async function loadCalculatorUiContent(
+async function fetchCalculatorUiContent(
   calculatorId: string,
   language: string
 ): Promise<Record<string, unknown>> {
-  noStore();
   const storageId = getCalculatorStorageId(calculatorId);
 
   let ui: Record<string, unknown> | null =
@@ -198,11 +201,32 @@ export async function loadCalculatorUiContent(
   return ui;
 }
 
-export async function loadCalculatorGuideContent(
+function getCachedCalculatorUiContent(
+  calculatorId: string,
+  language: string
+): Promise<Record<string, unknown>> {
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  return unstable_cache(
+    () => fetchCalculatorUiContent(registryId, language),
+    ["calculator-ui", registryId, language],
+    {
+      revalidate: 300,
+      tags: [calculatorUiCacheTag(registryId, language)],
+    }
+  )();
+}
+
+export async function loadCalculatorUiContent(
+  calculatorId: string,
+  language: string
+): Promise<Record<string, unknown>> {
+  return getCachedCalculatorUiContent(calculatorId, language);
+}
+
+async function fetchCalculatorGuideContent(
   calculatorId: string,
   language: string
 ): Promise<CalculatorGuideData> {
-  noStore();
   const guide = await loadRawCalculatorGuideContent(calculatorId, language);
 
   if (language === "en") {
@@ -219,4 +243,26 @@ export async function loadCalculatorGuideContent(
   }
 
   return guide;
+}
+
+function getCachedCalculatorGuideContent(
+  calculatorId: string,
+  language: string
+): Promise<CalculatorGuideData> {
+  const registryId = resolveRegistryCalculatorId(calculatorId);
+  return unstable_cache(
+    () => fetchCalculatorGuideContent(registryId, language),
+    ["calculator-guide", registryId, language],
+    {
+      revalidate: 300,
+      tags: [calculatorGuideCacheTag(registryId, language)],
+    }
+  )();
+}
+
+export async function loadCalculatorGuideContent(
+  calculatorId: string,
+  language: string
+): Promise<CalculatorGuideData> {
+  return getCachedCalculatorGuideContent(calculatorId, language);
 }
