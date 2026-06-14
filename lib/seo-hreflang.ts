@@ -53,23 +53,27 @@ export function getCalculatorAlternateLanguages(
  */
 export function canonicalFromRequestPathname(pathname: string): string {
   const path = pathname.startsWith("/") ? pathname : `/${pathname}`;
+  if (path === "/") return SITE_ORIGIN;
   return `${SITE_ORIGIN}${path}`;
 }
 
 /**
  * hreflang map: keys must match the document html `lang` (never use `br` — use `pt-BR`).
  * Values use locale URL prefixes that match `middleware.ts` (br, pl, de, es).
+ * Locale homepages use no trailing slash (`/es` not `/es/`) so hreflang targets return 200.
  */
 export function alternateLanguagesForEnglishPath(englishPath: string): Record<string, string> {
   const path = englishPath.startsWith("/") ? englishPath : `/${englishPath}`;
-  const enUrl = `${SITE_ORIGIN}${path}`;
+  const enUrl = path === "/" ? SITE_ORIGIN : `${SITE_ORIGIN}${path}`;
+  const localeUrl = (locale: string) =>
+    path === "/" ? `${SITE_ORIGIN}/${locale}` : `${SITE_ORIGIN}/${locale}${path}`;
   return {
     "x-default": enUrl,
     en: enUrl,
-    de: `${SITE_ORIGIN}/de${path}`,
-    pl: `${SITE_ORIGIN}/pl${path}`,
-    "pt-BR": `${SITE_ORIGIN}/br${path}`,
-    es: `${SITE_ORIGIN}/es${path}`,
+    de: localeUrl("de"),
+    pl: localeUrl("pl"),
+    "pt-BR": localeUrl("br"),
+    es: localeUrl("es"),
   };
 }
 
