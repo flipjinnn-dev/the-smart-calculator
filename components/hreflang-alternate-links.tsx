@@ -7,8 +7,8 @@ import { getHreflangAlternatesForPathname } from "@/lib/hreflang-nav-links";
 
 /**
  * Crawlable `<a href>` links for every hreflang alternate on the current page.
- * Auditors flag alternates that only appear in `<link rel="alternate">` without
- * internal anchor links ("Unlinked hreflang URLs").
+ * Uses plain anchors (no `hrefLang` attribute) so auditors do not flag
+ * "Hreflang: Outside head" while still fixing orphan / unlinked locale URLs.
  */
 export async function HreflangAlternateLinks() {
   const headersList = await headers();
@@ -26,7 +26,7 @@ export async function HreflangAlternateLinks() {
   return (
     <nav aria-label="Language alternates" className="sr-only">
       {entries.map(([lang, href]) => (
-        <a key={lang} href={href} hrefLang={lang}>
+        <a key={lang} href={href}>
           {lang}
         </a>
       ))}

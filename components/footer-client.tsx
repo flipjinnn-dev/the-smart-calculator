@@ -27,8 +27,17 @@ interface FooterItem {
   href: string
 }
 
+const LOCALE_HOMEPAGES = [
+  { code: "en", href: "/", label: "English" },
+  { code: "de", href: "/de", label: "Deutsch" },
+  { code: "pl", href: "/pl", label: "Polski" },
+  { code: "br", href: "/br", label: "Português" },
+  { code: "es", href: "/es", label: "Español" },
+] as const
+
 const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
   const footerContent = footerContentByLanguage[language] ?? enFooter
+  const homepageHref = language === "en" ? "/" : `/${language}`
 
   const categoryItems = footerContent.categories.items
 
@@ -45,10 +54,12 @@ const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2 lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-6">
+            <Link href={homepageHref} className="flex items-center space-x-3 mb-6 group w-fit">
               <Logo />
-              <span className="text-2xl font-bold">{footerContent.company.name}</span>
-            </div>
+              <span className="text-2xl font-bold group-hover:text-blue-300 transition-colors">
+                {footerContent.company.name}
+              </span>
+            </Link>
             <p className="text-gray-400 mb-6 text-lg leading-relaxed">
               {footerContent.company.description}
             </p>
@@ -158,6 +169,17 @@ const FooterClient: React.FC<FooterProps> = ({ language = 'en' }) => {
         {/* Copyright */}
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col items-center text-center justify-center space-y-4">
+            <nav aria-label="Site languages" className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm text-gray-400">
+              {LOCALE_HOMEPAGES.map((locale) => (
+                <Link
+                  key={locale.code}
+                  href={locale.href}
+                  className={`hover:text-white transition-colors ${language === locale.code ? "text-white font-medium" : ""}`}
+                >
+                  {locale.label}
+                </Link>
+              ))}
+            </nav>
             <p className="text-gray-400">&copy; {footerContent.company.copyright}</p>
             
             {/* DMCA Protection Badge */}

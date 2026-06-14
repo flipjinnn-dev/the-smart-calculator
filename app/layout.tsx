@@ -13,6 +13,7 @@ import { authOptions } from "@/lib/auth"
 import { Toaster } from "sonner"
 import { headers } from "next/headers"
 import { InternalLinksSection } from "@/components/internal-links-section"
+import { HreflangAlternateLinks } from "@/components/hreflang-alternate-links"
 import "./globals.css"
 import "katex/dist/katex.min.css"
 
@@ -163,6 +164,7 @@ export default async function RootLayout({
       </head>
       <body className={inter.className} suppressHydrationWarning>
         <SessionProvider session={session}>
+          <HreflangAlternateLinks />
           <Header />
           <main>
             {children}
