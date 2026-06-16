@@ -7,6 +7,7 @@ import {
 import { loadCalculatorSeo } from "@/lib/calculator-seo";
 import PercentageDecreaseCalculatorClient from "./percentage-decrease-calculator-client";
 
+const CALCULATOR_ID = "percentage-decrease-calculator";
 
 export default async function PercentageDecreaseCalculatorPage() {
   const headersList = await headers();

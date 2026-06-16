@@ -5,6 +5,7 @@ import {
 } from "@/lib/calculator-page-runtime";
 import TwinFlameCalculatorClient from "./twin-flame-calculator-client";
 
+const CALCULATOR_ID = "twin-flame-calculator";
 
 export default async function TwinFlameCalculatorPage() {
   const headersList = await headers();

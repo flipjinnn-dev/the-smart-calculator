@@ -4,6 +4,7 @@ import {loadCalculatorUiContent,
 } from "@/lib/calculator-page-runtime";
 import RoofingCalculatorClient from "./roofing-calculator-client";
 
+const CALCULATOR_ID = "roofing-calculator";
 
 export default async function RoofingCalculatorPage() {
   const headersList = await headers();

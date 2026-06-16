@@ -7,6 +7,8 @@ import {
 import { loadCalculatorSeo } from "@/lib/calculator-seo";
 import SilcaTirePressureCalculatorClient from "./silcatire-pressure-calculator-client";
 
+const CALCULATOR_ID = "silcatire-pressure-calculator";
+
 export default async function SilcaTirePressurePage() {
   const headersList = await headers();
   const language = headersList.get("x-language") || "en";
